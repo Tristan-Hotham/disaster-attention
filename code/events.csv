@@ -1,0 +1,106 @@
+id,event,date,deaths,deaths_src,deaths_wd,type,term,kind,flag,lat,lon,coord_src,source,include,reason,ext,reason_v1
+pretoria,Pretoria Pit disaster (Hulton Colliery),1910-12-21,344,list,344,mining,Pretoria Pit,plain,,53.5364,-2.4869,wikidata,list,1,,0,
+wellington,Wellington Pit disaster,1910-05-11,136,list,,mining,Wellington Pit,plain,,54.546,-3.594,approx,list,1,,0,
+cadeby,Cadeby Main pit disaster,1912-07-09,91,list,91,mining,Cadeby,plain,,53.49,-1.2278,wikidata,list,1,,0,
+senghenydd,Senghenydd colliery disaster,1913-10-14,439,list,439,mining,Senghenydd,plain,,51.6114,-3.2813,wikidata,list,1,,0,
+quintinshill,Quintinshill rail crash,1915-05-22,226,list,,rail,Quintinshill,plain,,55.012,-3.04,approx,list,1,,0,
+faversham,Faversham gunpowder mill explosion,1916-04-02,109,list,,explosion,Faversham,in,,51.3148,0.88856,town,list,1,,0,
+minnie,Minnie Pit disaster,1918-01-12,155,list,155,mining,Minnie Pit,plain,,53.0373,-2.3099,wikidata,list,1,,0,
+abermule,Abermule train collision,1921-01-26,17,hand,,rail,Abermule,plain,,52.545,-3.237,approx,harvest,1,,0,
+marine,Marine Colliery disaster (Cwm),1927-03-01,52,list,,mining,Ebbw Vale,in,,51.7771,-3.2079,town,list,1,,0,
+glencinema,Glen Cinema disaster,1929-12-31,71,list,,crowd,Paisley,in,,55.8317,-4.4325,town,list,1,,0,
+cardowan,Cardowan Colliery explosion,1932-11-16,11,hand,,mining,Cardowan,plain,,55.89,-4.18,approx,harvest,1,,0,
+gresford,Gresford disaster,1934-09-22,266,list,266,mining,Gresford,plain,,53.0728,-2.9911,wikidata,list,1,,0,
+croydon,Croydon typhoid outbreak,1937-10-15,43,list,,health,Croydon,in,,51.3833,-0.1,town,list,1,,0,
+castlecary,Castlecary rail disaster,1937-12-10,35,hand,,rail,Castlecary,plain,,55.98,-3.97,approx,harvest,1,,0,
+huddersfield,Booth's clothing factory fire,1941-10-31,49,list,,fire,Huddersfield,in,,53.649,-1.7842,town,list,1,,0,
+bethnalgreen,Bethnal Green tube station crush,1943-03-03,173,list,173,crowd,Bethnal Green,plain,seat,51.5274,-0.0552,wikidata,list,1,,0,
+freckleton,Freckleton air disaster,1944-08-23,61,list,,air,Freckleton,in,,53.7546,-2.8652,town,list,1,,0,
+williampit,William Pit disaster,1947-08-15,104,list,,mining,Whitehaven,in,,54.549,-3.5841,town,list,1,,0,
+creswell,Creswell Colliery disaster,1950-09-26,80,list,,mining,Creswell,plain,,53.264,-1.216,approx,list,1,,0,
+knockshinnoch,Knockshinnoch disaster,1950-09-07,13,wikidata,13,mining,Knockshinnoch,plain,,55.3968,-4.1840,wikidata,wikidata,1,,0,
+easington,Easington Colliery disaster,1951-05-29,81,list,,mining,Easington Colliery,plain,,54.785,-1.35,approx,list,1,,1,"""Easington"" became a seat name in 1950, inside the window; needs ""Easington Colliery"""
+lynmouth,Lynmouth flood,1952-08-15,34,hand,,flood,Lynmouth,plain,,51.231,-3.829,approx,harvest,1,,0,
+harrow,Harrow and Wealdstone rail crash,1952-10-08,112,list,,rail,Harrow and Wealdstone,plain,,51.592,-0.335,approx,list,1,,0,
+lewisham,Lewisham rail crash,1957-12-04,90,list,,rail,Lewisham,plain,seat,51.465,-0.012,approx,list,1,,0,
+auchengeich,Auchengeich mining disaster,1959-09-18,47,list,47,mining,Auchengeich,plain,,55.9138,-4.0951,wikidata,list,1,,0,
+sixbells,Six Bells colliery disaster,1960-06-28,45,list,,mining,Six Bells,plain,,51.71,-3.13,approx,list,1,,0,
+aberfan,Aberfan disaster,1966-10-21,146,list,144,mining,Aberfan,plain,,51.6947,-3.3475,wikidata,list,1,,0,
+stockport,Stockport air disaster,1967-06-04,72,list,,air,Stockport,in,,53.4098,-2.1576,town,list,1,,0,
+thirsk,Thirsk rail crash,1967-07-31,7,hand,,rail,Thirsk,in,,54.2325,-1.3429,town,harvest,1,,0,
+hixon,Hixon rail crash,1968-01-06,11,hand,,rail,Hixon,plain,,52.83,-1.99,approx,harvest,1,,0,
+ibrox,Ibrox disaster,1971-01-02,66,list,66,crowd,Ibrox,plain,,55.8536,-4.3069,wikidata,list,1,,0,
+ballymurphy,Ballymurphy killings,1971-08-09,11,hand,,violence,Ballymurphy,plain,,54.59,-6.00,approx,harvest,1,,0,
+bloodysunday,Bloody Sunday (Derry),1972-01-30,14,wikidata,14,violence,Londonderry,in,,54.997,-7.3256,wikidata,wikidata,1,,0,
+eltham,Eltham Well Hall rail crash,1972-06-11,6,hand,,rail,Eltham Well Hall,plain,,51.452,0.052,approx,harvest,1,,0,
+staines,Staines air disaster (BEA Flight 548),1972-06-18,118,list,,air,Staines,in,,51.4309,-0.5061,town,list,1,,0,
+flixborough,Flixborough disaster,1974-06-01,28,hand,,explosion,Flixborough,plain,,53.62,-0.70,approx,harvest,1,,0,
+birmingham,Birmingham pub bombings,1974-11-21,21,wikidata,21,violence,Birmingham,in,,52.48,-1.9025,wikidata,wikidata,1,,0,
+moorgate,Moorgate tube crash,1975-02-28,43,list,,rail,Moorgate,plain,,51.518,-0.089,approx,list,1,,0,
+golborne,Golborne Colliery explosion,1979-03-18,10,hand,,mining,Golborne,in,,53.4769,-2.5965,town,harvest,1,,0,
+penlee,Penlee lifeboat disaster,1981-12-19,16,hand,,sea,Penlee,plain,,50.08,-5.54,approx,harvest,1,,0,
+newry,Newry mortar attack,1985-02-28,9,wikidata,9,violence,Newry,in,,54.185,-6.3316,wikidata,wikidata,1,,0,
+bradford,Bradford City stadium fire,1985-05-11,56,list,56,fire,Bradford City,plain,,53.8042,-1.759,wikidata,list,1,,0,
+hungerford,Hungerford shootings,1987-08-19,17,wikidata,17,violence,Hungerford,in,,51.41,-1.52,wikidata,wikidata,1,,0,
+enniskillen,Enniskillen bombing,1987-11-08,11,hand,,violence,Enniskillen,plain,,54.344,-7.632,approx,harvest,1,,0,
+kingscross,King's Cross fire,1987-11-18,31,hand,,fire,King's Cross,plain,,51.530,-0.124,approx,harvest,1,,0,
+piperalpha,Piper Alpha,1988-07-06,167,list,,explosion,Piper Alpha,plain,,58.47,0.26,approx,list,1,,0,
+clapham,Clapham Junction rail crash,1988-12-12,35,hand,,rail,Clapham Junction,plain,,51.464,-0.170,approx,harvest,1,,0,
+lockerbie,Lockerbie (Pan Am Flight 103),1988-12-21,270,list,243,violence,Lockerbie,in,,55.1155,-3.3584,wikidata,list,1,,0,
+kegworth,Kegworth air disaster,1989-01-08,47,list,,air,Kegworth,plain,,52.833,-1.29,approx,list,1,,0,
+hillsborough,Hillsborough disaster,1989-04-15,97,list,97,crowd,Hillsborough,plain,ambiguous,53.4115,-1.5016,wikidata,list,1,,0,
+marchioness,Marchioness disaster,1989-08-20,51,list,51,sea,Marchioness,plain,,51.5088,-0.0936,wikidata,list,1,,0,
+deal,Deal barracks bombing,1989-09-22,11,wikidata,11,violence,Deal,in,ambiguous,51.2136,1.4,wikidata,wikidata,1,,0,
+dunblane,Dunblane school shooting,1996-03-13,18,wikidata,18,violence,Dunblane,in,,56.189,-3.9743,wikidata,wikidata,1,,0,
+omagh,Omagh bombing,1998-08-15,29,wikidata,29,violence,Omagh,in,,54.6003,-7.2989,wikidata,wikidata,1,,0,
+ladbroke,Ladbroke Grove rail crash,1999-10-05,31,hand,,rail,Ladbroke Grove,plain,,51.526,-0.213,approx,harvest,1,,0,
+hatfield,Hatfield rail crash,2000-10-17,4,hand,,rail,Hatfield,in,,51.7634,-0.2242,town,harvest,1,,0,
+greatheck,Great Heck rail crash,2001-02-28,10,hand,,rail,Great Heck,plain,,53.68,-1.10,approx,harvest,1,,0,
+pottersbar,Potters Bar rail crash,2002-05-10,7,hand,,rail,Potters Bar,in,,51.6935,-0.1784,town,harvest,1,,0,
+morecambe,Morecambe Bay cockling disaster,2004-02-05,22,hand,,other,Morecambe Bay,plain,,54.10,-2.90,approx,harvest,1,,0,
+ufton,Ufton Nervet rail crash,2004-11-06,7,hand,,rail,Ufton Nervet,plain,,51.415,-1.13,approx,harvest,1,,0,
+grayrigg,Grayrigg derailment,2007-02-23,1,hand,,rail,Grayrigg,plain,,54.37,-2.66,approx,harvest,1,,0,
+cumbria,Cumbria shootings,2010-06-02,13,wikidata,13,violence,Whitehaven,in,,54.484,-3.5306,wikidata,wikidata,1,,0,
+arena,Manchester Arena bombing,2017-05-22,23,wikidata,23,violence,Manchester Arena,plain,,53.4881,-2.243,wikidata,wikidata,1,,0,
+grenfell,Grenfell Tower fire,2017-06-14,72,list,72,fire,Grenfell,plain,,51.514,-0.2158,wikidata,list,1,,0,
+amesbury,Amesbury Novichok poisoning,2018-07-08,1,hand,,violence,Amesbury,in,,51.1719,-1.7805,town,harvest,1,,0,
+grays,Essex lorry deaths (Grays),2019-10-23,39,wikidata,39,other,Grays,in,,51.4789,0.2733,wikidata,wikidata,1,,0,
+carmont,Carmont derailment,2020-08-12,3,hand,,rail,Carmont,plain,,56.94,-2.33,approx,harvest,1,,0,
+burnspit,Burns Pit disaster (West Stanley),1909-02-16,168,list,,mining,,,,54.872,-1.684,wikidata,list,0,less than 12 months of data before the event,0,less than 12 months of data before the event
+lowmoor,Low Moor explosion,1916-08-21,40,list,40,explosion,Low Moor,plain,,53.7472,-1.7541,wikidata,list,1,,1,"no term: needs ""Low Moor"""
+silvertown,Silvertown explosion,1917-01-19,73,list,,explosion,Silvertown,plain,,51.50,0.03,approx,list,0,"""Silvertown"" became a seat name in 1918, inside the window, and no event-specific phrase was found in use",1,"plain ""Silvertown"" becomes a seat name in 1918 inside the window; needs ""Silvertown explosion"""
+chilwell,Chilwell shell filling factory explosion,1918-07-01,137,list,,explosion,Chilwell,plain,,52.91,-1.24,approx,list,1,,1,"no term: needs ""Chilwell"""
+r38,R38 airship crash (Hull),1921-08-24,44,list,,air,R.38,plain,,53.74,-0.33,approx,list,1,,1,"""Hull"" is a shared name and a seat; needs ""R38"""
+bentley,Bentley Colliery disaster,1931-11-20,45,list,,mining,Bentley Colliery,plain,,53.54,-1.15,approx,list,1,,1,"""Bentley"" is a surname, a car and several places; needs ""Bentley Colliery"""
+wharncliffe,Wharncliffe Woodmoor colliery disaster,1936-08-06,58,list,,mining,Wharncliffe Woodmoor,plain,,53.57,-1.45,approx,list,1,,1,"no term: needs ""Wharncliffe Woodmoor"""
+markham,Markham Colliery disaster,1938-05-10,79,list,,mining,Markham Colliery,plain,,53.244,-1.33,wikidata,list,1,,1,"""Markham"" is a common surname; needs ""Markham Colliery"""
+valleyfield,Valleyfield mining disaster,1939-10-28,35,wikidata,35,mining,Valleyfield,plain,,56.0609,-3.6,wikidata,wikidata,1,,1,"no term: needs ""Valleyfield"""
+sneyd,Sneyd Colliery disaster,1942-01-01,57,list,57,mining,Sneyd,plain,,53.0466,-2.1825,wikidata,list,1,,1,"no term: needs ""Sneyd"""
+fauld,RAF Fauld explosion,1944-11-27,70,list,,explosion,Fauld,plain,,52.85,-1.73,approx,list,1,,1,"no term: needs ""Fauld"""
+bourneend,Bourne End rail crash,1945-09-30,43,list,,rail,Bourne End,plain,ambiguous,51.76,-0.53,approx,list,1,"""Bourne End"" names two villages (Hertfordshire, where the crash was, and Buckinghamshire)",1,"no term: needs ""Bourne End"""
+burngrange,Burngrange mining disaster,1947-01-10,15,wikidata,15,mining,Burngrange,plain,,55.848,-3.582,wikidata,wikidata,1,,1,"no term: needs ""Burngrange"""
+llandow,Llandow air disaster,1950-03-12,80,list,,air,Llandow,plain,,51.43,-3.50,approx,list,1,,1,"no term: needs ""Llandow"""
+northsea,North Sea flood,1953-01-31,531,list,,flood,,,,51.52,0.58,approx,list,0,many places at once (Canvey Island and others),0,many places at once (Canvey Island and others)
+windscale,Windscale fire,1957-10-10,,list,,explosion,Windscale,plain,,54.42,-3.50,approx,list,0,no deaths at the time (later estimates only),0,no deaths at the time (later estimates only)
+aquila,Aquila Airways flying boat crash (Isle of Wight),1957-11-15,45,list,,air,Chessell,plain,,50.65,-1.30,approx,list,1,,1,"no term: needs ""Chessell"""
+littlebaldon,Little Baldon air crash,1965-07-06,41,list,,air,Little Baldon,plain,,51.70,-1.18,approx,list,1,,1,"no term: needs ""Little Baldon"""
+penmaenpool,Penmaenpool ferry disaster,1966-07-22,15,wikidata,15,sea,Penmaenpool,plain,,52.7472,-3.9361,wikidata,wikidata,1,,1,"no term: needs ""Penmaenpool"""
+hithergreen,Hither Green rail crash,1967-11-05,49,list,,rail,Hither Green,plain,,51.45,0.00,approx,list,1,,1,"no term: needs ""Hither Green"""
+ariana,Ariana Afghan Airlines crash near Gatwick,1969-01-05,50,list,,air,Fernhill,plain,ambiguous,51.16,-0.17,approx,list,1,"""Fernhill"" names several places (incl. Fernhill Colliery, Rhondda); ""Gatwick"" names the airport",1,"no term: needs ""Gatwick"" or ""Fernhill"""
+mcgurks,McGurk's Bar bombing,1971-12-04,15,wikidata,15,violence,McGurk,plain,ambiguous,54.6074,-5.9305,wikidata,wikidata,1,"""McGurk"" is also a surname in debate",1,"no term: needs ""McGurk"""
+claudy,Claudy bombing,1972-07-31,9,wikidata,9,violence,Claudy,plain,,54.9114,-7.1547,wikidata,wikidata,1,,1,"no term: needs ""Claudy"""
+summerland,Summerland fire (Isle of Man),1973-08-02,50,list,,fire,Summerland,plain,,54.15,-4.47,approx,list,0,outside the UK (Isle of Man),0,outside the UK (Isle of Man)
+lofthouse,Lofthouse Colliery disaster,1973-03-21,,hand,,mining,Lofthouse,plain,ambiguous,53.72,-1.50,approx,harvest,0,"""Lofthouse"" is the surname of an MP elected in 1978, inside the window; death toll not verified",0,"""Lofthouse"" is the surname of an MP elected in 1978, inside the window; death toll not verified"
+m62,M62 coach bombing,1974-02-04,12,wikidata,12,violence,,,,53.7433,-1.6686,wikidata,wikidata,0,"""M62"" names the motorway (47 contributions in the 24 months before); no event-specific phrase harvested",1,"no term: needs ""M62 coach"""
+kingsmill,Kingsmill massacre,1976-01-05,10,wikidata,10,violence,Kingsmill,plain,ambiguous,54.2155,-6.4509,wikidata,wikidata,1,"""Kingsmill"" is also a surname (391 contributions 1945 to 1959)",1,"no term: needs ""Kingsmill"""
+denmarkplace,Denmark Place fire,1980-08-16,37,wikidata,37,fire,Denmark Place,plain,,51.5152,-0.1294,wikidata,wikidata,1,,1,"London-wide term only: needs ""Denmark Place"""
+hydepark,Hyde Park and Regent's Park bombings,1982-07-20,11,wikidata,11,violence,,,,51.5265,-0.1574,wikidata,wikidata,0,"""Hyde Park"" and ""Regent's Park"" are broad (1,337 and 456 contributions before the window); ""Hyde Park bomb"" and ""Regent's Park bomb"" find 0 and 1 in the five years after",1,"London-wide term only: needs ""Hyde Park"" and ""Regent's Park"""
+droppinwell,Droppin Well bombing (Ballykelly),1982-12-06,17,wikidata,17,violence,Ballykelly,plain,,55.041,-7.01,wikidata,wikidata,1,,1,"no term: needs ""Ballykelly"""
+manchesterair,Manchester air disaster (Ringway),1985-08-22,55,list,,air,,,,53.36,-2.27,approx,list,0,"""Manchester Airport"" names the airport (91 contributions in the 24 months before)",1,"city term only: needs ""Manchester Airport"""
+ballygawley,Ballygawley bus bombing,1988-08-20,8,wikidata,8,violence,Ballygawley,plain,,54.5036,-7.1672,wikidata,wikidata,1,,1,"no term: needs ""Ballygawley"""
+london77,7 July 2005 London bombings,2005-07-07,56,list,56,violence,,,,51.5049,-0.0786,wikidata,list,0,"""7 July"" is a date and ""7/7"" matched 342 contributions before 2005; London-wide otherwise",1,"London-wide term only: needs ""7 July"" or ""7/7"""
+gleision,Gleision Colliery accident,2011-09-15,4,hand,,mining,Gleision,plain,,51.7425,-3.8014,wikidata,wikidata,1,,1,"no term: needs ""Gleision"""
+londonbridge,June 2017 London Bridge attack,2017-06-03,11,wikidata,11,violence,,,,51.5081,-0.0878,wikidata,wikidata,0,"""London Bridge"" is broad (85 contributions in the 24 months before)",1,"London-wide term only: needs ""London Bridge"""
+clydach,Cambrian Colliery explosion (Clydach Vale),1965-05-17,,hand,,mining,Clydach,plain,ambiguous,51.63,-3.48,approx,harvest,0,"""Clydach"" names two places (Clydach near Swansea is in the town list); death toll not verified",0,"""Clydach"" names two places (Clydach near Swansea is in the town list); death toll not verified"
+markham73,Markham Colliery cage accident,1973-07-30,18,hand,,mining,Markham Colliery,plain,,53.244,-1.33,wikidata,harvest,1,,1,"""Markham"" is a common surname"
+sheffieldfloods,2007 floods (Sheffield),2007-06-25,,hand,,flood,Sheffield floods,plain,,53.38,-1.47,approx,harvest,0,floods across many places; phrase never used in the Commons,0,floods across many places; phrase never used in the Commons

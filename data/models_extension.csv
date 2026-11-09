@@ -1,0 +1,889 @@
+model,term,b,se,p,n
+M1,Intercept,-0.6332,0.89331,0.47844,86
+M1,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.92896,0.55879,0.09642,86
+M1,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.04663,0.51642,0.04269,86
+M1,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.22952,0.48313,0.0,86
+M1,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10669,0.63572,0.08171,86
+M1,"C(typegrp, Treatment('Transport'))[T.Other]",-0.09101,0.50444,0.85682,86
+M1,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.53579,0.67856,0.02362,86
+M1,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.39324,0.46835,0.0,86
+M1,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.30057,0.63973,0.63847,86
+M1,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.51259,0.37552,6e-05,86
+M1,ld,0.52361,0.2043,0.01038,86
+M1,np.log1p(EXP),0.65717,0.06716,0.0,86
+M1,plain,0.74631,0.41622,0.07296,86
+M1 peak,Intercept,-1.1495,0.77431,0.13766,86
+M1 peak,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.201,0.5486,0.02858,86
+M1 peak,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.23767,0.67921,0.7264,86
+M1 peak,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.15176,0.45426,0.0,86
+M1 peak,"C(typegrp, Treatment('Transport'))[T.Mining]",1.13118,0.57347,0.04855,86
+M1 peak,"C(typegrp, Treatment('Transport'))[T.Other]",0.67552,0.35812,0.05926,86
+M1 peak,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-2.16724,0.67575,0.00134,86
+M1 peak,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.23722,0.64193,0.00049,86
+M1 peak,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.66733,0.51792,0.19758,86
+M1 peak,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.60805,0.38054,2e-05,86
+M1 peak,ld,0.37458,0.17045,0.02798,86
+M1 peak,np.log1p(EXP),0.89569,0.10859,0.0,86
+M1 peak,plain,0.9247,0.43526,0.03363,86
+M1 region groups,Intercept,-1.30921,0.9929,0.18731,86
+M1 region groups,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.037,0.71075,0.00416,86
+M1 region groups,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18441,0.70194,0.09154,86
+M1 region groups,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24709,0.39625,0.0,86
+M1 region groups,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10264,0.51621,0.03268,86
+M1 region groups,"C(typegrp, Treatment('Transport'))[T.Other]",1.009,0.60522,0.09548,86
+M1 region groups,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.50243,0.65849,0.02251,86
+M1 region groups,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.74077,0.65136,3e-05,86
+M1 region groups,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.489,0.54139,0.3664,86
+M1 region groups,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.06259,0.2552,3e-05,86
+M1 region groups,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.24828,0.53444,0.01951,86
+M1 region groups,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37136,0.48042,0.43953,86
+M1 region groups,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.305,0.5368,0.56991,86
+M1 region groups,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37418,0.64833,0.03404,86
+M1 region groups,ld,0.51759,0.19054,0.0066,86
+M1 region groups,np.log1p(EXP),0.60103,0.07545,0.0,86
+M1 region groups,plain,0.79185,0.37721,0.0358,86
+M1 nations,Intercept,-0.65994,0.86186,0.44385,86
+M1 nations,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.10806,0.52893,0.03618,86
+M1 nations,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.01663,0.58174,0.08054,86
+M1 nations,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.21792,0.49165,1e-05,86
+M1 nations,"C(typegrp, Treatment('Transport'))[T.Mining]",0.48085,0.41176,0.24288,86
+M1 nations,"C(typegrp, Treatment('Transport'))[T.Other]",-0.08037,0.51292,0.87549,86
+M1 nations,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.46199,0.74216,0.04885,86
+M1 nations,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.36663,0.63335,0.00019,86
+M1 nations,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.32693,0.63579,0.6071,86
+M1 nations,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.47905,0.42335,0.00048,86
+M1 nations,"C(nation, Treatment('England'))[T.Northern Ireland]",-0.36154,0.4804,0.45171,86
+M1 nations,"C(nation, Treatment('England'))[T.Scotland]",-0.0417,0.44091,0.92465,86
+M1 nations,"C(nation, Treatment('England'))[T.Wales]",1.02365,0.63471,0.1068,86
+M1 nations,ld,0.52325,0.2271,0.02122,86
+M1 nations,np.log1p(EXP),0.65278,0.07267,0.0,86
+M1 nations,plain,0.81189,0.35362,0.02168,86
+M1 mining,Intercept,-1.37801,1.27474,0.27969,86
+M1 mining,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-3.32485,1.04145,0.00141,86
+M1 mining,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-3.79959,0.82104,0.0,86
+M1 mining,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-2.40571,0.82814,0.00367,86
+M1 mining,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.20504,0.66661,0.07065,86
+M1 mining,ld,1.04079,0.30016,0.00053,86
+M1 mining,np.log1p(EXP),0.67892,0.09316,0.0,86
+M1 mining,plain,1.20522,0.51236,0.01866,86
+M1 mining,mining,0.93684,0.73369,0.20164,86
+M1 deaths x post-1946,Intercept,-0.59138,0.94722,0.53241,86
+M1 deaths x post-1946,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.9239,0.56684,0.10312,86
+M1 deaths x post-1946,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.03857,0.5324,0.05109,86
+M1 deaths x post-1946,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24076,0.48512,0.0,86
+M1 deaths x post-1946,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08907,0.64986,0.09377,86
+M1 deaths x post-1946,"C(typegrp, Treatment('Transport'))[T.Other]",-0.08772,0.50426,0.8619,86
+M1 deaths x post-1946,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.99021,2.68449,0.45847,86
+M1 deaths x post-1946,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.86631,3.06698,0.35001,86
+M1 deaths x post-1946,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.27815,0.62978,0.65873,86
+M1 deaths x post-1946,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.51239,0.37818,6e-05,86
+M1 deaths x post-1946,ld,0.61348,0.5967,0.3039,86
+M1 deaths x post-1946,np.log1p(EXP),0.65572,0.0661,0.0,86
+M1 deaths x post-1946,plain,0.73698,0.42042,0.07961,86
+M1 deaths x post-1946,ld:post46,-0.09978,0.6459,0.87723,86
+Main model (M1),Intercept,-0.6332,0.89331,0.47844,86
+Main model (M1),"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.92896,0.55879,0.09642,86
+Main model (M1),"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.04663,0.51642,0.04269,86
+Main model (M1),"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.22952,0.48313,0.0,86
+Main model (M1),"C(typegrp, Treatment('Transport'))[T.Mining]",1.10669,0.63572,0.08171,86
+Main model (M1),"C(typegrp, Treatment('Transport'))[T.Other]",-0.09101,0.50444,0.85682,86
+Main model (M1),"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.53579,0.67856,0.02362,86
+Main model (M1),"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.39324,0.46835,0.0,86
+Main model (M1),"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.30057,0.63973,0.63847,86
+Main model (M1),"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.51259,0.37552,6e-05,86
+Main model (M1),ld,0.52361,0.2043,0.01038,86
+Main model (M1),np.log1p(EXP),0.65717,0.06716,0.0,86
+Main model (M1),plain,0.74631,0.41622,0.07296,86
+Peak: first three months,Intercept,-1.1495,0.77431,0.13766,86
+Peak: first three months,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.201,0.5486,0.02858,86
+Peak: first three months,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.23767,0.67921,0.7264,86
+Peak: first three months,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.15176,0.45426,0.0,86
+Peak: first three months,"C(typegrp, Treatment('Transport'))[T.Mining]",1.13118,0.57347,0.04855,86
+Peak: first three months,"C(typegrp, Treatment('Transport'))[T.Other]",0.67552,0.35812,0.05926,86
+Peak: first three months,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-2.16724,0.67575,0.00134,86
+Peak: first three months,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.23722,0.64193,0.00049,86
+Peak: first three months,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.66733,0.51792,0.19758,86
+Peak: first three months,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.60805,0.38054,2e-05,86
+Peak: first three months,ld,0.37458,0.17045,0.02798,86
+Peak: first three months,np.log1p(EXP),0.89569,0.10859,0.0,86
+Peak: first three months,plain,0.9247,0.43526,0.03363,86
+PPML without type and era,Intercept,2.40448,0.61911,0.0001,86
+PPML without type and era,ld,0.1118,0.19988,0.57595,86
+PPML without type and era,np.log1p(EXP),0.4728,0.0755,0.0,86
+PPML without type and era,plain,0.82969,0.44387,0.06159,86
+Drop seat-name terms,Intercept,-0.63238,0.9983,0.52644,84
+Drop seat-name terms,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.92157,0.55863,0.09901,84
+Drop seat-name terms,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.98638,0.54543,0.07054,84
+Drop seat-name terms,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.22275,0.49752,1e-05,84
+Drop seat-name terms,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08543,0.54457,0.04624,84
+Drop seat-name terms,"C(typegrp, Treatment('Transport'))[T.Other]",-0.09932,0.50858,0.84517,84
+Drop seat-name terms,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.52157,0.62272,0.01455,84
+Drop seat-name terms,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.52466,0.78232,0.00125,84
+Drop seat-name terms,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.27694,0.66516,0.67716,84
+Drop seat-name terms,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.51348,0.37117,5e-05,84
+Drop seat-name terms,ld,0.52399,0.21591,0.01523,84
+Drop seat-name terms,np.log1p(EXP),0.65849,0.09439,0.0,84
+Drop seat-name terms,plain,0.74762,0.45116,0.0975,84
+Add ambiguous terms,Intercept,-0.57144,0.88098,0.51657,92
+Add ambiguous terms,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.90511,0.54457,0.0965,92
+Add ambiguous terms,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.05003,0.57977,0.93124,92
+Add ambiguous terms,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.26522,0.48098,0.0,92
+Add ambiguous terms,"C(typegrp, Treatment('Transport'))[T.Mining]",1.07479,0.62408,0.08503,92
+Add ambiguous terms,"C(typegrp, Treatment('Transport'))[T.Other]",-0.08162,0.49325,0.86857,92
+Add ambiguous terms,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.42259,0.67278,0.03447,92
+Add ambiguous terms,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-1.47245,0.27241,0.0,92
+Add ambiguous terms,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.24663,0.61876,0.6902,92
+Add ambiguous terms,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.53373,0.37223,4e-05,92
+Add ambiguous terms,ld,0.51127,0.20484,0.01256,92
+Add ambiguous terms,np.log1p(EXP),0.65729,0.06591,0.0,92
+Add ambiguous terms,plain,0.68039,0.39854,0.08779,92
+Wikipedia list and Wikidata events only,Intercept,-3.08003,1.60578,0.0551,62
+Wikipedia list and Wikidata events only,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.28706,0.84178,0.12627,62
+Wikipedia list and Wikidata events only,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.98284,0.77278,0.20344,62
+Wikipedia list and Wikidata events only,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.38818,0.80577,0.08493,62
+Wikipedia list and Wikidata events only,"C(typegrp, Treatment('Transport'))[T.Mining]",1.81383,0.94181,0.05412,62
+Wikipedia list and Wikidata events only,"C(typegrp, Treatment('Transport'))[T.Other]",0.84709,1.54811,0.58426,62
+Wikipedia list and Wikidata events only,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-2.34178,0.96561,0.0153,62
+Wikipedia list and Wikidata events only,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-3.3608,0.71603,0.0,62
+Wikipedia list and Wikidata events only,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-1.24243,0.81118,0.12561,62
+Wikipedia list and Wikidata events only,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",2.11896,0.51234,4e-05,62
+Wikipedia list and Wikidata events only,ld,0.98455,0.29485,0.00084,62
+Wikipedia list and Wikidata events only,np.log1p(EXP),0.76857,0.09595,0.0,62
+Wikipedia list and Wikidata events only,plain,1.27472,0.48012,0.00793,62
+Drop wartime events,Intercept,-0.45736,0.85948,0.59463,75
+Drop wartime events,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.02848,0.54481,0.05906,75
+Drop wartime events,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.73544,0.79223,0.35325,75
+Drop wartime events,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.41396,0.49325,0.0,75
+Drop wartime events,"C(typegrp, Treatment('Transport'))[T.Mining]",0.79909,0.71227,0.2619,75
+Drop wartime events,"C(typegrp, Treatment('Transport'))[T.Other]",-0.01818,0.45126,0.96786,75
+Drop wartime events,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-0.73324,0.86067,0.39425,75
+Drop wartime events,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.02438,0.64065,0.96964,75
+Drop wartime events,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.49374,0.3696,5e-05,75
+Drop wartime events,ld,0.47056,0.20038,0.01886,75
+Drop wartime events,np.log1p(EXP),0.62959,0.06708,0.0,75
+Drop wartime events,plain,0.69169,0.42093,0.10033,75
+Drop Northern Ireland bombings and shootings,Intercept,-0.87393,0.89519,0.32894,78
+Drop Northern Ireland bombings and shootings,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.30768,0.45026,0.00368,78
+Drop Northern Ireland bombings and shootings,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.11391,0.50255,0.02666,78
+Drop Northern Ireland bombings and shootings,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24405,0.49478,1e-05,78
+Drop Northern Ireland bombings and shootings,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10336,0.63848,0.08397,78
+Drop Northern Ireland bombings and shootings,"C(typegrp, Treatment('Transport'))[T.Other]",-0.07166,0.52788,0.89201,78
+Drop Northern Ireland bombings and shootings,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.4682,0.68555,0.03222,78
+Drop Northern Ireland bombings and shootings,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.40384,0.462,0.0,78
+Drop Northern Ireland bombings and shootings,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.25076,0.63353,0.69225,78
+Drop Northern Ireland bombings and shootings,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.53397,0.4101,0.00018,78
+Drop Northern Ireland bombings and shootings,ld,0.50938,0.21586,0.01829,78
+Drop Northern Ireland bombings and shootings,np.log1p(EXP),0.65426,0.06491,0.0,78
+Drop Northern Ireland bombings and shootings,plain,1.02708,0.38517,0.00766,78
+Wikipedia list events only (40 or more deaths),Intercept,-6.94364,2.10494,0.00097,44
+Wikipedia list events only (40 or more deaths),"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",-2.39329,0.95175,0.01192,44
+Wikipedia list events only (40 or more deaths),"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.28685,0.67078,0.66892,44
+Wikipedia list events only (40 or more deaths),"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",-0.05533,0.6582,0.933,44
+Wikipedia list events only (40 or more deaths),"C(typegrp, Treatment('Transport'))[T.Mining]",0.70665,0.64701,0.27475,44
+Wikipedia list events only (40 or more deaths),"C(typegrp, Treatment('Transport'))[T.Other]",4.88236,1.72999,0.00477,44
+Wikipedia list events only (40 or more deaths),"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-3.57993,1.27533,0.005,44
+Wikipedia list events only (40 or more deaths),"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-3.30013,0.59473,0.0,44
+Wikipedia list events only (40 or more deaths),"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.92035,0.67128,0.17037,44
+Wikipedia list events only (40 or more deaths),"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",3.09281,0.25723,0.0,44
+Wikipedia list events only (40 or more deaths),ld,1.96275,0.41695,0.0,44
+Wikipedia list events only (40 or more deaths),np.log1p(EXP),0.54659,0.06432,0.0,44
+Wikipedia list events only (40 or more deaths),plain,1.99049,0.87951,0.02363,44
+Leave out London and South East,Intercept,0.56718,1.13048,0.61587,67
+Leave out London and South East,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.92261,0.48273,0.05598,67
+Leave out London and South East,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.428,0.46536,0.35772,67
+Leave out London and South East,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.01012,0.70748,0.15335,67
+Leave out London and South East,"C(typegrp, Treatment('Transport'))[T.Mining]",0.74482,0.51407,0.14737,67
+Leave out London and South East,"C(typegrp, Treatment('Transport'))[T.Other]",0.48492,0.48553,0.31793,67
+Leave out London and South East,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.68446,0.62886,0.00739,67
+Leave out London and South East,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.41089,0.67179,0.00033,67
+Leave out London and South East,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.49945,0.66061,0.44963,67
+Leave out London and South East,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.35936,0.4822,0.45612,67
+Leave out London and South East,ld,0.47601,0.24795,0.05489,67
+Leave out London and South East,np.log1p(EXP),0.47517,0.13893,0.00063,67
+Leave out London and South East,plain,0.40954,0.48176,0.39528,67
+Leave out Northern Ireland,Intercept,-0.87393,0.89519,0.32894,78
+Leave out Northern Ireland,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.30768,0.45026,0.00368,78
+Leave out Northern Ireland,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.11391,0.50255,0.02666,78
+Leave out Northern Ireland,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24405,0.49478,1e-05,78
+Leave out Northern Ireland,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10336,0.63848,0.08397,78
+Leave out Northern Ireland,"C(typegrp, Treatment('Transport'))[T.Other]",-0.07166,0.52788,0.89201,78
+Leave out Northern Ireland,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.4682,0.68555,0.03222,78
+Leave out Northern Ireland,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.40384,0.462,0.0,78
+Leave out Northern Ireland,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.25076,0.63353,0.69225,78
+Leave out Northern Ireland,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.53397,0.4101,0.00018,78
+Leave out Northern Ireland,ld,0.50938,0.21586,0.01829,78
+Leave out Northern Ireland,np.log1p(EXP),0.65426,0.06491,0.0,78
+Leave out Northern Ireland,plain,1.02708,0.38517,0.00766,78
+Leave out Rest of England,Intercept,-1.19962,1.07208,0.26315,48
+Leave out Rest of England,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.74824,0.79534,0.34682,48
+Leave out Rest of England,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.78872,0.64025,0.21799,48
+Leave out Rest of England,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.37793,0.48828,0.0,48
+Leave out Rest of England,"C(typegrp, Treatment('Transport'))[T.Mining]",1.75623,0.90169,0.05145,48
+Leave out Rest of England,"C(typegrp, Treatment('Transport'))[T.Other]",1.56392,1.07026,0.14395,48
+Leave out Rest of England,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.65431,1.06787,0.12134,48
+Leave out Rest of England,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.70487,0.65077,3e-05,48
+Leave out Rest of England,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.8668,0.66011,0.18915,48
+Leave out Rest of England,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.22955,0.19713,0.0,48
+Leave out Rest of England,ld,0.68408,0.18599,0.00024,48
+Leave out Rest of England,np.log1p(EXP),0.70057,0.08411,0.0,48
+Leave out Rest of England,plain,0.82884,0.6675,0.21434,48
+Leave out Scotland,Intercept,-0.78879,1.24379,0.52597,74
+Leave out Scotland,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.97187,0.59546,0.10265,74
+Leave out Scotland,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.44748,1.08349,0.18157,74
+Leave out Scotland,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.17456,0.53852,5e-05,74
+Leave out Scotland,"C(typegrp, Treatment('Transport'))[T.Mining]",1.09914,0.64015,0.08598,74
+Leave out Scotland,"C(typegrp, Treatment('Transport'))[T.Other]",-0.04832,0.53619,0.9282,74
+Leave out Scotland,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.69625,1.04326,0.10397,74
+Leave out Scotland,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.90297,1.01658,0.0043,74
+Leave out Scotland,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.34715,0.77545,0.65439,74
+Leave out Scotland,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.45233,0.51881,0.00512,74
+Leave out Scotland,ld,0.60168,0.39028,0.12315,74
+Leave out Scotland,np.log1p(EXP),0.64289,0.08451,0.0,74
+Leave out Scotland,plain,0.70214,0.43829,0.10915,74
+Leave out Wales,Intercept,0.09856,0.72981,0.89257,77
+Leave out Wales,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.74125,0.56157,0.18685,77
+Leave out Wales,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.26995,0.5946,0.03269,77
+Leave out Wales,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.39536,0.51268,0.0,77
+Leave out Wales,"C(typegrp, Treatment('Transport'))[T.Mining]",0.37099,0.47258,0.43244,77
+Leave out Wales,"C(typegrp, Treatment('Transport'))[T.Other]",-0.17125,0.51097,0.73751,77
+Leave out Wales,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.61658,0.6128,0.00834,77
+Leave out Wales,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.23902,0.48562,0.0,77
+Leave out Wales,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.112,0.69694,0.87232,77
+Leave out Wales,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.59546,0.39769,6e-05,77
+Leave out Wales,ld,0.30894,0.19749,0.11774,77
+Leave out Wales,np.log1p(EXP),0.67797,0.06649,0.0,77
+Leave out Wales,plain,0.63168,0.42697,0.13902,77
+Leave out Bombing or shooting,Intercept,-1.12764,1.14408,0.32431,71
+Leave out Bombing or shooting,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.15599,0.53053,0.02934,71
+Leave out Bombing or shooting,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.22031,0.54342,4e-05,71
+Leave out Bombing or shooting,"C(typegrp, Treatment('Transport'))[T.Mining]",0.83163,0.64163,0.19493,71
+Leave out Bombing or shooting,"C(typegrp, Treatment('Transport'))[T.Other]",-0.09373,0.50639,0.85316,71
+Leave out Bombing or shooting,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.38146,0.73227,0.05922,71
+Leave out Bombing or shooting,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.22867,0.49479,1e-05,71
+Leave out Bombing or shooting,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.06346,0.73978,0.93164,71
+Leave out Bombing or shooting,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.63912,0.44677,0.00024,71
+Leave out Bombing or shooting,ld,0.53325,0.29298,0.06874,71
+Leave out Bombing or shooting,np.log1p(EXP),0.58977,0.08984,0.0,71
+Leave out Bombing or shooting,plain,1.29567,0.47966,0.00691,71
+Leave out Crowd crush,Intercept,-0.58888,0.91139,0.51819,83
+Leave out Crowd crush,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.91789,0.56113,0.10188,83
+Leave out Crowd crush,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24853,0.48298,0.0,83
+Leave out Crowd crush,"C(typegrp, Treatment('Transport'))[T.Mining]",1.09156,0.63603,0.08612,83
+Leave out Crowd crush,"C(typegrp, Treatment('Transport'))[T.Other]",-0.08888,0.49767,0.85826,83
+Leave out Crowd crush,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.46079,0.72471,0.04383,83
+Leave out Crowd crush,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.52477,0.78869,0.00137,83
+Leave out Crowd crush,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.2736,0.64315,0.67054,83
+Leave out Crowd crush,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.51798,0.37968,6e-05,83
+Leave out Crowd crush,ld,0.51384,0.20667,0.01291,83
+Leave out Crowd crush,np.log1p(EXP),0.6573,0.06922,0.0,83
+Leave out Crowd crush,plain,0.7188,0.42783,0.09294,83
+Leave out Fire or explosion,Intercept,0.15088,0.933,0.87153,75
+Leave out Fire or explosion,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.69955,0.55257,0.20552,75
+Leave out Fire or explosion,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.37098,0.48755,0.44671,75
+Leave out Fire or explosion,"C(typegrp, Treatment('Transport'))[T.Mining]",0.67566,0.64094,0.29181,75
+Leave out Fire or explosion,"C(typegrp, Treatment('Transport'))[T.Other]",0.32106,0.35762,0.36931,75
+Leave out Fire or explosion,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.38843,0.71773,0.05305,75
+Leave out Fire or explosion,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-1.90167,0.49124,0.00011,75
+Leave out Fire or explosion,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.44807,0.45661,0.32645,75
+Leave out Fire or explosion,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.53728,0.37884,0.15612,75
+Leave out Fire or explosion,ld,0.49858,0.22649,0.02771,75
+Leave out Fire or explosion,np.log1p(EXP),0.60228,0.05616,0.0,75
+Leave out Fire or explosion,plain,0.60825,0.3966,0.12511,75
+Leave out Mining,Intercept,0.14481,0.74881,0.84666,62
+Leave out Mining,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.76197,0.59123,0.19748,62
+Leave out Mining,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.60362,0.6395,0.01215,62
+Leave out Mining,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.48934,0.55427,1e-05,62
+Leave out Mining,"C(typegrp, Treatment('Transport'))[T.Other]",-0.0869,0.52489,0.8685,62
+Leave out Mining,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-2.06994,0.76405,0.00675,62
+Leave out Mining,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.49032,0.4184,0.0,62
+Leave out Mining,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.02771,0.75908,0.97088,62
+Leave out Mining,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.58771,0.40194,8e-05,62
+Leave out Mining,ld,0.30536,0.21049,0.14687,62
+Leave out Mining,np.log1p(EXP),0.66944,0.06459,0.0,62
+Leave out Mining,plain,0.53506,0.44432,0.2285,62
+Leave out Other,Intercept,-0.74318,0.92478,0.42161,82
+Leave out Other,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.89648,0.57339,0.11794,82
+Leave out Other,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.03689,0.50243,0.03904,82
+Leave out Other,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.14513,0.49133,1e-05,82
+Leave out Other,"C(typegrp, Treatment('Transport'))[T.Mining]",1.21037,0.63848,0.058,82
+Leave out Other,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.75974,0.71529,0.01389,82
+Leave out Other,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.51988,0.45338,0.0,82
+Leave out Other,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.46164,0.65231,0.47913,82
+Leave out Other,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.54243,0.36985,3e-05,82
+Leave out Other,ld,0.54739,0.20993,0.00912,82
+Leave out Other,np.log1p(EXP),0.67031,0.06897,0.0,82
+Leave out Other,plain,0.8055,0.44187,0.06832,82
+Leave out Transport,Intercept,-0.02281,1.23079,0.98522,57
+Leave out Transport,"C(typegrp, Treatment('Mining'))[T.Bombing or shooting]",-0.12516,0.77393,0.87153,57
+Leave out Transport,"C(typegrp, Treatment('Mining'))[T.Crowd crush]",-0.1045,0.76444,0.89126,57
+Leave out Transport,"C(typegrp, Treatment('Mining'))[T.Fire or explosion]",1.09261,0.70218,0.1197,57
+Leave out Transport,"C(typegrp, Treatment('Mining'))[T.Other]",-1.25176,0.7544,0.09706,57
+Leave out Transport,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.39055,0.68336,0.04187,57
+Leave out Transport,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.53018,0.67128,0.00016,57
+Leave out Transport,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.17048,1.06901,0.87329,57
+Leave out Transport,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.66352,0.40841,5e-05,57
+Leave out Transport,ld,0.58255,0.27487,0.03406,57
+Leave out Transport,np.log1p(EXP),0.7108,0.09682,0.0,57
+Leave out Transport,plain,0.84079,0.53973,0.11928,57
+Drop the three largest death tolls,Intercept,-1.06668,1.14937,0.35338,83
+Drop the three largest death tolls,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.00278,0.57102,0.07907,83
+Drop the three largest death tolls,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.83276,0.51342,0.1048,83
+Drop the three largest death tolls,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.06188,0.52433,8e-05,83
+Drop the three largest death tolls,"C(typegrp, Treatment('Transport'))[T.Mining]",1.1588,0.62131,0.06217,83
+Drop the three largest death tolls,"C(typegrp, Treatment('Transport'))[T.Other]",-0.07504,0.50621,0.88216,83
+Drop the three largest death tolls,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.60573,0.65407,0.01409,83
+Drop the three largest death tolls,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.52246,0.48846,0.0,83
+Drop the three largest death tolls,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.53322,0.6508,0.4126,83
+Drop the three largest death tolls,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.44487,0.3732,0.00011,83
+Drop the three largest death tolls,ld,0.68342,0.29151,0.01906,83
+Drop the three largest death tolls,np.log1p(EXP),0.64898,0.06515,0.0,83
+Drop the three largest death tolls,plain,0.7476,0.40524,0.06506,83
+Drop the event with most attention,Intercept,0.67291,0.99739,0.49989,85
+Drop the event with most attention,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.49045,0.58181,0.39924,85
+Drop the event with most attention,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.66185,0.46103,0.15112,85
+Drop the event with most attention,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.57286,0.6283,0.0123,85
+Drop the event with most attention,"C(typegrp, Treatment('Transport'))[T.Mining]",0.82348,0.64819,0.20393,85
+Drop the event with most attention,"C(typegrp, Treatment('Transport'))[T.Other]",0.27924,0.36811,0.44811,85
+Drop the event with most attention,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.63345,0.60121,0.00659,85
+Drop the event with most attention,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.19196,0.42588,0.0,85
+Drop the event with most attention,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.53361,0.49319,0.27927,85
+Drop the event with most attention,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.45665,0.39904,0.25247,85
+Drop the event with most attention,ld,0.36525,0.2403,0.12852,85
+Drop the event with most attention,np.log1p(EXP),0.62445,0.06416,0.0,85
+Drop the event with most attention,plain,0.60254,0.3995,0.13149,85
+Window 36 months,Intercept,-1.01278,0.86259,0.24035,86
+Window 36 months,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.05409,0.53274,0.04786,86
+Window 36 months,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.93251,0.53826,0.08319,86
+Window 36 months,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.15869,0.48125,1e-05,86
+Window 36 months,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10968,0.62859,0.07751,86
+Window 36 months,"C(typegrp, Treatment('Transport'))[T.Other]",0.15154,0.51449,0.76834,86
+Window 36 months,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.53654,0.66452,0.02076,86
+Window 36 months,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-1.93405,0.48234,6e-05,86
+Window 36 months,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.29868,0.60675,0.62254,86
+Window 36 months,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.53684,0.36149,2e-05,86
+Window 36 months,ld,0.56508,0.18647,0.00244,86
+Window 36 months,np.log1p(EXP),0.64581,0.06913,0.0,86
+Window 36 months,plain,0.912,0.38703,0.01845,86
+Baseline 12 months,Intercept,-1.33573,0.98843,0.17658,86
+Baseline 12 months,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.33739,0.54171,0.01356,86
+Baseline 12 months,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.17102,0.62448,0.06076,86
+Baseline 12 months,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.53879,0.62871,5e-05,86
+Baseline 12 months,"C(typegrp, Treatment('Transport'))[T.Mining]",0.69596,0.71049,0.32731,86
+Baseline 12 months,"C(typegrp, Treatment('Transport'))[T.Other]",-0.50777,0.56555,0.36927,86
+Baseline 12 months,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.43873,0.69757,0.03916,86
+Baseline 12 months,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.15383,0.55781,0.00011,86
+Baseline 12 months,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.23545,0.80212,0.76911,86
+Baseline 12 months,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",2.07094,0.49496,3e-05,86
+Baseline 12 months,ld,0.66894,0.21263,0.00165,86
+Baseline 12 months,np.log1p(EXP),0.5724,0.09138,0.0,86
+Baseline 12 months,plain,0.83134,0.4687,0.07611,86
+No volume adjustment,Intercept,-0.57295,0.87083,0.51058,86
+No volume adjustment,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.94865,0.54759,0.0832,86
+No volume adjustment,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.14761,0.49996,0.02171,86
+No volume adjustment,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24737,0.47315,0.0,86
+No volume adjustment,"C(typegrp, Treatment('Transport'))[T.Mining]",1.14448,0.63062,0.06955,86
+No volume adjustment,"C(typegrp, Treatment('Transport'))[T.Other]",-0.0407,0.49439,0.93438,86
+No volume adjustment,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.5474,0.67585,0.02205,86
+No volume adjustment,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.30334,0.4334,0.0,86
+No volume adjustment,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.30455,0.61485,0.62037,86
+No volume adjustment,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.48324,0.36697,5e-05,86
+No volume adjustment,ld,0.49956,0.20345,0.01407,86
+No volume adjustment,np.log1p(EXP),0.67515,0.06423,0.0,86
+No volume adjustment,plain,0.75503,0.39281,0.05459,86
+Plain-phrase terms only,Intercept,0.05763,1.07609,0.95729,63
+Plain-phrase terms only,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.84585,0.63429,0.18236,63
+Plain-phrase terms only,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.19561,0.60996,0.04998,63
+Plain-phrase terms only,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.18796,0.57613,0.00015,63
+Plain-phrase terms only,"C(typegrp, Treatment('Transport'))[T.Mining]",0.86466,0.68105,0.20423,63
+Plain-phrase terms only,"C(typegrp, Treatment('Transport'))[T.Other]",-0.24549,0.44801,0.58372,63
+Plain-phrase terms only,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.58788,0.85033,0.06185,63
+Plain-phrase terms only,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.30811,0.4995,0.0,63
+Plain-phrase terms only,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.07177,0.73245,0.92194,63
+Plain-phrase terms only,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.63177,0.42707,0.00013,63
+Plain-phrase terms only,ld,0.57845,0.31602,0.06719,63
+Plain-phrase terms only,np.log1p(EXP),0.57451,0.08341,0.0,63
+"""in"" terms only",Intercept,0.86983,0.94765,0.35869,23
+"""in"" terms only","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.35778,0.85627,0.67606,23
+"""in"" terms only","C(typegrp, Treatment('Transport'))[T.Crowd crush]",-1.09776,0.70081,0.11725,23
+"""in"" terms only","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",-0.39219,1.42055,0.78249,23
+"""in"" terms only","C(typegrp, Treatment('Transport'))[T.Mining]",-0.68304,0.75368,0.36479,23
+"""in"" terms only","C(typegrp, Treatment('Transport'))[T.Other]",-0.03655,0.62438,0.95332,23
+"""in"" terms only","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-0.22949,0.76235,0.76339,23
+"""in"" terms only","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-0.54325,1.48646,0.71476,23
+"""in"" terms only","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.63076,0.83034,0.44747,23
+"""in"" terms only","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.75741,0.87719,0.38789,23
+"""in"" terms only",ld,0.1351,0.17978,0.45236,23
+"""in"" terms only",np.log1p(EXP),0.75747,0.12392,0.0,23
+Swap to the other term where one exists,Intercept,0.56039,0.79251,0.4795,86
+Swap to the other term where one exists,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.19373,0.3214,0.54666,86
+Swap to the other term where one exists,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.72314,0.46054,0.11637,86
+Swap to the other term where one exists,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.71316,0.42186,5e-05,86
+Swap to the other term where one exists,"C(typegrp, Treatment('Transport'))[T.Mining]",-0.09748,0.44225,0.82555,86
+Swap to the other term where one exists,"C(typegrp, Treatment('Transport'))[T.Other]",0.5964,0.45741,0.19228,86
+Swap to the other term where one exists,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-0.63036,0.3903,0.1063,86
+Swap to the other term where one exists,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.75901,0.60247,0.0,86
+Swap to the other term where one exists,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.18898,0.4795,0.6935,86
+Swap to the other term where one exists,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.91747,0.38348,0.01673,86
+Swap to the other term where one exists,ld,0.41585,0.13181,0.00161,86
+Swap to the other term where one exists,np.log1p(EXP),0.51864,0.04715,0.0,86
+Swap to the other term where one exists,plain,1.01661,0.35039,0.00372,86
+Wikidata death toll where both,Intercept,-0.6478,0.90042,0.47187,86
+Wikidata death toll where both,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.9321,0.5587,0.09525,86
+Wikidata death toll where both,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.04072,0.51542,0.04347,86
+Wikidata death toll where both,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.22405,0.4843,0.0,86
+Wikidata death toll where both,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10578,0.63528,0.08175,86
+Wikidata death toll where both,"C(typegrp, Treatment('Transport'))[T.Other]",-0.08939,0.50436,0.85932,86
+Wikidata death toll where both,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.54588,0.67935,0.02287,86
+Wikidata death toll where both,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.39863,0.46818,0.0,86
+Wikidata death toll where both,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.30698,0.63994,0.63144,86
+Wikidata death toll where both,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.50946,0.37524,6e-05,86
+Wikidata death toll where both,ld,0.52965,0.2072,0.01058,86
+Wikidata death toll where both,np.log1p(EXP),0.6565,0.06701,0.0,86
+Wikidata death toll where both,plain,0.74501,0.41539,0.07289,86
+Placebo: fake date 36 months earlier,Intercept,0.04466,0.70577,0.94954,83
+Placebo: fake date 36 months earlier,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.73124,0.54134,0.17676,83
+Placebo: fake date 36 months earlier,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.1525,0.741,0.83695,83
+Placebo: fake date 36 months earlier,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",0.10134,0.47706,0.83177,83
+Placebo: fake date 36 months earlier,"C(typegrp, Treatment('Transport'))[T.Mining]",-0.98478,0.75722,0.19342,83
+Placebo: fake date 36 months earlier,"C(typegrp, Treatment('Transport'))[T.Other]",-0.13813,0.41623,0.74,83
+Placebo: fake date 36 months earlier,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-0.25846,0.54128,0.63301,83
+Placebo: fake date 36 months earlier,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",0.41043,0.64663,0.52561,83
+Placebo: fake date 36 months earlier,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.18761,0.55484,0.73527,83
+Placebo: fake date 36 months earlier,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",-0.95023,0.33263,0.00428,83
+Placebo: fake date 36 months earlier,ld,-0.0131,0.14655,0.92877,83
+Placebo: fake date 36 months earlier,np.log1p(EXP),0.90601,0.07872,0.0,83
+Placebo: fake date 36 months earlier,plain,-0.16927,0.47626,0.72227,83
+Disaster-specific phrase where one exists (adds Hillsborough),Intercept,-0.62735,0.75422,0.40553,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.05338,0.46106,0.02233,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.31275,0.50489,0.00932,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.02004,0.65543,0.00206,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(typegrp, Treatment('Transport'))[T.Mining]",-0.03667,0.51919,0.94369,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(typegrp, Treatment('Transport'))[T.Other]",-0.04107,0.44159,0.9259,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.71099,0.5166,0.00093,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.31287,0.4441,0.0,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.15486,0.60598,0.7983,87
+Disaster-specific phrase where one exists (adds Hillsborough),"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.60688,0.52571,0.00224,87
+Disaster-specific phrase where one exists (adds Hillsborough),ld,0.6004,0.12556,0.0,87
+Disaster-specific phrase where one exists (adds Hillsborough),np.log1p(EXP),0.56937,0.07201,0.0,87
+Disaster-specific phrase where one exists (adds Hillsborough),plain,0.51334,0.39038,0.18852,87
+Drop King's Cross (railway bill debates in the window),Intercept,-1.41065,1.02693,0.16955,85
+Drop King's Cross (railway bill debates in the window),"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.14729,0.55792,0.03975,85
+Drop King's Cross (railway bill debates in the window),"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.95507,0.51773,0.06508,85
+Drop King's Cross (railway bill debates in the window),"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.90021,0.54922,0.00054,85
+Drop King's Cross (railway bill debates in the window),"C(typegrp, Treatment('Transport'))[T.Mining]",1.00978,0.65857,0.12521,85
+Drop King's Cross (railway bill debates in the window),"C(typegrp, Treatment('Transport'))[T.Other]",-0.11577,0.52872,0.82668,85
+Drop King's Cross (railway bill debates in the window),"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.54563,0.69006,0.0251,85
+Drop King's Cross (railway bill debates in the window),"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.36512,0.48177,0.0,85
+Drop King's Cross (railway bill debates in the window),"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.2149,0.66433,0.74632,85
+Drop King's Cross (railway bill debates in the window),"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.75204,0.43748,6e-05,85
+Drop King's Cross (railway bill debates in the window),ld,0.71259,0.21375,0.00086,85
+Drop King's Cross (railway bill debates in the window),np.log1p(EXP),0.62846,0.08009,0.0,85
+Drop King's Cross (railway bill debates in the window),plain,0.79434,0.42646,0.06251,85
+"Region groups, main",Intercept,-1.30921,0.9929,0.18731,86
+"Region groups, main","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.037,0.71075,0.00416,86
+"Region groups, main","C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18441,0.70194,0.09154,86
+"Region groups, main","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24709,0.39625,0.0,86
+"Region groups, main","C(typegrp, Treatment('Transport'))[T.Mining]",1.10264,0.51621,0.03268,86
+"Region groups, main","C(typegrp, Treatment('Transport'))[T.Other]",1.009,0.60522,0.09548,86
+"Region groups, main","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.50243,0.65849,0.02251,86
+"Region groups, main","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.74077,0.65136,3e-05,86
+"Region groups, main","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.489,0.54139,0.3664,86
+"Region groups, main","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.06259,0.2552,3e-05,86
+"Region groups, main","C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.24828,0.53444,0.01951,86
+"Region groups, main","C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37136,0.48042,0.43953,86
+"Region groups, main","C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.305,0.5368,0.56991,86
+"Region groups, main","C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37418,0.64833,0.03404,86
+"Region groups, main",ld,0.51759,0.19054,0.0066,86
+"Region groups, main",np.log1p(EXP),0.60103,0.07545,0.0,86
+"Region groups, main",plain,0.79185,0.37721,0.0358,86
+"Region groups, drop King's Cross",Intercept,-1.37706,1.03452,0.18315,85
+"Region groups, drop King's Cross","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.99841,0.70678,0.00469,85
+"Region groups, drop King's Cross","C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.17453,0.70778,0.09702,85
+"Region groups, drop King's Cross","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.17624,0.46351,0.0,85
+"Region groups, drop King's Cross","C(typegrp, Treatment('Transport'))[T.Mining]",1.03052,0.51211,0.04419,85
+"Region groups, drop King's Cross","C(typegrp, Treatment('Transport'))[T.Other]",0.9259,0.63297,0.14353,85
+"Region groups, drop King's Cross","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.49714,0.66047,0.0234,85
+"Region groups, drop King's Cross","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.71616,0.66362,4e-05,85
+"Region groups, drop King's Cross","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.44307,0.56477,0.43274,85
+"Region groups, drop King's Cross","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.14173,0.37894,0.00259,85
+"Region groups, drop King's Cross","C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.15724,0.55047,0.03553,85
+"Region groups, drop King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35049,0.50018,0.48347,85
+"Region groups, drop King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.24217,0.53917,0.65332,85
+"Region groups, drop King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.33453,0.63822,0.03653,85
+"Region groups, drop King's Cross",ld,0.5547,0.22357,0.0131,85
+"Region groups, drop King's Cross",np.log1p(EXP),0.59508,0.07509,0.0,85
+"Region groups, drop King's Cross",plain,0.77829,0.37632,0.03863,85
+"Region groups, drop Grenfell",Intercept,0.03398,1.03397,0.97379,85
+"Region groups, drop Grenfell","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.60981,0.74543,0.03081,85
+"Region groups, drop Grenfell","C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.592,0.63672,0.35249,85
+"Region groups, drop Grenfell","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.68786,0.41475,5e-05,85
+"Region groups, drop Grenfell","C(typegrp, Treatment('Transport'))[T.Mining]",0.72267,0.51846,0.16336,85
+"Region groups, drop Grenfell","C(typegrp, Treatment('Transport'))[T.Other]",1.06706,0.48626,0.02821,85
+"Region groups, drop Grenfell","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.45684,0.62972,0.0207,85
+"Region groups, drop Grenfell","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.17556,0.55121,8e-05,85
+"Region groups, drop Grenfell","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.66093,0.478,0.16675,85
+"Region groups, drop Grenfell","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.22552,0.35401,0.5241,85
+"Region groups, drop Grenfell","C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.04411,0.48468,0.03122,85
+"Region groups, drop Grenfell","C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.63326,0.48215,0.18905,85
+"Region groups, drop Grenfell","C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.62092,0.58846,0.29135,85
+"Region groups, drop Grenfell","C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.47002,0.65196,0.02415,85
+"Region groups, drop Grenfell",ld,0.28792,0.22697,0.20461,85
+"Region groups, drop Grenfell",np.log1p(EXP),0.59997,0.06975,0.0,85
+"Region groups, drop Grenfell",plain,0.84166,0.44699,0.05971,85
+"Region groups, drop Grenfell and King's Cross",Intercept,0.27064,0.87286,0.75652,84
+"Region groups, drop Grenfell and King's Cross","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.10671,0.56453,0.04995,84
+"Region groups, drop Grenfell and King's Cross","C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.1785,0.61134,0.7703,84
+"Region groups, drop Grenfell and King's Cross","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",0.7359,0.62752,0.24091,84
+"Region groups, drop Grenfell and King's Cross","C(typegrp, Treatment('Transport'))[T.Mining]",0.14937,0.5106,0.76988,84
+"Region groups, drop Grenfell and King's Cross","C(typegrp, Treatment('Transport'))[T.Other]",0.56694,0.38437,0.14021,84
+"Region groups, drop Grenfell and King's Cross","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.42492,0.60482,0.01848,84
+"Region groups, drop Grenfell and King's Cross","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-1.72079,0.49844,0.00056,84
+"Region groups, drop Grenfell and King's Cross","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.51147,0.43405,0.23865,84
+"Region groups, drop Grenfell and King's Cross","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.28155,0.34005,0.40768,84
+"Region groups, drop Grenfell and King's Cross","C(regiongrp, Treatment('Rest of England'))[T.London and South East]",0.25294,0.3317,0.44573,84
+"Region groups, drop Grenfell and King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.59342,0.46017,0.1972,84
+"Region groups, drop Grenfell and King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.42716,0.59557,0.47323,84
+"Region groups, drop Grenfell and King's Cross","C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.15771,0.61761,0.06086,84
+"Region groups, drop Grenfell and King's Cross",ld,0.41273,0.21442,0.05424,84
+"Region groups, drop Grenfell and King's Cross",np.log1p(EXP),0.57828,0.06149,0.0,84
+"Region groups, drop Grenfell and King's Cross",plain,0.80789,0.38092,0.03393,84
+"Region groups, swap terms",Intercept,0.60714,0.82045,0.45929,86
+"Region groups, swap terms","C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",0.51397,0.37326,0.16852,86
+"Region groups, swap terms","C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.78729,0.56582,0.16411,86
+"Region groups, swap terms","C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.87036,0.37537,0.0,86
+"Region groups, swap terms","C(typegrp, Treatment('Transport'))[T.Mining]",-0.33548,0.41073,0.41404,86
+"Region groups, swap terms","C(typegrp, Treatment('Transport'))[T.Other]",0.78457,0.45,0.08125,86
+"Region groups, swap terms","C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-0.85027,0.41205,0.03906,86
+"Region groups, swap terms","C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.59603,0.68141,0.00014,86
+"Region groups, swap terms","C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",0.01084,0.40752,0.97878,86
+"Region groups, swap terms","C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.89774,0.38872,0.02092,86
+"Region groups, swap terms","C(regiongrp, Treatment('Rest of England'))[T.London and South East]",0.42469,0.39926,0.28746,86
+"Region groups, swap terms","C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.47111,0.53226,0.3761,86
+"Region groups, swap terms","C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.43479,0.55037,0.42953,86
+"Region groups, swap terms","C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.34701,0.41402,0.00114,86
+"Region groups, swap terms",ld,0.30742,0.14212,0.03054,86
+"Region groups, swap terms",np.log1p(EXP),0.52662,0.03985,0.0,86
+"Region groups, swap terms",plain,0.942,0.42914,0.02816,86
+jk faversham,Intercept,-1.20201,0.96809,0.21437,85
+jk faversham,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.01265,0.70283,0.00419,85
+jk faversham,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.15854,0.72393,0.10952,85
+jk faversham,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.29132,0.39102,0.0,85
+jk faversham,"C(typegrp, Treatment('Transport'))[T.Mining]",1.03071,0.50794,0.04244,85
+jk faversham,"C(typegrp, Treatment('Transport'))[T.Other]",0.99438,0.57506,0.08378,85
+jk faversham,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.32325,0.65277,0.04265,85
+jk faversham,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.64136,0.67246,9e-05,85
+jk faversham,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.40867,0.53527,0.44517,85
+jk faversham,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.05831,0.25388,3e-05,85
+jk faversham,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25879,0.5191,0.01531,85
+jk faversham,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35124,0.47528,0.4599,85
+jk faversham,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.29465,0.53349,0.58074,85
+jk faversham,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.38463,0.63613,0.02951,85
+jk faversham,ld,0.50423,0.18681,0.00695,85
+jk faversham,np.log1p(EXP),0.5933,0.07535,0.0,85
+jk faversham,plain,0.71033,0.3754,0.05846,85
+jk croydon,Intercept,-1.31724,0.98964,0.18318,85
+jk croydon,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.03235,0.71867,0.00469,85
+jk croydon,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18979,0.69581,0.08728,85
+jk croydon,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.23928,0.39662,0.0,85
+jk croydon,"C(typegrp, Treatment('Transport'))[T.Mining]",1.1068,0.51462,0.0315,85
+jk croydon,"C(typegrp, Treatment('Transport'))[T.Other]",0.95307,0.70314,0.17527,85
+jk croydon,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.54441,0.74992,0.03945,85
+jk croydon,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.75572,0.64918,2e-05,85
+jk croydon,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.49843,0.54503,0.36046,85
+jk croydon,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.06717,0.25583,3e-05,85
+jk croydon,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.23241,0.57615,0.03243,85
+jk croydon,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37702,0.48344,0.43547,85
+jk croydon,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.2971,0.54689,0.58695,85
+jk croydon,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.36546,0.65511,0.03713,85
+jk croydon,ld,0.52077,0.19275,0.0069,85
+jk croydon,np.log1p(EXP),0.60156,0.07575,0.0,85
+jk croydon,plain,0.80607,0.38302,0.03534,85
+jk bethnalgreen,Intercept,-1.39543,1.03672,0.1783,85
+jk bethnalgreen,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.07893,0.72931,0.00436,85
+jk bethnalgreen,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.46302,0.7084,0.0389,85
+jk bethnalgreen,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24317,0.39656,0.0,85
+jk bethnalgreen,"C(typegrp, Treatment('Transport'))[T.Mining]",1.12424,0.52685,0.03285,85
+jk bethnalgreen,"C(typegrp, Treatment('Transport'))[T.Other]",1.04061,0.6215,0.09406,85
+jk bethnalgreen,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.53114,0.65869,0.0201,85
+jk bethnalgreen,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-1.89426,0.82298,0.02135,85
+jk bethnalgreen,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.51338,0.54575,0.34686,85
+jk bethnalgreen,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.0595,0.2543,3e-05,85
+jk bethnalgreen,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.27205,0.54453,0.01949,85
+jk bethnalgreen,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37549,0.47959,0.43366,85
+jk bethnalgreen,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.27445,0.54792,0.61644,85
+jk bethnalgreen,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.39333,0.65278,0.0328,85
+jk bethnalgreen,ld,0.52994,0.19385,0.00626,85
+jk bethnalgreen,np.log1p(EXP),0.60351,0.07583,0.0,85
+jk bethnalgreen,plain,0.80824,0.3792,0.03305,85
+jk harrow,Intercept,-1.29,0.98674,0.1911,85
+jk harrow,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.04773,0.70441,0.00365,85
+jk harrow,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.19301,0.69664,0.0868,85
+jk harrow,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24097,0.39258,0.0,85
+jk harrow,"C(typegrp, Treatment('Transport'))[T.Mining]",1.07816,0.51401,0.03595,85
+jk harrow,"C(typegrp, Treatment('Transport'))[T.Other]",1.01081,0.59852,0.09124,85
+jk harrow,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.50864,0.65564,0.02139,85
+jk harrow,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.74012,0.64557,2e-05,85
+jk harrow,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.46,0.54397,0.39776,85
+jk harrow,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.0504,0.25927,5e-05,85
+jk harrow,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25223,0.53159,0.01849,85
+jk harrow,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.38043,0.48429,0.43214,85
+jk harrow,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.27888,0.5417,0.60668,85
+jk harrow,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.36153,0.64663,0.03524,85
+jk harrow,ld,0.52035,0.19036,0.00627,85
+jk harrow,np.log1p(EXP),0.59339,0.07886,0.0,85
+jk harrow,plain,0.78856,0.37423,0.03511,85
+jk lewisham,Intercept,-1.26035,1.07145,0.23947,85
+jk lewisham,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.05539,0.70646,0.00362,85
+jk lewisham,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.22909,0.71704,0.08651,85
+jk lewisham,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.27248,0.42608,0.0,85
+jk lewisham,"C(typegrp, Treatment('Transport'))[T.Mining]",1.14304,0.49667,0.02137,85
+jk lewisham,"C(typegrp, Treatment('Transport'))[T.Other]",1.0366,0.61739,0.09315,85
+jk lewisham,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.54662,0.66848,0.02069,85
+jk lewisham,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.72699,0.65099,3e-05,85
+jk lewisham,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.55666,0.62162,0.37052,85
+jk lewisham,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.04923,0.2882,0.00027,85
+jk lewisham,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.24367,0.53599,0.02032,85
+jk lewisham,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37997,0.4908,0.43882,85
+jk lewisham,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.27809,0.58007,0.63165,85
+jk lewisham,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.39259,0.62845,0.0267,85
+jk lewisham,ld,0.51306,0.19299,0.00785,85
+jk lewisham,np.log1p(EXP),0.59043,0.11437,0.0,85
+jk lewisham,plain,0.77136,0.39882,0.0531,85
+jk eltham,Intercept,-1.28102,1.00115,0.20071,85
+jk eltham,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.027,0.7118,0.0044,85
+jk eltham,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.17514,0.70186,0.09407,85
+jk eltham,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.23697,0.39967,0.0,85
+jk eltham,"C(typegrp, Treatment('Transport'))[T.Mining]",1.09484,0.51703,0.03421,85
+jk eltham,"C(typegrp, Treatment('Transport'))[T.Other]",0.99963,0.60638,0.09925,85
+jk eltham,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.50375,0.65853,0.0224,85
+jk eltham,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.7352,0.64919,3e-05,85
+jk eltham,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.49295,0.54148,0.36262,85
+jk eltham,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.05878,0.25597,4e-05,85
+jk eltham,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25081,0.53384,0.01913,85
+jk eltham,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37464,0.48163,0.43665,85
+jk eltham,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.30535,0.53674,0.56943,85
+jk eltham,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37379,0.64895,0.03426,85
+jk eltham,ld,0.51394,0.19131,0.00722,85
+jk eltham,np.log1p(EXP),0.59968,0.07569,0.0,85
+jk eltham,plain,0.79107,0.37692,0.03584,85
+jk staines,Intercept,-1.24868,0.99214,0.20818,85
+jk staines,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.96964,0.72007,0.00623,85
+jk staines,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.15989,0.70294,0.09893,85
+jk staines,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.2039,0.40799,0.0,85
+jk staines,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08716,0.51753,0.03567,85
+jk staines,"C(typegrp, Treatment('Transport'))[T.Other]",0.98236,0.60471,0.10427,85
+jk staines,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.56195,0.67658,0.02097,85
+jk staines,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.76946,0.65331,2e-05,85
+jk staines,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.52762,0.54766,0.33534,85
+jk staines,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.04419,0.26035,6e-05,85
+jk staines,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25435,0.53312,0.01863,85
+jk staines,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35231,0.47422,0.45753,85
+jk staines,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.27466,0.54488,0.61421,85
+jk staines,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37249,0.64729,0.03397,85
+jk staines,ld,0.53028,0.19456,0.00642,85
+jk staines,np.log1p(EXP),0.59631,0.07606,0.0,85
+jk staines,plain,0.73997,0.39017,0.05789,85
+jk moorgate,Intercept,-1.25308,0.99066,0.20591,85
+jk moorgate,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.97548,0.71991,0.00607,85
+jk moorgate,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.12817,0.71163,0.11289,85
+jk moorgate,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.16153,0.44102,0.0,85
+jk moorgate,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08095,0.52041,0.03779,85
+jk moorgate,"C(typegrp, Treatment('Transport'))[T.Other]",0.96372,0.61639,0.11793,85
+jk moorgate,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.57008,0.66952,0.01902,85
+jk moorgate,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.78592,0.64849,2e-05,85
+jk moorgate,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.57426,0.57682,0.31947,85
+jk moorgate,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.03306,0.26255,8e-05,85
+jk moorgate,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.26393,0.53441,0.01802,85
+jk moorgate,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37503,0.48058,0.43518,85
+jk moorgate,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.28281,0.5407,0.60095,85
+jk moorgate,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37344,0.64286,0.03264,85
+jk moorgate,ld,0.52859,0.19214,0.00594,85
+jk moorgate,np.log1p(EXP),0.59668,0.07532,0.0,85
+jk moorgate,plain,0.79017,0.37405,0.03465,85
+jk hungerford,Intercept,-1.29871,0.99096,0.19001,85
+jk hungerford,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.10837,0.75575,0.00527,85
+jk hungerford,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.22177,0.72357,0.09131,85
+jk hungerford,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24438,0.39084,0.0,85
+jk hungerford,"C(typegrp, Treatment('Transport'))[T.Mining]",1.10995,0.52038,0.03293,85
+jk hungerford,"C(typegrp, Treatment('Transport'))[T.Other]",1.05037,0.6232,0.0919,85
+jk hungerford,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.51832,0.65719,0.02087,85
+jk hungerford,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.7671,0.66483,3e-05,85
+jk hungerford,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.4679,0.53845,0.38487,85
+jk hungerford,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.03234,0.27091,0.00014,85
+jk hungerford,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.29843,0.57011,0.02276,85
+jk hungerford,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.40917,0.48672,0.40053,85
+jk hungerford,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.27319,0.54176,0.61407,85
+jk hungerford,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37187,0.64761,0.03414,85
+jk hungerford,ld,0.51749,0.19007,0.00648,85
+jk hungerford,np.log1p(EXP),0.59059,0.08155,0.0,85
+jk hungerford,plain,0.78144,0.37431,0.03682,85
+jk kingscross,Intercept,-1.37706,1.03452,0.18315,85
+jk kingscross,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.99841,0.70678,0.00469,85
+jk kingscross,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.17453,0.70778,0.09702,85
+jk kingscross,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.17624,0.46351,0.0,85
+jk kingscross,"C(typegrp, Treatment('Transport'))[T.Mining]",1.03052,0.51211,0.04419,85
+jk kingscross,"C(typegrp, Treatment('Transport'))[T.Other]",0.9259,0.63297,0.14353,85
+jk kingscross,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.49714,0.66047,0.0234,85
+jk kingscross,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.71616,0.66362,4e-05,85
+jk kingscross,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.44307,0.56477,0.43274,85
+jk kingscross,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.14173,0.37894,0.00259,85
+jk kingscross,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.15724,0.55047,0.03553,85
+jk kingscross,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35049,0.50018,0.48347,85
+jk kingscross,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.24217,0.53917,0.65332,85
+jk kingscross,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.33453,0.63822,0.03653,85
+jk kingscross,ld,0.5547,0.22357,0.0131,85
+jk kingscross,np.log1p(EXP),0.59508,0.07509,0.0,85
+jk kingscross,plain,0.77829,0.37632,0.03863,85
+jk clapham,Intercept,-1.4428,1.01273,0.15426,85
+jk clapham,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.14405,0.72038,0.00292,85
+jk clapham,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.27954,0.72656,0.07822,85
+jk clapham,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.39299,0.40292,0.0,85
+jk clapham,"C(typegrp, Treatment('Transport'))[T.Mining]",1.15221,0.52421,0.02795,85
+jk clapham,"C(typegrp, Treatment('Transport'))[T.Other]",1.09244,0.60888,0.07278,85
+jk clapham,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.39661,0.65736,0.03362,85
+jk clapham,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.68038,0.67295,7e-05,85
+jk clapham,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.36044,0.54855,0.51113,85
+jk clapham,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.11449,0.25826,2e-05,85
+jk clapham,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.22107,0.54228,0.02434,85
+jk clapham,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35936,0.48149,0.45546,85
+jk clapham,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.34494,0.53403,0.51833,85
+jk clapham,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37918,0.66087,0.03689,85
+jk clapham,ld,0.50542,0.19377,0.0091,85
+jk clapham,np.log1p(EXP),0.61168,0.07796,0.0,85
+jk clapham,plain,0.7987,0.3859,0.03848,85
+jk marchioness,Intercept,-1.40238,1.01253,0.16604,85
+jk marchioness,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.11415,0.72336,0.00347,85
+jk marchioness,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.25203,0.72636,0.08476,85
+jk marchioness,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.37129,0.40337,0.0,85
+jk marchioness,"C(typegrp, Treatment('Transport'))[T.Mining]",1.14944,0.52266,0.02786,85
+jk marchioness,"C(typegrp, Treatment('Transport'))[T.Other]",1.06964,0.61056,0.07979,85
+jk marchioness,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.39816,0.66072,0.03433,85
+jk marchioness,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.67476,0.67062,7e-05,85
+jk marchioness,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.38781,0.55082,0.4814,85
+jk marchioness,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.11392,0.25831,2e-05,85
+jk marchioness,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.22411,0.54183,0.02387,85
+jk marchioness,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.3594,0.4806,0.45457,85
+jk marchioness,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.36009,0.53281,0.49915,85
+jk marchioness,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.38487,0.66051,0.03602,85
+jk marchioness,ld,0.49846,0.1931,0.00984,85
+jk marchioness,np.log1p(EXP),0.61395,0.07819,0.0,85
+jk marchioness,plain,0.79981,0.38671,0.03862,85
+jk ladbroke,Intercept,-0.99858,0.93464,0.28534,85
+jk ladbroke,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.67558,0.70868,0.01806,85
+jk ladbroke,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.88331,0.71666,0.21775,85
+jk ladbroke,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.89168,0.41091,0.0,85
+jk ladbroke,"C(typegrp, Treatment('Transport'))[T.Mining]",1.00628,0.51364,0.0501,85
+jk ladbroke,"C(typegrp, Treatment('Transport'))[T.Other]",0.66122,0.64373,0.30434,85
+jk ladbroke,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.62913,0.64764,0.01189,85
+jk ladbroke,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.79003,0.62374,1e-05,85
+jk ladbroke,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.82669,0.59716,0.16625,85
+jk ladbroke,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.12539,0.25075,1e-05,85
+jk ladbroke,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25465,0.52798,0.01749,85
+jk ladbroke,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.35047,0.48816,0.4728,85
+jk ladbroke,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.33712,0.5481,0.53851,85
+jk ladbroke,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.38414,0.6351,0.0293,85
+jk ladbroke,ld,0.51565,0.1835,0.00495,85
+jk ladbroke,np.log1p(EXP),0.60865,0.07888,0.0,85
+jk ladbroke,plain,0.79171,0.37218,0.0334,85
+jk ufton,Intercept,-1.2667,1.02294,0.21561,85
+jk ufton,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.01889,0.71883,0.00498,85
+jk ufton,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.16927,0.70562,0.0975,85
+jk ufton,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.23257,0.40717,0.0,85
+jk ufton,"C(typegrp, Treatment('Transport'))[T.Mining]",1.09056,0.51918,0.03568,85
+jk ufton,"C(typegrp, Treatment('Transport'))[T.Other]",0.98908,0.61728,0.10909,85
+jk ufton,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.49854,0.66011,0.0232,85
+jk ufton,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.72748,0.65234,3e-05,85
+jk ufton,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.49271,0.54267,0.36391,85
+jk ufton,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.06513,0.25586,3e-05,85
+jk ufton,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.24905,0.53315,0.01914,85
+jk ufton,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37454,0.48223,0.43735,85
+jk ufton,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.30878,0.53636,0.56482,85
+jk ufton,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37356,0.64934,0.0344,85
+jk ufton,ld,0.51103,0.19526,0.00886,85
+jk ufton,np.log1p(EXP),0.59982,0.07564,0.0,85
+jk ufton,plain,0.79063,0.37676,0.03586,85
+jk grenfell,Intercept,0.03398,1.03397,0.97379,85
+jk grenfell,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",1.60981,0.74543,0.03081,85
+jk grenfell,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",0.592,0.63672,0.35249,85
+jk grenfell,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",1.68786,0.41475,5e-05,85
+jk grenfell,"C(typegrp, Treatment('Transport'))[T.Mining]",0.72267,0.51846,0.16336,85
+jk grenfell,"C(typegrp, Treatment('Transport'))[T.Other]",1.06706,0.48626,0.02821,85
+jk grenfell,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.45684,0.62972,0.0207,85
+jk grenfell,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.17556,0.55121,8e-05,85
+jk grenfell,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.66093,0.478,0.16675,85
+jk grenfell,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.22552,0.35401,0.5241,85
+jk grenfell,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.04411,0.48468,0.03122,85
+jk grenfell,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.63326,0.48215,0.18905,85
+jk grenfell,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.62092,0.58846,0.29135,85
+jk grenfell,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.47002,0.65196,0.02415,85
+jk grenfell,ld,0.28792,0.22697,0.20461,85
+jk grenfell,np.log1p(EXP),0.59997,0.06975,0.0,85
+jk grenfell,plain,0.84166,0.44699,0.05971,85
+jk aquila,Intercept,-1.27727,0.99067,0.19729,85
+jk aquila,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.04353,0.70503,0.00375,85
+jk aquila,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18923,0.69755,0.08822,85
+jk aquila,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24559,0.39405,0.0,85
+jk aquila,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08146,0.51378,0.0353,85
+jk aquila,"C(typegrp, Treatment('Transport'))[T.Other]",1.00766,0.59873,0.09237,85
+jk aquila,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.4977,0.65422,0.02206,85
+jk aquila,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.72827,0.64591,2e-05,85
+jk aquila,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.46017,0.54595,0.3993,85
+jk aquila,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.05505,0.25678,4e-05,85
+jk aquila,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25118,0.5315,0.01857,85
+jk aquila,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.38013,0.48376,0.432,85
+jk aquila,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.29116,0.53747,0.58801,85
+jk aquila,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.36527,0.6488,0.03535,85
+jk aquila,ld,0.51426,0.19017,0.00685,85
+jk aquila,np.log1p(EXP),0.59525,0.07725,0.0,85
+jk aquila,plain,0.78929,0.37509,0.03536,85
+jk littlebaldon,Intercept,-1.27714,0.99129,0.19762,85
+jk littlebaldon,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.04306,0.70528,0.00377,85
+jk littlebaldon,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18883,0.69777,0.08843,85
+jk littlebaldon,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24598,0.39424,0.0,85
+jk littlebaldon,"C(typegrp, Treatment('Transport'))[T.Mining]",1.08223,0.5139,0.03521,85
+jk littlebaldon,"C(typegrp, Treatment('Transport'))[T.Other]",1.00746,0.59895,0.09256,85
+jk littlebaldon,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.497,0.65435,0.02215,85
+jk littlebaldon,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.72771,0.6462,2e-05,85
+jk littlebaldon,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.46092,0.54622,0.39877,85
+jk littlebaldon,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.05558,0.25666,4e-05,85
+jk littlebaldon,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.25103,0.5316,0.01861,85
+jk littlebaldon,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37988,0.48367,0.43221,85
+jk littlebaldon,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.29241,0.53726,0.58626,85
+jk littlebaldon,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.36578,0.64896,0.03533,85
+jk littlebaldon,ld,0.5139,0.19027,0.00692,85
+jk littlebaldon,np.log1p(EXP),0.59554,0.07717,0.0,85
+jk littlebaldon,plain,0.78941,0.37523,0.0354,85
+jk hithergreen,Intercept,-1.29411,1.00243,0.19671,85
+jk hithergreen,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.0397,0.7093,0.00403,85
+jk hithergreen,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.18607,0.70133,0.0908,85
+jk hithergreen,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.24639,0.39551,0.0,85
+jk hithergreen,"C(typegrp, Treatment('Transport'))[T.Mining]",1.09253,0.51892,0.03526,85
+jk hithergreen,"C(typegrp, Treatment('Transport'))[T.Other]",1.00799,0.60234,0.09424,85
+jk hithergreen,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.49929,0.65566,0.02221,85
+jk hithergreen,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.73448,0.65082,3e-05,85
+jk hithergreen,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.47496,0.55997,0.39634,85
+jk hithergreen,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",1.0594,0.25833,4e-05,85
+jk hithergreen,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.24962,0.53387,0.01925,85
+jk hithergreen,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.37537,0.48344,0.43748,85
+jk hithergreen,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.29935,0.5405,0.57968,85
+jk hithergreen,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.37006,0.64938,0.03488,85
+jk hithergreen,ld,0.51579,0.19124,0.007,85
+jk hithergreen,np.log1p(EXP),0.59851,0.0805,0.0,85
+jk hithergreen,plain,0.79087,0.37686,0.03586,85
+jk denmarkplace,Intercept,-1.15363,0.9441,0.22173,85
+jk denmarkplace,"C(typegrp, Treatment('Transport'))[T.Bombing or shooting]",2.14046,0.66434,0.00127,85
+jk denmarkplace,"C(typegrp, Treatment('Transport'))[T.Crowd crush]",1.26401,0.64975,0.05173,85
+jk denmarkplace,"C(typegrp, Treatment('Transport'))[T.Fire or explosion]",2.28232,0.36381,0.0,85
+jk denmarkplace,"C(typegrp, Treatment('Transport'))[T.Mining]",1.04726,0.49649,0.03492,85
+jk denmarkplace,"C(typegrp, Treatment('Transport'))[T.Other]",1.1035,0.55517,0.04685,85
+jk denmarkplace,"C(era, Treatment('1970 to 1989'))[T.1909 to 1938]",-1.57644,0.63611,0.0132,85
+jk denmarkplace,"C(era, Treatment('1970 to 1989'))[T.1939 to 1945]",-2.76826,0.60794,1e-05,85
+jk denmarkplace,"C(era, Treatment('1970 to 1989'))[T.1946 to 1969]",-0.40149,0.50547,0.42703,85
+jk denmarkplace,"C(era, Treatment('1970 to 1989'))[T.1990 to 2021]",0.91941,0.21804,2e-05,85
+jk denmarkplace,"C(regiongrp, Treatment('Rest of England'))[T.London and South East]",1.34359,0.5063,0.00796,85
+jk denmarkplace,"C(regiongrp, Treatment('Rest of England'))[T.Northern Ireland]",-0.44082,0.48512,0.36352,85
+jk denmarkplace,"C(regiongrp, Treatment('Rest of England'))[T.Scotland]",0.19135,0.52991,0.71802,85
+jk denmarkplace,"C(regiongrp, Treatment('Rest of England'))[T.Wales]",1.34191,0.64286,0.03685,85
+jk denmarkplace,ld,0.50784,0.18604,0.00634,85
+jk denmarkplace,np.log1p(EXP),0.55874,0.06374,0.0,85
+jk denmarkplace,plain,0.77889,0.364,0.03237,85

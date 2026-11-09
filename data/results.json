@@ -1,0 +1,4660 @@
+{
+ "data": {
+  "volume": {
+   "n_places": 1597,
+   "total": 305297,
+   "months": 1414,
+   "zero_months": 241
+  },
+  "events": {
+   "candidates": 105,
+   "included": 66,
+   "main": 64,
+   "excluded": 39,
+   "flag_ambiguous": 2,
+   "flag_city": 0,
+   "flag_seat": 2,
+   "src_list": 32,
+   "src_wikidata": 11,
+   "src_harvest": 23,
+   "kind_plain": 41,
+   "kind_in": 23,
+   "excl_no_term": 26,
+   "deaths_main_total": 4346,
+   "deaths_main_median": 37.0,
+   "year_min": 1910,
+   "year_max": 2020,
+   "wd_rows": 899,
+   "by_type": {
+    "Transport": 23,
+    "Mining": 15,
+    "Bombing or shooting": 12,
+    "Fire or explosion": 7,
+    "Other": 4,
+    "Crowd crush": 3
+   },
+   "by_regiongrp": {
+    "Rest of England": 28,
+    "London and South East": 15,
+    "Scotland": 10,
+    "Wales": 6,
+    "Northern Ireland": 5
+   },
+   "by_era": {
+    "1970 to 1989": 20,
+    "1990 to 2021": 15,
+    "1909 to 1938": 14,
+    "1946 to 1969": 12,
+    "1939 to 1945": 3
+   },
+   "deaths_disagree": [
+    {
+     "id": "aberfan",
+     "event": "Aberfan disaster",
+     "list": 146,
+     "wikidata": 144
+    },
+    {
+     "id": "lockerbie",
+     "event": "Lockerbie (Pan Am Flight 103)",
+     "list": 270,
+     "wikidata": 243
+    }
+   ],
+   "needed_terms": [
+    {
+     "id": "easington",
+     "event": "Easington Colliery disaster",
+     "year": 1951,
+     "deaths": 81,
+     "reason": "\"Easington\" became a seat name in 1950, inside the window; needs \"Easington Colliery\""
+    },
+    {
+     "id": "burnspit",
+     "event": "Burns Pit disaster (West Stanley)",
+     "year": 1909,
+     "deaths": 168,
+     "reason": "less than 12 months of data before the event"
+    },
+    {
+     "id": "lowmoor",
+     "event": "Low Moor explosion",
+     "year": 1916,
+     "deaths": 40,
+     "reason": "no term: needs \"Low Moor\""
+    },
+    {
+     "id": "silvertown",
+     "event": "Silvertown explosion",
+     "year": 1917,
+     "deaths": 73,
+     "reason": "plain \"Silvertown\" becomes a seat name in 1918 inside the window; needs \"Silvertown explosion\""
+    },
+    {
+     "id": "chilwell",
+     "event": "Chilwell shell filling factory explosion",
+     "year": 1918,
+     "deaths": 137,
+     "reason": "no term: needs \"Chilwell\""
+    },
+    {
+     "id": "r38",
+     "event": "R38 airship crash (Hull)",
+     "year": 1921,
+     "deaths": 44,
+     "reason": "\"Hull\" is a shared name and a seat; needs \"R38\""
+    },
+    {
+     "id": "bentley",
+     "event": "Bentley Colliery disaster",
+     "year": 1931,
+     "deaths": 45,
+     "reason": "\"Bentley\" is a surname, a car and several places; needs \"Bentley Colliery\""
+    },
+    {
+     "id": "wharncliffe",
+     "event": "Wharncliffe Woodmoor colliery disaster",
+     "year": 1936,
+     "deaths": 58,
+     "reason": "no term: needs \"Wharncliffe Woodmoor\""
+    },
+    {
+     "id": "markham",
+     "event": "Markham Colliery disaster",
+     "year": 1938,
+     "deaths": 79,
+     "reason": "\"Markham\" is a common surname; needs \"Markham Colliery\""
+    },
+    {
+     "id": "valleyfield",
+     "event": "Valleyfield mining disaster",
+     "year": 1939,
+     "deaths": 35,
+     "reason": "no term: needs \"Valleyfield\""
+    },
+    {
+     "id": "sneyd",
+     "event": "Sneyd Colliery disaster",
+     "year": 1942,
+     "deaths": 57,
+     "reason": "no term: needs \"Sneyd\""
+    },
+    {
+     "id": "fauld",
+     "event": "RAF Fauld explosion",
+     "year": 1944,
+     "deaths": 70,
+     "reason": "no term: needs \"Fauld\""
+    },
+    {
+     "id": "bourneend",
+     "event": "Bourne End rail crash",
+     "year": 1945,
+     "deaths": 43,
+     "reason": "no term: needs \"Bourne End\""
+    },
+    {
+     "id": "burngrange",
+     "event": "Burngrange mining disaster",
+     "year": 1947,
+     "deaths": 15,
+     "reason": "no term: needs \"Burngrange\""
+    },
+    {
+     "id": "llandow",
+     "event": "Llandow air disaster",
+     "year": 1950,
+     "deaths": 80,
+     "reason": "no term: needs \"Llandow\""
+    },
+    {
+     "id": "northsea",
+     "event": "North Sea flood",
+     "year": 1953,
+     "deaths": 531,
+     "reason": "many places at once (Canvey Island and others)"
+    },
+    {
+     "id": "windscale",
+     "event": "Windscale fire",
+     "year": 1957,
+     "deaths": null,
+     "reason": "no deaths at the time (later estimates only)"
+    },
+    {
+     "id": "aquila",
+     "event": "Aquila Airways flying boat crash (Isle of Wight)",
+     "year": 1957,
+     "deaths": 45,
+     "reason": "no term: needs \"Chessell\""
+    },
+    {
+     "id": "littlebaldon",
+     "event": "Little Baldon air crash",
+     "year": 1965,
+     "deaths": 41,
+     "reason": "no term: needs \"Little Baldon\""
+    },
+    {
+     "id": "penmaenpool",
+     "event": "Penmaenpool ferry disaster",
+     "year": 1966,
+     "deaths": 15,
+     "reason": "no term: needs \"Penmaenpool\""
+    },
+    {
+     "id": "hithergreen",
+     "event": "Hither Green rail crash",
+     "year": 1967,
+     "deaths": 49,
+     "reason": "no term: needs \"Hither Green\""
+    },
+    {
+     "id": "ariana",
+     "event": "Ariana Afghan Airlines crash near Gatwick",
+     "year": 1969,
+     "deaths": 50,
+     "reason": "no term: needs \"Gatwick\" or \"Fernhill\""
+    },
+    {
+     "id": "mcgurks",
+     "event": "McGurk's Bar bombing",
+     "year": 1971,
+     "deaths": 15,
+     "reason": "no term: needs \"McGurk\""
+    },
+    {
+     "id": "claudy",
+     "event": "Claudy bombing",
+     "year": 1972,
+     "deaths": 9,
+     "reason": "no term: needs \"Claudy\""
+    },
+    {
+     "id": "summerland",
+     "event": "Summerland fire (Isle of Man)",
+     "year": 1973,
+     "deaths": 50,
+     "reason": "outside the UK (Isle of Man)"
+    },
+    {
+     "id": "lofthouse",
+     "event": "Lofthouse Colliery disaster",
+     "year": 1973,
+     "deaths": null,
+     "reason": "\"Lofthouse\" is the surname of an MP elected in 1978, inside the window; death toll not verified"
+    },
+    {
+     "id": "m62",
+     "event": "M62 coach bombing",
+     "year": 1974,
+     "deaths": 12,
+     "reason": "no term: needs \"M62 coach\""
+    },
+    {
+     "id": "kingsmill",
+     "event": "Kingsmill massacre",
+     "year": 1976,
+     "deaths": 10,
+     "reason": "no term: needs \"Kingsmill\""
+    },
+    {
+     "id": "denmarkplace",
+     "event": "Denmark Place fire",
+     "year": 1980,
+     "deaths": 37,
+     "reason": "London-wide term only: needs \"Denmark Place\""
+    },
+    {
+     "id": "hydepark",
+     "event": "Hyde Park and Regent's Park bombings",
+     "year": 1982,
+     "deaths": 11,
+     "reason": "London-wide term only: needs \"Hyde Park\" and \"Regent's Park\""
+    },
+    {
+     "id": "droppinwell",
+     "event": "Droppin Well bombing (Ballykelly)",
+     "year": 1982,
+     "deaths": 17,
+     "reason": "no term: needs \"Ballykelly\""
+    },
+    {
+     "id": "manchesterair",
+     "event": "Manchester air disaster (Ringway)",
+     "year": 1985,
+     "deaths": 55,
+     "reason": "city term only: needs \"Manchester Airport\""
+    },
+    {
+     "id": "ballygawley",
+     "event": "Ballygawley bus bombing",
+     "year": 1988,
+     "deaths": 8,
+     "reason": "no term: needs \"Ballygawley\""
+    },
+    {
+     "id": "london77",
+     "event": "7 July 2005 London bombings",
+     "year": 2005,
+     "deaths": 56,
+     "reason": "London-wide term only: needs \"7 July\" or \"7/7\""
+    },
+    {
+     "id": "gleision",
+     "event": "Gleision Colliery accident",
+     "year": 2011,
+     "deaths": 4,
+     "reason": "no term: needs \"Gleision\""
+    },
+    {
+     "id": "londonbridge",
+     "event": "June 2017 London Bridge attack",
+     "year": 2017,
+     "deaths": 11,
+     "reason": "London-wide term only: needs \"London Bridge\""
+    },
+    {
+     "id": "clydach",
+     "event": "Cambrian Colliery explosion (Clydach Vale)",
+     "year": 1965,
+     "deaths": null,
+     "reason": "\"Clydach\" names two places (Clydach near Swansea is in the town list); death toll not verified"
+    },
+    {
+     "id": "markham73",
+     "event": "Markham Colliery cage accident",
+     "year": 1973,
+     "deaths": 18,
+     "reason": "\"Markham\" is a common surname"
+    },
+    {
+     "id": "sheffieldfloods",
+     "event": "2007 floods (Sheffield)",
+     "year": 2007,
+     "deaths": null,
+     "reason": "floods across many places; phrase never used in the Commons"
+    }
+   ]
+  },
+  "events_ext": {
+   "candidates": 105,
+   "included": 92,
+   "main": 86,
+   "excluded": 13,
+   "flag_ambiguous": 6,
+   "flag_city": 0,
+   "flag_seat": 2,
+   "src_list": 47,
+   "src_wikidata": 21,
+   "src_harvest": 24,
+   "kind_plain": 63,
+   "kind_in": 23,
+   "excl_no_term": 6,
+   "deaths_main_total": 5330,
+   "deaths_main_median": 40.5,
+   "year_min": 1910,
+   "year_max": 2020,
+   "wd_rows": 899,
+   "by_type": {
+    "Transport": 29,
+    "Mining": 24,
+    "Bombing or shooting": 15,
+    "Fire or explosion": 11,
+    "Other": 4,
+    "Crowd crush": 3
+   },
+   "by_regiongrp": {
+    "Rest of England": 38,
+    "London and South East": 19,
+    "Scotland": 12,
+    "Wales": 9,
+    "Northern Ireland": 8
+   },
+   "by_era": {
+    "1970 to 1989": 25,
+    "1909 to 1938": 20,
+    "1946 to 1969": 19,
+    "1990 to 2021": 16,
+    "1939 to 1945": 6
+   },
+   "deaths_disagree": [
+    {
+     "id": "aberfan",
+     "event": "Aberfan disaster",
+     "list": 146,
+     "wikidata": 144
+    },
+    {
+     "id": "lockerbie",
+     "event": "Lockerbie (Pan Am Flight 103)",
+     "list": 270,
+     "wikidata": 243
+    }
+   ],
+   "needed_terms": [
+    {
+     "id": "burnspit",
+     "event": "Burns Pit disaster (West Stanley)",
+     "year": 1909,
+     "deaths": 168,
+     "reason": "less than 12 months of data before the event"
+    },
+    {
+     "id": "silvertown",
+     "event": "Silvertown explosion",
+     "year": 1917,
+     "deaths": 73,
+     "reason": "\"Silvertown\" became a seat name in 1918, inside the window, and no event-specific phrase was found in use"
+    },
+    {
+     "id": "northsea",
+     "event": "North Sea flood",
+     "year": 1953,
+     "deaths": 531,
+     "reason": "many places at once (Canvey Island and others)"
+    },
+    {
+     "id": "windscale",
+     "event": "Windscale fire",
+     "year": 1957,
+     "deaths": null,
+     "reason": "no deaths at the time (later estimates only)"
+    },
+    {
+     "id": "summerland",
+     "event": "Summerland fire (Isle of Man)",
+     "year": 1973,
+     "deaths": 50,
+     "reason": "outside the UK (Isle of Man)"
+    },
+    {
+     "id": "lofthouse",
+     "event": "Lofthouse Colliery disaster",
+     "year": 1973,
+     "deaths": null,
+     "reason": "\"Lofthouse\" is the surname of an MP elected in 1978, inside the window; death toll not verified"
+    },
+    {
+     "id": "m62",
+     "event": "M62 coach bombing",
+     "year": 1974,
+     "deaths": 12,
+     "reason": "\"M62\" names the motorway (47 contributions in the 24 months before); no event-specific phrase harvested"
+    },
+    {
+     "id": "hydepark",
+     "event": "Hyde Park and Regent's Park bombings",
+     "year": 1982,
+     "deaths": 11,
+     "reason": "\"Hyde Park\" and \"Regent's Park\" are broad (1,337 and 456 contributions before the window); \"Hyde Park bomb\" and \"Regent's Park bomb\" find 0 and 1 in the five years after"
+    },
+    {
+     "id": "manchesterair",
+     "event": "Manchester air disaster (Ringway)",
+     "year": 1985,
+     "deaths": 55,
+     "reason": "\"Manchester Airport\" names the airport (91 contributions in the 24 months before)"
+    },
+    {
+     "id": "london77",
+     "event": "7 July 2005 London bombings",
+     "year": 2005,
+     "deaths": 56,
+     "reason": "\"7 July\" is a date and \"7/7\" matched 342 contributions before 2005; London-wide otherwise"
+    },
+    {
+     "id": "londonbridge",
+     "event": "June 2017 London Bridge attack",
+     "year": 2017,
+     "deaths": 11,
+     "reason": "\"London Bridge\" is broad (85 contributions in the 24 months before)"
+    },
+    {
+     "id": "clydach",
+     "event": "Cambrian Colliery explosion (Clydach Vale)",
+     "year": 1965,
+     "deaths": null,
+     "reason": "\"Clydach\" names two places (Clydach near Swansea is in the town list); death toll not verified"
+    },
+    {
+     "id": "sheffieldfloods",
+     "event": "2007 floods (Sheffield)",
+     "year": 2007,
+     "deaths": null,
+     "reason": "floods across many places; phrase never used in the Commons"
+    }
+   ],
+   "added_included": 26,
+   "added_main": 22,
+   "added_ambiguous": 4,
+   "added_deaths": 984,
+   "added_zero": 7,
+   "added_list": [
+    {
+     "id": "lowmoor",
+     "event": "Low Moor explosion",
+     "year": 1916,
+     "deaths": 40,
+     "term": "Low Moor",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "chilwell",
+     "event": "Chilwell shell filling factory explosion",
+     "year": 1918,
+     "deaths": 137,
+     "term": "Chilwell",
+     "flag": "",
+     "C": 7
+    },
+    {
+     "id": "r38",
+     "event": "R38 airship crash (Hull)",
+     "year": 1921,
+     "deaths": 44,
+     "term": "R.38",
+     "flag": "",
+     "C": 2
+    },
+    {
+     "id": "bentley",
+     "event": "Bentley Colliery disaster",
+     "year": 1931,
+     "deaths": 45,
+     "term": "Bentley Colliery",
+     "flag": "",
+     "C": 3
+    },
+    {
+     "id": "wharncliffe",
+     "event": "Wharncliffe Woodmoor colliery disaster",
+     "year": 1936,
+     "deaths": 58,
+     "term": "Wharncliffe Woodmoor",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "markham",
+     "event": "Markham Colliery disaster",
+     "year": 1938,
+     "deaths": 79,
+     "term": "Markham Colliery",
+     "flag": "",
+     "C": 7
+    },
+    {
+     "id": "valleyfield",
+     "event": "Valleyfield mining disaster",
+     "year": 1939,
+     "deaths": 35,
+     "term": "Valleyfield",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "sneyd",
+     "event": "Sneyd Colliery disaster",
+     "year": 1942,
+     "deaths": 57,
+     "term": "Sneyd",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "fauld",
+     "event": "RAF Fauld explosion",
+     "year": 1944,
+     "deaths": 70,
+     "term": "Fauld",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "bourneend",
+     "event": "Bourne End rail crash",
+     "year": 1945,
+     "deaths": 43,
+     "term": "Bourne End",
+     "flag": "ambiguous",
+     "C": 2
+    },
+    {
+     "id": "burngrange",
+     "event": "Burngrange mining disaster",
+     "year": 1947,
+     "deaths": 15,
+     "term": "Burngrange",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "llandow",
+     "event": "Llandow air disaster",
+     "year": 1950,
+     "deaths": 80,
+     "term": "Llandow",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "easington",
+     "event": "Easington Colliery disaster",
+     "year": 1951,
+     "deaths": 81,
+     "term": "Easington Colliery",
+     "flag": "",
+     "C": 3
+    },
+    {
+     "id": "aquila",
+     "event": "Aquila Airways flying boat crash (Isle of Wight)",
+     "year": 1957,
+     "deaths": 45,
+     "term": "Chessell",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "littlebaldon",
+     "event": "Little Baldon air crash",
+     "year": 1965,
+     "deaths": 41,
+     "term": "Little Baldon",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "penmaenpool",
+     "event": "Penmaenpool ferry disaster",
+     "year": 1966,
+     "deaths": 15,
+     "term": "Penmaenpool",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "hithergreen",
+     "event": "Hither Green rail crash",
+     "year": 1967,
+     "deaths": 49,
+     "term": "Hither Green",
+     "flag": "",
+     "C": 25
+    },
+    {
+     "id": "ariana",
+     "event": "Ariana Afghan Airlines crash near Gatwick",
+     "year": 1969,
+     "deaths": 50,
+     "term": "Fernhill",
+     "flag": "ambiguous",
+     "C": 6
+    },
+    {
+     "id": "mcgurks",
+     "event": "McGurk's Bar bombing",
+     "year": 1971,
+     "deaths": 15,
+     "term": "McGurk",
+     "flag": "ambiguous",
+     "C": 0
+    },
+    {
+     "id": "claudy",
+     "event": "Claudy bombing",
+     "year": 1972,
+     "deaths": 9,
+     "term": "Claudy",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "markham73",
+     "event": "Markham Colliery cage accident",
+     "year": 1973,
+     "deaths": 18,
+     "term": "Markham Colliery",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "kingsmill",
+     "event": "Kingsmill massacre",
+     "year": 1976,
+     "deaths": 10,
+     "term": "Kingsmill",
+     "flag": "ambiguous",
+     "C": 0
+    },
+    {
+     "id": "denmarkplace",
+     "event": "Denmark Place fire",
+     "year": 1980,
+     "deaths": 37,
+     "term": "Denmark Place",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "droppinwell",
+     "event": "Droppin Well bombing (Ballykelly)",
+     "year": 1982,
+     "deaths": 17,
+     "term": "Ballykelly",
+     "flag": "",
+     "C": 35
+    },
+    {
+     "id": "ballygawley",
+     "event": "Ballygawley bus bombing",
+     "year": 1988,
+     "deaths": 8,
+     "term": "Ballygawley",
+     "flag": "",
+     "C": 9
+    },
+    {
+     "id": "gleision",
+     "event": "Gleision Colliery accident",
+     "year": 2011,
+     "deaths": 4,
+     "term": "Gleision",
+     "flag": "",
+     "C": 15
+    }
+   ]
+  }
+ },
+ "desc": {
+  "n": 64,
+  "any_post": 60,
+  "zero_post": 4,
+  "C_total": 6500,
+  "C_median": 14.0,
+  "P_total": 999,
+  "pos_excess": 54,
+  "deaths_total": 4346,
+  "spearman_deaths_C": -0.06178360773795819,
+  "spearman_deaths_CX": -0.14512305834279032,
+  "top_C": [
+   {
+    "id": "grenfell",
+    "event": "Grenfell Tower fire",
+    "term": "Grenfell",
+    "year": 2017,
+    "deaths": 72,
+    "C": 1686,
+    "E": 4.7,
+    "P": 259,
+    "peak": 132,
+    "half_k": 23
+   },
+   {
+    "id": "lewisham",
+    "event": "Lewisham rail crash",
+    "term": "Lewisham",
+    "year": 1957,
+    "deaths": 90,
+    "C": 1130,
+    "E": 1639.9,
+    "P": 84,
+    "peak": 52,
+    "half_k": null
+   },
+   {
+    "id": "kingscross",
+    "event": "King's Cross fire",
+    "term": "King's Cross",
+    "year": 1987,
+    "deaths": 31,
+    "C": 1009,
+    "E": 32.7,
+    "P": 106,
+    "peak": 98,
+    "half_k": 24
+   },
+   {
+    "id": "birmingham",
+    "event": "Birmingham pub bombings",
+    "term": "Birmingham",
+    "year": 1974,
+    "deaths": 21,
+    "C": 597,
+    "E": 492.2,
+    "P": 84,
+    "peak": 51,
+    "half_k": 1
+   },
+   {
+    "id": "aberfan",
+    "event": "Aberfan disaster",
+    "term": "Aberfan",
+    "year": 1966,
+    "deaths": 146,
+    "C": 203,
+    "E": 0.0,
+    "P": 48,
+    "peak": 34,
+    "half_k": 14
+   },
+   {
+    "id": "bethnalgreen",
+    "event": "Bethnal Green tube station crush",
+    "term": "Bethnal Green",
+    "year": 1943,
+    "deaths": 173,
+    "C": 189,
+    "E": 306.7,
+    "P": 10,
+    "peak": 27,
+    "half_k": null
+   },
+   {
+    "id": "piperalpha",
+    "event": "Piper Alpha",
+    "term": "Piper Alpha",
+    "year": 1988,
+    "deaths": 167,
+    "C": 178,
+    "E": 0.0,
+    "P": 14,
+    "peak": 24,
+    "half_k": 28
+   },
+   {
+    "id": "bloodysunday",
+    "event": "Bloody Sunday (Derry)",
+    "term": "Londonderry",
+    "year": 1972,
+    "deaths": 14,
+    "C": 163,
+    "E": 99.6,
+    "P": 26,
+    "peak": 16,
+    "half_k": 4
+   },
+   {
+    "id": "flixborough",
+    "event": "Flixborough disaster",
+    "term": "Flixborough",
+    "year": 1974,
+    "deaths": 28,
+    "C": 112,
+    "E": 0.0,
+    "P": 54,
+    "peak": 43,
+    "half_k": 5
+   },
+   {
+    "id": "enniskillen",
+    "event": "Enniskillen bombing",
+    "term": "Enniskillen",
+    "year": 1987,
+    "deaths": 11,
+    "C": 107,
+    "E": 10.9,
+    "P": 40,
+    "peak": 31,
+    "half_k": 4
+   },
+   {
+    "id": "morecambe",
+    "event": "Morecambe Bay cockling disaster",
+    "term": "Morecambe Bay",
+    "year": 2004,
+    "deaths": 22,
+    "C": 104,
+    "E": 14.0,
+    "P": 40,
+    "peak": 31,
+    "half_k": 3
+   },
+   {
+    "id": "gresford",
+    "event": "Gresford disaster",
+    "term": "Gresford",
+    "year": 1934,
+    "deaths": 266,
+    "C": 98,
+    "E": 0.0,
+    "P": 6,
+    "peak": 30,
+    "half_k": 29
+   }
+  ],
+  "top3_share_pc": 58.84615384615385
+ },
+ "M1": {
+  "ld": {
+   "b": 0.4162266923129645,
+   "lo": 0.04776154772325508,
+   "hi": 0.7846918369026739,
+   "p": 0.02682737946126998,
+   "n": 64
+  },
+  "lE": {
+   "b": 0.602238200732399,
+   "lo": 0.43853241513025776,
+   "hi": 0.7659439863345402,
+   "p": 5.583535861437272e-13,
+   "n": 64
+  },
+  "plain": {
+   "b": 118.71448583628847,
+   "lo": -9.856292165916214,
+   "hi": 430.66406368237915,
+   "p": 0.08353847859191002
+  },
+  "n": 64,
+  "types": {
+   "Mining": {
+    "b": 145.8492299339646,
+    "lo": -45.95243379477117,
+    "hi": 1018.3083365791952,
+    "p": 0.24447959948663667
+   },
+   "Fire or explosion": {
+    "b": 962.3338265351158,
+    "lo": 321.10213061803876,
+    "hi": 2579.9986913967837,
+    "p": 5.582062985650306e-07
+   },
+   "Crowd crush": {
+    "b": 136.46396183726904,
+    "lo": -23.79744464747563,
+    "hi": 633.7707375967296,
+    "p": 0.1363361847929725
+   },
+   "Bombing or shooting": {
+    "b": 171.36289809538536,
+    "lo": -9.180402600742365,
+    "hi": 710.8142358196405,
+    "p": 0.07385065661802262
+   },
+   "Other": {
+    "b": -7.679938769702622,
+    "lo": -62.26322852700918,
+    "hi": 125.85381241916748,
+    "p": 0.8610281825426673
+   }
+  },
+  "eras": {
+   "1909 to 1938": {
+    "b": -61.02990909086714,
+    "lo": -92.88208080784592,
+    "hi": 113.3584190081947,
+    "p": 0.2773155839472736
+   },
+   "1939 to 1945": {
+    "b": -84.27901493436738,
+    "lo": -95.11391565934879,
+    "hi": -49.41770256038931,
+    "p": 0.0019151873448535741
+   },
+   "1946 to 1969": {
+    "b": 8.583973402838009,
+    "lo": -73.2034323804792,
+    "hi": 339.9996091797625,
+    "p": 0.9081639296686683
+   },
+   "1990 to 2021": {
+    "b": 318.0590142125627,
+    "lo": 95.60349901522535,
+    "hi": 793.5082462444898,
+    "p": 0.0002231440509181224
+   }
+  }
+ },
+ "M1p": {
+  "ld": {
+   "b": 0.24343950698513284,
+   "lo": -0.06858009081931182,
+   "hi": 0.5554591047895775,
+   "p": 0.1262209888931518,
+   "n": 64
+  },
+  "n": 64
+ },
+ "M1g": {
+  "ld": {
+   "b": 0.421351498050323,
+   "lo": 0.03479394983310047,
+   "hi": 0.8079090462675456,
+   "p": 0.032648464235203706,
+   "n": 64
+  },
+  "n": 64,
+  "London and South East": {
+   "b": 254.76692718355469,
+   "lo": 20.21356255591542,
+   "hi": 946.966498182932,
+   "p": 0.021825667329775922
+  },
+  "Scotland": {
+   "b": 12.007331127546482,
+   "lo": -61.946575572893536,
+   "hi": 229.68497356519765,
+   "p": 0.8368948583956266
+  },
+  "Wales": {
+   "b": 400.02984805360563,
+   "lo": -6.695388521457324,
+   "hi": 2579.7158788021043,
+   "p": 0.06023673335967292
+  },
+  "Northern Ireland": {
+   "b": -40.51713038576551,
+   "lo": -80.36942740984512,
+   "hi": 80.23986622369361,
+   "p": 0.35839662882593093
+  }
+ },
+ "M1n": {
+  "ld": {
+   "b": 0.41053007431724864,
+   "lo": -0.018720093006192928,
+   "hi": 0.8397802416406902,
+   "p": 0.060863235369139526,
+   "n": 64
+  },
+  "n": 64,
+  "Scotland": {
+   "b": -16.963859091280398,
+   "lo": -66.65296169337805,
+   "hi": 106.76500964235709,
+   "p": 0.689622230123263
+  },
+  "Wales": {
+   "b": 292.87977009840915,
+   "lo": -21.47229491041753,
+   "hi": 1865.6058148712618,
+   "p": 0.09577065373165619
+  },
+  "Northern Ireland": {
+   "b": -40.82826580161898,
+   "lo": -80.51210118511644,
+   "hi": 79.66504040804017,
+   "p": 0.3544542394866912
+  }
+ },
+ "M1m": {
+  "ld": {
+   "b": 1.0014683722993711,
+   "lo": 0.333433748519648,
+   "hi": 1.6695029960790944,
+   "p": 0.0033008794403323358,
+   "n": 64
+  },
+  "mining": {
+   "b": 249.54090259267156,
+   "lo": -55.96408747122747,
+   "hi": 2674.5273248390013,
+   "p": 0.23641202237782988
+  },
+  "n": 64
+ },
+ "M1era": {
+  "pre46": {
+   "b": 0.36664581730543,
+   "lo": -0.6339430014815822,
+   "hi": 1.3672346360924421,
+   "p": 0.4726403196720511,
+   "n": 64
+  },
+  "diff": {
+   "b": 0.05500409425966324,
+   "lo": -1.0598997869026556,
+   "hi": 1.169907975421982,
+   "p": 0.9229683164875587
+  },
+  "post46_b": 0.42164991156509324,
+  "n": 64
+ },
+ "influence": {
+  "top3_deaths": [
+   "Pretoria Pit disaster (Hulton Colliery)",
+   "Senghenydd colliery disaster",
+   "Lockerbie (Pan Am Flight 103)"
+  ],
+  "top_attention": [
+   "Grenfell Tower fire"
+  ]
+ },
+ "swap": {
+  "n_swapped": 30,
+  "C_main_swapped": 881,
+  "C_alt_swapped": 9433
+ },
+ "placebo": {
+  "n": 61,
+  "C_total": 1084,
+  "any": 25
+ },
+ "perm": {
+  "draws": 2000,
+  "p_two": 0.0685,
+  "p_one": 0.0405,
+  "p_two_pc": 6.8500000000000005
+ },
+ "phrase": {
+  "n_swapped": 8,
+  "cases": {
+   "gresford": {
+    "phrase": "Gresford disaster",
+    "C_phrase": 13,
+    "P_phrase": 1,
+    "C_main": 98,
+    "term": "Gresford",
+    "kind": "plain"
+   },
+   "aberfan": {
+    "phrase": "Aberfan disaster",
+    "C_phrase": 52,
+    "P_phrase": 15,
+    "C_main": 203,
+    "term": "Aberfan",
+    "kind": "plain"
+   },
+   "moorgate": {
+    "phrase": "Moorgate disaster",
+    "C_phrase": 2,
+    "P_phrase": 2,
+    "C_main": 20,
+    "term": "Moorgate",
+    "kind": "plain"
+   },
+   "kingscross": {
+    "phrase": "King's Cross fire",
+    "C_phrase": 77,
+    "P_phrase": 11,
+    "C_main": 1009,
+    "term": "King's Cross",
+    "kind": "plain"
+   },
+   "clapham": {
+    "phrase": "Clapham rail",
+    "C_phrase": 19,
+    "P_phrase": 1,
+    "C_main": 69,
+    "term": "Clapham Junction",
+    "kind": "plain"
+   },
+   "lockerbie": {
+    "phrase": "Lockerbie",
+    "C_phrase": 239,
+    "P_phrase": 68,
+    "C_main": 10,
+    "term": "Lockerbie",
+    "kind": "in"
+   },
+   "hillsborough": {
+    "phrase": "Hillsborough disaster",
+    "C_phrase": 70,
+    "P_phrase": 28,
+    "C_main": 400,
+    "term": "Hillsborough",
+    "kind": "plain"
+   },
+   "grenfell": {
+    "phrase": "Grenfell Tower",
+    "C_phrase": 814,
+    "P_phrase": 210,
+    "C_main": 1686,
+    "term": "Grenfell",
+    "kind": "plain"
+   }
+  },
+  "sens": {
+   "label": "Disaster-specific phrase where one exists (adds Hillsborough)",
+   "group": "S",
+   "b": 0.52873515160714,
+   "lo": 0.2673716489447318,
+   "hi": 0.7900986542695483,
+   "p": 7.340116672907869e-05,
+   "n": 65
+  },
+  "sens_ext": {
+   "label": "Disaster-specific phrase where one exists (adds Hillsborough)",
+   "group": "S",
+   "b": 0.6003988402278909,
+   "lo": 0.35430731664062015,
+   "hi": 0.8464903638151617,
+   "p": 1.7373369421494448e-06,
+   "n": 87
+  }
+ },
+ "X_london": {
+  "main": {
+   "b": 254.76692718355469,
+   "lo": 20.21356255591542,
+   "hi": 946.966498182932,
+   "p": 0.021825667329775922,
+   "n": 64
+  },
+  "drop King's Cross": {
+   "b": 298.21323195594067,
+   "lo": 39.469605616653936,
+   "hi": 1036.9773177723869,
+   "p": 0.009838418635548888,
+   "n": 63
+  },
+  "drop Grenfell": {
+   "b": 184.47581377473642,
+   "lo": 11.306568919464087,
+   "hi": 627.0594126511339,
+   "p": 0.028984089711946482,
+   "n": 63
+  },
+  "drop Grenfell and King's Cross": {
+   "b": 39.12061334563042,
+   "lo": -19.93397301662786,
+   "hi": 141.73230253680367,
+   "p": 0.24148379203118153,
+   "n": 62
+  },
+  "swap terms": {
+   "b": 40.42742647784194,
+   "lo": -33.90032805159125,
+   "hi": 198.33524926691308,
+   "p": 0.3771761595644185,
+   "n": 64
+  },
+  "jackknife_min": {
+   "id": "grenfell",
+   "b": 184.47581377473642,
+   "lo": 11.306568919464087,
+   "hi": 627.0594126511339,
+   "p": 0.028984089711946482
+  },
+  "jackknife_max": {
+   "id": "hungerford",
+   "b": 300.7092435263825,
+   "lo": 24.74257402860065,
+   "hi": 1187.1940401892875,
+   "p": 0.019738916540897218
+  },
+  "jackknife_sig": 15,
+  "jackknife_n": 15
+ },
+ "robust": [
+  {
+   "label": "Main model (M1)",
+   "group": "main",
+   "b": 0.4162266923129645,
+   "lo": 0.04776154772325508,
+   "hi": 0.7846918369026739,
+   "p": 0.02682737946126998,
+   "n": 64
+  },
+  {
+   "label": "Peak: first three months",
+   "group": "main",
+   "b": 0.24343950698513284,
+   "lo": -0.06858009081931182,
+   "hi": 0.5554591047895775,
+   "p": 0.1262209888931518,
+   "n": 64
+  },
+  {
+   "label": "OLS of log(1 + excess)",
+   "group": "R1",
+   "b": 0.12905443554557466,
+   "lo": -0.20217933112775244,
+   "hi": 0.46028820221890177,
+   "p": 0.445084158984568,
+   "n": 64
+  },
+  {
+   "label": "PPML without type and era",
+   "group": "R1",
+   "b": 0.10052727894130678,
+   "lo": -0.2507496501191592,
+   "hi": 0.4518042080017728,
+   "p": 0.5748683947446371,
+   "n": 64
+  },
+  {
+   "label": "Negative binomial",
+   "group": "R1",
+   "b": 0.2876423137910476,
+   "lo": -0.02147718119462061,
+   "hi": 0.5967618087767158,
+   "p": 0.06818405538948291,
+   "n": 64
+  },
+  {
+   "label": "Drop seat-name terms",
+   "group": "R2",
+   "b": 0.40794727706821987,
+   "lo": 0.009543487893781344,
+   "hi": 0.8063510662426584,
+   "p": 0.04475886673440718,
+   "n": 62
+  },
+  {
+   "label": "Add ambiguous terms",
+   "group": "R2",
+   "b": 0.4005142255902249,
+   "lo": 0.041818181009247946,
+   "hi": 0.7592102701712019,
+   "p": 0.028635805199220578,
+   "n": 66
+  },
+  {
+   "label": "Wikipedia list and Wikidata events only",
+   "group": "R2",
+   "b": 0.9108507197975503,
+   "lo": 0.09505829333237503,
+   "hi": 1.7266431462627256,
+   "p": 0.02864454123479291,
+   "n": 41
+  },
+  {
+   "label": "Drop wartime events",
+   "group": "R2",
+   "b": 0.3902036204913306,
+   "lo": 0.03659282904067568,
+   "hi": 0.7438144119419856,
+   "p": 0.03055751806158997,
+   "n": 58
+  },
+  {
+   "label": "Drop Northern Ireland bombings and shootings",
+   "group": "R2",
+   "b": 0.38253936216627815,
+   "lo": 0.01121617368360417,
+   "hi": 0.7538625506489521,
+   "p": 0.04346990863204056,
+   "n": 59
+  },
+  {
+   "label": "Wikipedia list events only (40 or more deaths)",
+   "group": "X",
+   "b": 2.0242121781466524,
+   "lo": 0.8420934574474384,
+   "hi": 3.2063308988458665,
+   "p": 0.0007903200927743719,
+   "n": 31
+  },
+  {
+   "label": "Leave out London and South East",
+   "group": "R3 region",
+   "b": 0.38061800210732477,
+   "lo": -0.10596071487492015,
+   "hi": 0.8671967190895697,
+   "p": 0.12523919614562204,
+   "n": 49
+  },
+  {
+   "label": "Leave out Northern Ireland",
+   "group": "R3 region",
+   "b": 0.38253936216627815,
+   "lo": 0.01121617368360417,
+   "hi": 0.7538625506489521,
+   "p": 0.04346990863204056,
+   "n": 59
+  },
+  {
+   "label": "Leave out Rest of England",
+   "group": "R3 region",
+   "b": 0.551513304988259,
+   "lo": 0.16097421998148642,
+   "hi": 0.9420523899950316,
+   "p": 0.005643069694257603,
+   "n": 36
+  },
+  {
+   "label": "Leave out Scotland",
+   "group": "R3 region",
+   "b": 0.4780469972792358,
+   "lo": -0.33506600749490506,
+   "hi": 1.2911600020533767,
+   "p": 0.24919540103731475,
+   "n": 54
+  },
+  {
+   "label": "Leave out Wales",
+   "group": "R3 region",
+   "b": 0.2612809426768013,
+   "lo": -0.09317440652244752,
+   "hi": 0.6157362918760501,
+   "p": 0.14852663621874643,
+   "n": 58
+  },
+  {
+   "label": "Leave out bombing or shooting",
+   "group": "R3 type",
+   "b": 0.3231259831036972,
+   "lo": -0.17152304050062933,
+   "hi": 0.8177750067080238,
+   "p": 0.20042817368300225,
+   "n": 52
+  },
+  {
+   "label": "Leave out crowd crush",
+   "group": "R3 type",
+   "b": 0.39743236503657847,
+   "lo": 0.024514325653365254,
+   "hi": 0.7703504044197917,
+   "p": 0.03672526650071132,
+   "n": 61
+  },
+  {
+   "label": "Leave out fire or explosion",
+   "group": "R3 type",
+   "b": 0.4324652575274928,
+   "lo": 0.006924006704008334,
+   "hi": 0.8580065083509774,
+   "p": 0.04638700539474365,
+   "n": 57
+  },
+  {
+   "label": "Leave out mining",
+   "group": "R3 type",
+   "b": 0.26609876018645845,
+   "lo": -0.1068514442467835,
+   "hi": 0.6390489646197004,
+   "p": 0.16198459766680728,
+   "n": 49
+  },
+  {
+   "label": "Leave out other",
+   "group": "R3 type",
+   "b": 0.44032123528641215,
+   "lo": 0.057392536600894994,
+   "hi": 0.8232499339719292,
+   "p": 0.02421383832534119,
+   "n": 60
+  },
+  {
+   "label": "Leave out transport",
+   "group": "R3 type",
+   "b": 0.46010231657524076,
+   "lo": -0.14114119899891492,
+   "hi": 1.0613458321493965,
+   "p": 0.13364943434641766,
+   "n": 41
+  },
+  {
+   "label": "Drop the three largest death tolls",
+   "group": "R3",
+   "b": 0.5626798753796074,
+   "lo": 0.040184660369667946,
+   "hi": 1.085175090389547,
+   "p": 0.03479783600112645,
+   "n": 61
+  },
+  {
+   "label": "Drop the event with most attention",
+   "group": "R3",
+   "b": 0.2751638396152913,
+   "lo": -0.14532992561437236,
+   "hi": 0.695657604844955,
+   "p": 0.19964399407191546,
+   "n": 63
+  },
+  {
+   "label": "Window 36 months",
+   "group": "R4",
+   "b": 0.43502717906720134,
+   "lo": 0.10797527029193327,
+   "hi": 0.7620790878424695,
+   "p": 0.009132853167659202,
+   "n": 64
+  },
+  {
+   "label": "Baseline 12 months",
+   "group": "R4",
+   "b": 0.5257972458890974,
+   "lo": 0.12048637784837918,
+   "hi": 0.9311081139298156,
+   "p": 0.011003091499826768,
+   "n": 64
+  },
+  {
+   "label": "No volume adjustment",
+   "group": "R4",
+   "b": 0.3953325404258794,
+   "lo": 0.0330936408194385,
+   "hi": 0.7575714400323204,
+   "p": 0.03243376021693116,
+   "n": 64
+  },
+  {
+   "label": "Plain-phrase terms only",
+   "group": "R4",
+   "b": 0.32838016148706306,
+   "lo": -0.22353147641443272,
+   "hi": 0.8802917993885588,
+   "p": 0.24355268105525152,
+   "n": 41
+  },
+  {
+   "label": "\"in\" terms only",
+   "group": "R4",
+   "b": 0.13510270091118973,
+   "lo": -0.21725786736048705,
+   "hi": 0.48746326918286653,
+   "p": 0.4523561358020777,
+   "n": 23
+  },
+  {
+   "label": "Swap to the other term where one exists",
+   "group": "R4",
+   "b": 0.35003462763438276,
+   "lo": 0.13831552605063493,
+   "hi": 0.5617537292181306,
+   "p": 0.0011936077261830923,
+   "n": 64
+  },
+  {
+   "label": "Wikidata death toll where both",
+   "group": "R4",
+   "b": 0.4206539765871531,
+   "lo": 0.04732514938146504,
+   "hi": 0.7939828037928411,
+   "p": 0.027215047035818684,
+   "n": 64
+  },
+  {
+   "label": "Placebo: fake date 36 months earlier",
+   "group": "R5",
+   "b": 0.01416227069562412,
+   "lo": -0.312443343316276,
+   "hi": 0.3407678847075243,
+   "p": 0.9322709732096182,
+   "n": 61
+  },
+  {
+   "label": "Disaster-specific phrase where one exists (adds Hillsborough)",
+   "group": "S",
+   "b": 0.52873515160714,
+   "lo": 0.2673716489447318,
+   "hi": 0.7900986542695483,
+   "p": 7.340116672907869e-05,
+   "n": 65
+  },
+  {
+   "label": "Drop King's Cross (railway bill debates in the window)",
+   "group": "X",
+   "b": 0.5963210753586221,
+   "lo": 0.1794498690792526,
+   "hi": 1.0131922816379917,
+   "p": 0.005052513897653577,
+   "n": 63
+  }
+ ],
+ "loro": [
+  {
+   "label": "Leave out London and South East",
+   "group": "R3 region",
+   "b": 0.38061800210732477,
+   "lo": -0.10596071487492015,
+   "hi": 0.8671967190895697,
+   "p": 0.12523919614562204,
+   "n": 49
+  },
+  {
+   "label": "Leave out Northern Ireland",
+   "group": "R3 region",
+   "b": 0.38253936216627815,
+   "lo": 0.01121617368360417,
+   "hi": 0.7538625506489521,
+   "p": 0.04346990863204056,
+   "n": 59
+  },
+  {
+   "label": "Leave out Rest of England",
+   "group": "R3 region",
+   "b": 0.551513304988259,
+   "lo": 0.16097421998148642,
+   "hi": 0.9420523899950316,
+   "p": 0.005643069694257603,
+   "n": 36
+  },
+  {
+   "label": "Leave out Scotland",
+   "group": "R3 region",
+   "b": 0.4780469972792358,
+   "lo": -0.33506600749490506,
+   "hi": 1.2911600020533767,
+   "p": 0.24919540103731475,
+   "n": 54
+  },
+  {
+   "label": "Leave out Wales",
+   "group": "R3 region",
+   "b": 0.2612809426768013,
+   "lo": -0.09317440652244752,
+   "hi": 0.6157362918760501,
+   "p": 0.14852663621874643,
+   "n": 58
+  },
+  {
+   "label": "Leave out bombing or shooting",
+   "group": "R3 type",
+   "b": 0.3231259831036972,
+   "lo": -0.17152304050062933,
+   "hi": 0.8177750067080238,
+   "p": 0.20042817368300225,
+   "n": 52
+  },
+  {
+   "label": "Leave out crowd crush",
+   "group": "R3 type",
+   "b": 0.39743236503657847,
+   "lo": 0.024514325653365254,
+   "hi": 0.7703504044197917,
+   "p": 0.03672526650071132,
+   "n": 61
+  },
+  {
+   "label": "Leave out fire or explosion",
+   "group": "R3 type",
+   "b": 0.4324652575274928,
+   "lo": 0.006924006704008334,
+   "hi": 0.8580065083509774,
+   "p": 0.04638700539474365,
+   "n": 57
+  },
+  {
+   "label": "Leave out mining",
+   "group": "R3 type",
+   "b": 0.26609876018645845,
+   "lo": -0.1068514442467835,
+   "hi": 0.6390489646197004,
+   "p": 0.16198459766680728,
+   "n": 49
+  },
+  {
+   "label": "Leave out other",
+   "group": "R3 type",
+   "b": 0.44032123528641215,
+   "lo": 0.057392536600894994,
+   "hi": 0.8232499339719292,
+   "p": 0.02421383832534119,
+   "n": 60
+  },
+  {
+   "label": "Leave out transport",
+   "group": "R3 type",
+   "b": 0.46010231657524076,
+   "lo": -0.14114119899891492,
+   "hi": 1.0613458321493965,
+   "p": 0.13364943434641766,
+   "n": 41
+  }
+ ],
+ "M2": {
+  "n_events": 60,
+  "n_obs": 5031,
+  "bins": [
+   {
+    "bin": "-12 to -7",
+    "mid": -9.5,
+    "b": 0.02978349937261727,
+    "ratio": 1.030231464048685,
+    "lo": 0.7517143876894969,
+    "hi": 1.411941672126554,
+    "p": 0.8530624859516199
+   },
+   {
+    "bin": "-6 to -4",
+    "mid": -5.0,
+    "b": -0.12906779008180336,
+    "ratio": 0.8789143818481705,
+    "lo": 0.6355419157748409,
+    "hi": 1.215483151379159,
+    "p": 0.4352283981819598
+   },
+   {
+    "bin": "-3 to -1",
+    "mid": -2.0,
+    "b": -0.32243042101990865,
+    "ratio": 0.724386332115675,
+    "lo": 0.3522025227657622,
+    "hi": 1.4898688232991013,
+    "p": 0.38083117809101785
+   },
+   {
+    "bin": "0",
+    "mid": 0.0,
+    "b": 2.3393468805118163,
+    "ratio": 10.374458588475754,
+    "lo": 2.399566408094278,
+    "hi": 44.853682999120245,
+    "p": 0.0017374607976736259
+   },
+   {
+    "bin": "1",
+    "mid": 1.0,
+    "b": 2.1146358559287393,
+    "ratio": 8.286567712145866,
+    "lo": 2.5472222911981635,
+    "hi": 26.957680405536433,
+    "p": 0.0004421768485379847
+   },
+   {
+    "bin": "2",
+    "mid": 2.0,
+    "b": 1.5559322318108508,
+    "ratio": 4.7395027816128525,
+    "lo": 1.2782081664714229,
+    "hi": 17.573731107450385,
+    "p": 0.01995891034560316
+   },
+   {
+    "bin": "3",
+    "mid": 3.0,
+    "b": 1.0889672103982488,
+    "ratio": 2.9712038589434195,
+    "lo": 0.8996411331158216,
+    "hi": 9.812859868718038,
+    "p": 0.07401877634686742
+   },
+   {
+    "bin": "4",
+    "mid": 4.0,
+    "b": 1.1859339927936747,
+    "ratio": 3.2737430464114325,
+    "lo": 1.1976183996281031,
+    "hi": 8.9489219080596,
+    "p": 0.020805891576944464
+   },
+   {
+    "bin": "5",
+    "mid": 5.0,
+    "b": 0.933501045016529,
+    "ratio": 2.5433981596269963,
+    "lo": 0.7410796403108924,
+    "hi": 8.728986530624722,
+    "p": 0.13787991235637545
+   },
+   {
+    "bin": "6",
+    "mid": 6.0,
+    "b": 1.063743131302658,
+    "ratio": 2.8971953006400226,
+    "lo": 1.2355189245526386,
+    "hi": 6.793696513462851,
+    "p": 0.014429688685353551
+   },
+   {
+    "bin": "7",
+    "mid": 7.0,
+    "b": 0.8522604345035633,
+    "ratio": 2.344941452190373,
+    "lo": 0.9255184764216561,
+    "hi": 5.941264873998608,
+    "p": 0.07236490685090051
+   },
+   {
+    "bin": "8",
+    "mid": 8.0,
+    "b": 0.8844874290542398,
+    "ratio": 2.4217427583241706,
+    "lo": 0.8417093004670851,
+    "hi": 6.967771395945154,
+    "p": 0.10092054797186843
+   },
+   {
+    "bin": "9",
+    "mid": 9.0,
+    "b": 1.2831469534151885,
+    "ratio": 3.607976011262787,
+    "lo": 1.2837207536326576,
+    "hi": 10.14043814514254,
+    "p": 0.014944546446976735
+   },
+   {
+    "bin": "10",
+    "mid": 10.0,
+    "b": 1.243568798610783,
+    "ratio": 3.467967885402243,
+    "lo": 0.9652220504776258,
+    "hi": 12.460139351592742,
+    "p": 0.05668208209469407
+   },
+   {
+    "bin": "11",
+    "mid": 11.0,
+    "b": 1.6638842800754672,
+    "ratio": 5.279779207463072,
+    "lo": 1.3828746595019834,
+    "hi": 20.15805864111968,
+    "p": 0.014922680719888984
+   },
+   {
+    "bin": "12",
+    "mid": 12.0,
+    "b": 0.8891419956157147,
+    "ratio": 2.433041195453019,
+    "lo": 0.6177725918952198,
+    "hi": 9.582311576191604,
+    "p": 0.20360905150491804
+   },
+   {
+    "bin": "13 to 24",
+    "mid": 18.5,
+    "b": 0.771535273395309,
+    "ratio": 2.163084632111615,
+    "lo": 0.7217258942103985,
+    "hi": 6.482980814754349,
+    "p": 0.16830059263386166
+   },
+   {
+    "bin": "25 to 36",
+    "mid": 30.5,
+    "b": 0.7122281106418767,
+    "ratio": 2.038528268818959,
+    "lo": 0.6094870304598888,
+    "hi": 6.818188566930479,
+    "p": 0.2475956844201197
+   },
+   {
+    "bin": "37 to 48",
+    "mid": 42.5,
+    "b": 0.6096177549887558,
+    "ratio": 1.839728037497651,
+    "lo": 0.6590706973518653,
+    "hi": 5.13541152042447,
+    "p": 0.24444152081869142
+   },
+   {
+    "bin": "49 to 59",
+    "mid": 54.0,
+    "b": 0.5839977830779173,
+    "ratio": 1.7931929164772809,
+    "lo": 0.5766843347608315,
+    "hi": 5.575911537527509,
+    "p": 0.3129883705378059
+   }
+  ],
+  "pretrend_chi2": 2.502194733428078,
+  "pretrend_df": 3,
+  "pretrend_p": 0.4748945764404554,
+  "halflife": 25.262042234046923,
+  "halflife_lo": 5.0759622642162725,
+  "halflife_hi": 59.75624771766406,
+  "boot_ok": 499,
+  "k0": {
+   "bin": "0",
+   "mid": 0.0,
+   "b": 2.3393468805118163,
+   "ratio": 10.374458588475754,
+   "lo": 2.399566408094278,
+   "hi": 44.853682999120245,
+   "p": 0.0017374607976736259
+  },
+  "k1": {
+   "bin": "1",
+   "mid": 1.0,
+   "b": 2.1146358559287393,
+   "ratio": 8.286567712145866,
+   "lo": 2.5472222911981635,
+   "hi": 26.957680405536433,
+   "p": 0.0004421768485379847
+  },
+  "k0_2": [
+   {
+    "bin": "0",
+    "mid": 0.0,
+    "b": 2.3393468805118163,
+    "ratio": 10.374458588475754,
+    "lo": 2.399566408094278,
+    "hi": 44.853682999120245,
+    "p": 0.0017374607976736259
+   },
+   {
+    "bin": "1",
+    "mid": 1.0,
+    "b": 2.1146358559287393,
+    "ratio": 8.286567712145866,
+    "lo": 2.5472222911981635,
+    "hi": 26.957680405536433,
+    "p": 0.0004421768485379847
+   },
+   {
+    "bin": "2",
+    "mid": 2.0,
+    "b": 1.5559322318108508,
+    "ratio": 4.7395027816128525,
+    "lo": 1.2782081664714229,
+    "hi": 17.573731107450385,
+    "p": 0.01995891034560316
+   }
+  ],
+  "late": {
+   "bin": "49 to 59",
+   "mid": 54.0,
+   "b": 0.5839977830779173,
+   "ratio": 1.7931929164772809,
+   "lo": 0.5766843347608315,
+   "hi": 5.575911537527509,
+   "p": 0.3129883705378059
+  },
+  "y2": {
+   "bin": "13 to 24",
+   "mid": 18.5,
+   "b": 0.771535273395309,
+   "ratio": 2.163084632111615,
+   "lo": 0.7217258942103985,
+   "hi": 6.482980814754349,
+   "p": 0.16830059263386166
+  }
+ },
+ "half": {
+  "n": 54,
+  "median": 8.5,
+  "q1": 1.25,
+  "q3": 22.75,
+  "within12": 31,
+  "within12_pc": 57.407407407407405,
+  "pooled_first12_pc": 39.44002692830766,
+  "median_first12_pc": 62.5
+ },
+ "per_death": {
+  "median": 0.3529790951099704
+ },
+ "prose": {
+  "el_double_pc": 33.44328341541916,
+  "el_double_lo": 3.365987621566524,
+  "el_double_hi": 72.27243021061757,
+  "el_10x_pc": 160.7514260803975,
+  "n_checks": 28,
+  "n_checks_pos": 16,
+  "n_checks_cross": 12,
+  "checks_b_min": 0.10052727894130678,
+  "checks_b_max": 0.9108507197975503,
+  "placebo_b": 0.01416227069562412,
+  "placebo_lo": -0.312443343316276,
+  "placebo_hi": 0.3407678847075243,
+  "m0": 10.374458588475754,
+  "m0_lo": 2.399566408094278,
+  "m0_hi": 44.853682999120245,
+  "m1": 8.286567712145866,
+  "m2": 4.7395027816128525,
+  "m3": 2.9712038589434195,
+  "m3_12_min": 2.344941452190373,
+  "m3_12_max": 5.279779207463072,
+  "late_min": 1.7931929164772809,
+  "late_max": 2.163084632111615,
+  "late_all_cross": 1,
+  "pre_min": 0.724386332115675,
+  "pre_max": 1.030231464048685,
+  "first_sig_cross": 3,
+  "london_b": 254.76692718355469,
+  "london_x": 3.547669271835547,
+  "london_drop2_b": 39.12061334563042,
+  "london_swap_b": 40.42742647784194,
+  "listonly": {
+   "label": "Wikipedia list events only (40 or more deaths)",
+   "group": "X",
+   "b": 2.0242121781466524,
+   "lo": 0.8420934574474384,
+   "hi": 3.2063308988458665,
+   "p": 0.0007903200927743719,
+   "n": 31
+  },
+  "dropkx": {
+   "label": "Drop King's Cross (railway bill debates in the window)",
+   "group": "X",
+   "b": 0.5963210753586221,
+   "lo": 0.1794498690792526,
+   "hi": 1.0131922816379917,
+   "p": 0.005052513897653577,
+   "n": 63
+  },
+  "swap": {
+   "label": "Swap to the other term where one exists",
+   "group": "R4",
+   "b": 0.35003462763438276,
+   "lo": 0.13831552605063493,
+   "hi": 0.5617537292181306,
+   "p": 0.0011936077261830923,
+   "n": 64
+  },
+  "half_med": 8.5,
+  "harvest_median_deaths": 11.0,
+  "list_median_deaths": 90.0,
+  "by_region": {
+   "London and South East": {
+    "n": 15,
+    "deaths": 938,
+    "C": 4277,
+    "CX": 2256.2
+   },
+   "Northern Ireland": {
+    "n": 5,
+    "deaths": 74,
+    "C": 368,
+    "CX": 164.8
+   },
+   "Rest of England": {
+    "n": 28,
+    "deaths": 1668,
+    "C": 1191,
+    "CX": 631.6
+   },
+   "Scotland": {
+    "n": 10,
+    "deaths": 701,
+    "C": 352,
+    "CX": 334.7
+   },
+   "Wales": {
+    "n": 6,
+    "deaths": 965,
+    "C": 312,
+    "CX": 300.9
+   }
+  },
+  "by_type": {
+   "Bombing or shooting": {
+    "n": 12,
+    "deaths": 437,
+    "C": 1185
+   },
+   "Crowd crush": {
+    "n": 3,
+    "deaths": 310,
+    "C": 232
+   },
+   "Fire or explosion": {
+    "n": 7,
+    "deaths": 512,
+    "C": 3061
+   },
+   "Mining": {
+    "n": 15,
+    "deaths": 1939,
+    "C": 370
+   },
+   "Other": {
+    "n": 4,
+    "deaths": 138,
+    "C": 164
+   },
+   "Transport": {
+    "n": 23,
+    "deaths": 1010,
+    "C": 1488
+   }
+  },
+  "rb": {
+   "ols": {
+    "label": "OLS of log(1 + excess)",
+    "group": "R1",
+    "b": 0.12905443554557466,
+    "lo": -0.20217933112775244,
+    "hi": 0.46028820221890177,
+    "p": 0.445084158984568,
+    "n": 64
+   },
+   "noFE": {
+    "label": "PPML without type and era",
+    "group": "R1",
+    "b": 0.10052727894130678,
+    "lo": -0.2507496501191592,
+    "hi": 0.4518042080017728,
+    "p": 0.5748683947446371,
+    "n": 64
+   },
+   "nb": {
+    "label": "Negative binomial",
+    "group": "R1",
+    "b": 0.2876423137910476,
+    "lo": -0.02147718119462061,
+    "hi": 0.5967618087767158,
+    "p": 0.06818405538948291,
+    "n": 64
+   },
+   "dropseat": {
+    "label": "Drop seat-name terms",
+    "group": "R2",
+    "b": 0.40794727706821987,
+    "lo": 0.009543487893781344,
+    "hi": 0.8063510662426584,
+    "p": 0.04475886673440718,
+    "n": 62
+   },
+   "addamb": {
+    "label": "Add ambiguous terms",
+    "group": "R2",
+    "b": 0.4005142255902249,
+    "lo": 0.041818181009247946,
+    "hi": 0.7592102701712019,
+    "p": 0.028635805199220578,
+    "n": 66
+   },
+   "nohand": {
+    "label": "Wikipedia list and Wikidata events only",
+    "group": "R2",
+    "b": 0.9108507197975503,
+    "lo": 0.09505829333237503,
+    "hi": 1.7266431462627256,
+    "p": 0.02864454123479291,
+    "n": 41
+   },
+   "nowar": {
+    "label": "Drop wartime events",
+    "group": "R2",
+    "b": 0.3902036204913306,
+    "lo": 0.03659282904067568,
+    "hi": 0.7438144119419856,
+    "p": 0.03055751806158997,
+    "n": 58
+   },
+   "noNI": {
+    "label": "Drop Northern Ireland bombings and shootings",
+    "group": "R2",
+    "b": 0.38253936216627815,
+    "lo": 0.01121617368360417,
+    "hi": 0.7538625506489521,
+    "p": 0.04346990863204056,
+    "n": 59
+   },
+   "top3": {
+    "label": "Drop the three largest death tolls",
+    "group": "R3",
+    "b": 0.5626798753796074,
+    "lo": 0.040184660369667946,
+    "hi": 1.085175090389547,
+    "p": 0.03479783600112645,
+    "n": 61
+   },
+   "topatt": {
+    "label": "Drop the event with most attention",
+    "group": "R3",
+    "b": 0.2751638396152913,
+    "lo": -0.14532992561437236,
+    "hi": 0.695657604844955,
+    "p": 0.19964399407191546,
+    "n": 63
+   },
+   "w36": {
+    "label": "Window 36 months",
+    "group": "R4",
+    "b": 0.43502717906720134,
+    "lo": 0.10797527029193327,
+    "hi": 0.7620790878424695,
+    "p": 0.009132853167659202,
+    "n": 64
+   },
+   "b12": {
+    "label": "Baseline 12 months",
+    "group": "R4",
+    "b": 0.5257972458890974,
+    "lo": 0.12048637784837918,
+    "hi": 0.9311081139298156,
+    "p": 0.011003091499826768,
+    "n": 64
+   },
+   "novol": {
+    "label": "No volume adjustment",
+    "group": "R4",
+    "b": 0.3953325404258794,
+    "lo": 0.0330936408194385,
+    "hi": 0.7575714400323204,
+    "p": 0.03243376021693116,
+    "n": 64
+   },
+   "plain": {
+    "label": "Plain-phrase terms only",
+    "group": "R4",
+    "b": 0.32838016148706306,
+    "lo": -0.22353147641443272,
+    "hi": 0.8802917993885588,
+    "p": 0.24355268105525152,
+    "n": 41
+   },
+   "in": {
+    "label": "\"in\" terms only",
+    "group": "R4",
+    "b": 0.13510270091118973,
+    "lo": -0.21725786736048705,
+    "hi": 0.48746326918286653,
+    "p": 0.4523561358020777,
+    "n": 23
+   },
+   "swap": {
+    "label": "Swap to the other term where one exists",
+    "group": "R4",
+    "b": 0.35003462763438276,
+    "lo": 0.13831552605063493,
+    "hi": 0.5617537292181306,
+    "p": 0.0011936077261830923,
+    "n": 64
+   },
+   "wd": {
+    "label": "Wikidata death toll where both",
+    "group": "R4",
+    "b": 0.4206539765871531,
+    "lo": 0.04732514938146504,
+    "hi": 0.7939828037928411,
+    "p": 0.027215047035818684,
+    "n": 64
+   }
+  },
+  "n_flagged_places": 64
+ },
+ "ext": {
+  "desc": {
+   "n": 86,
+   "any_post": 75,
+   "zero_post": 11,
+   "C_total": 6639,
+   "C_median": 8.5,
+   "P_total": 1057,
+   "pos_excess": 68,
+   "deaths_total": 5330,
+   "spearman_deaths_C": -0.10294288467233491,
+   "spearman_deaths_CX": -0.176796777978561,
+   "top_C": [
+    {
+     "id": "grenfell",
+     "event": "Grenfell Tower fire",
+     "term": "Grenfell",
+     "year": 2017,
+     "deaths": 72,
+     "C": 1686,
+     "E": 4.7,
+     "P": 259,
+     "peak": 132,
+     "half_k": 23
+    },
+    {
+     "id": "lewisham",
+     "event": "Lewisham rail crash",
+     "term": "Lewisham",
+     "year": 1957,
+     "deaths": 90,
+     "C": 1130,
+     "E": 1639.9,
+     "P": 84,
+     "peak": 52,
+     "half_k": null
+    },
+    {
+     "id": "kingscross",
+     "event": "King's Cross fire",
+     "term": "King's Cross",
+     "year": 1987,
+     "deaths": 31,
+     "C": 1009,
+     "E": 32.7,
+     "P": 106,
+     "peak": 98,
+     "half_k": 24
+    },
+    {
+     "id": "birmingham",
+     "event": "Birmingham pub bombings",
+     "term": "Birmingham",
+     "year": 1974,
+     "deaths": 21,
+     "C": 597,
+     "E": 492.2,
+     "P": 84,
+     "peak": 51,
+     "half_k": 1
+    },
+    {
+     "id": "aberfan",
+     "event": "Aberfan disaster",
+     "term": "Aberfan",
+     "year": 1966,
+     "deaths": 146,
+     "C": 203,
+     "E": 0.0,
+     "P": 48,
+     "peak": 34,
+     "half_k": 14
+    },
+    {
+     "id": "bethnalgreen",
+     "event": "Bethnal Green tube station crush",
+     "term": "Bethnal Green",
+     "year": 1943,
+     "deaths": 173,
+     "C": 189,
+     "E": 306.7,
+     "P": 10,
+     "peak": 27,
+     "half_k": null
+    },
+    {
+     "id": "piperalpha",
+     "event": "Piper Alpha",
+     "term": "Piper Alpha",
+     "year": 1988,
+     "deaths": 167,
+     "C": 178,
+     "E": 0.0,
+     "P": 14,
+     "peak": 24,
+     "half_k": 28
+    },
+    {
+     "id": "bloodysunday",
+     "event": "Bloody Sunday (Derry)",
+     "term": "Londonderry",
+     "year": 1972,
+     "deaths": 14,
+     "C": 163,
+     "E": 99.6,
+     "P": 26,
+     "peak": 16,
+     "half_k": 4
+    },
+    {
+     "id": "flixborough",
+     "event": "Flixborough disaster",
+     "term": "Flixborough",
+     "year": 1974,
+     "deaths": 28,
+     "C": 112,
+     "E": 0.0,
+     "P": 54,
+     "peak": 43,
+     "half_k": 5
+    },
+    {
+     "id": "enniskillen",
+     "event": "Enniskillen bombing",
+     "term": "Enniskillen",
+     "year": 1987,
+     "deaths": 11,
+     "C": 107,
+     "E": 10.9,
+     "P": 40,
+     "peak": 31,
+     "half_k": 4
+    },
+    {
+     "id": "morecambe",
+     "event": "Morecambe Bay cockling disaster",
+     "term": "Morecambe Bay",
+     "year": 2004,
+     "deaths": 22,
+     "C": 104,
+     "E": 14.0,
+     "P": 40,
+     "peak": 31,
+     "half_k": 3
+    },
+    {
+     "id": "gresford",
+     "event": "Gresford disaster",
+     "term": "Gresford",
+     "year": 1934,
+     "deaths": 266,
+     "C": 98,
+     "E": 0.0,
+     "P": 6,
+     "peak": 30,
+     "half_k": 29
+    }
+   ],
+   "top3_share_pc": 57.614098508811566
+  },
+  "M1": {
+   "ld": {
+    "b": 0.5236147685024439,
+    "lo": 0.1231858120963899,
+    "hi": 0.924043724908498,
+    "p": 0.01037969271494172,
+    "n": 86
+   },
+   "lE": {
+    "b": 0.6571670848163916,
+    "lo": 0.5255422819985055,
+    "hi": 0.7887918876342778,
+    "p": 1.2986054906798809e-22,
+    "n": 86
+   },
+   "plain": {
+    "b": 110.92007344280486,
+    "lo": -6.710351045881069,
+    "hi": 376.8725992633719,
+    "p": 0.07296055399647373
+   },
+   "n": 86,
+   "types": {
+    "Mining": {
+     "b": 202.43442172259586,
+     "lo": -13.003206569419422,
+     "hi": 951.3787443863325,
+     "p": 0.08171076718008605
+    },
+    "Fire or explosion": {
+     "b": 829.5357124570836,
+     "lo": 260.5996967584312,
+     "hi": 2296.1102810131406,
+     "p": 3.935986372564015e-06
+    },
+    "Crowd crush": {
+     "b": 184.80464630765456,
+     "lo": 3.5077038569259145,
+     "hi": 683.6487868627446,
+     "p": 0.042690667671579044
+    },
+    "Bombing or shooting": {
+     "b": 153.188051541254,
+     "lo": -15.31638835065342,
+     "hi": 656.9845947135075,
+     "p": 0.09642255474352601
+    },
+    "Other": {
+     "b": -8.699183636817509,
+     "lo": -66.02975896095629,
+     "hi": 145.38651518553465,
+     "p": 0.8568224564109476
+    }
+   },
+   "eras": {
+    "1909 to 1938": {
+     "b": -78.47150440499195,
+     "lo": -94.30595934581798,
+     "hi": -18.603299355813597,
+     "p": 0.023616919198915214
+    },
+    "1939 to 1945": {
+     "b": -90.86664962660954,
+     "lo": -96.3526931954849,
+     "hi": -77.12885328433401,
+     "p": 3.222184138648463e-07
+    },
+    "1946 to 1969": {
+     "b": -25.96074012267332,
+     "lo": -78.86893612102011,
+     "hi": 159.4195935697941,
+     "p": 0.6384658717420767
+    },
+    "1990 to 2021": {
+     "b": 353.8477940247178,
+     "lo": 117.40542405519001,
+     "hi": 847.4364360330482,
+     "p": 5.62450682966092e-05
+    }
+   }
+  },
+  "M1p": {
+   "ld": {
+    "b": 0.37457503967393463,
+    "lo": 0.04049847184618455,
+    "hi": 0.7086516075016847,
+    "p": 0.027980415518486575,
+    "n": 86
+   },
+   "n": 86
+  },
+  "M1g": {
+   "ld": {
+    "b": 0.5175916826709059,
+    "lo": 0.14413365742414835,
+    "hi": 0.8910497079176636,
+    "p": 0.006599630138433081,
+    "n": 86
+   },
+   "n": 86,
+   "London and South East": {
+    "b": 248.43535670401815,
+    "lo": 22.23806940779309,
+    "hi": 893.2028408959496,
+    "p": 0.019507646243247773
+   },
+   "Scotland": {
+    "b": 35.663009389998244,
+    "lo": -52.62623684159353,
+    "hi": 288.4946200117286,
+    "p": 0.569905565542314
+   },
+   "Wales": {
+    "b": 295.185033231827,
+    "lo": 10.902591786888394,
+    "hi": 1308.183595840037,
+    "p": 0.03404169420685787
+   },
+   "Northern Ireland": {
+    "b": -31.020195577120337,
+    "lo": -73.0976867234432,
+    "hi": 76.87004717044645,
+    "p": 0.4395303996309222
+   }
+  },
+  "M1n": {
+   "ld": {
+    "b": 0.5232491648917288,
+    "lo": 0.0781450623799827,
+    "hi": 0.9683532674034749,
+    "p": 0.021218902521141923,
+    "n": 86
+   },
+   "n": 86,
+   "Scotland": {
+    "b": -4.084060220645702,
+    "lo": -59.58086127627447,
+    "hi": 127.61166601396465,
+    "p": 0.9246544055358525
+   },
+   "Wales": {
+    "b": 178.3322720413511,
+    "lo": -19.777950768046182,
+    "hi": 865.6803135969193,
+    "p": 0.10679543979177482
+   },
+   "Northern Ireland": {
+    "b": -30.339417724879326,
+    "lo": -72.83133622777298,
+    "hi": 78.61006207708272,
+    "p": 0.451708951593932
+   }
+  },
+  "M1m": {
+   "ld": {
+    "b": 1.0407890969643305,
+    "lo": 0.45248840806572643,
+    "hi": 1.6290897858629347,
+    "p": 0.000525401802506637,
+    "n": 86
+   },
+   "mining": {
+    "b": 155.19059510050326,
+    "lo": -39.41816889349175,
+    "hi": 974.9467066001738,
+    "p": 0.20164456248206375
+   },
+   "n": 86
+  },
+  "M1era": {
+   "pre46": {
+    "b": 0.6134768001999417,
+    "lo": -0.5560359181378566,
+    "hi": 1.78298951853774,
+    "p": 0.3038961918356248,
+    "n": 86
+   },
+   "diff": {
+    "b": -0.09977795491160124,
+    "lo": -1.3657245742762285,
+    "hi": 1.1661686644530258,
+    "p": 0.877232671973193
+   },
+   "post46_b": 0.5136988452883404,
+   "n": 86
+  },
+  "influence": {
+   "top3_deaths": [
+    "Pretoria Pit disaster (Hulton Colliery)",
+    "Senghenydd colliery disaster",
+    "Lockerbie (Pan Am Flight 103)"
+   ],
+   "top_attention": [
+    "Grenfell Tower fire"
+   ]
+  },
+  "swap": {
+   "n_swapped": 30,
+   "C_main_swapped": 881,
+   "C_alt_swapped": 9433
+  },
+  "placebo": {
+   "n": 83,
+   "C_total": 1101,
+   "any": 32
+  },
+  "perm": {
+   "draws": 2000,
+   "p_two": 0.0065,
+   "p_one": 0.0045,
+   "p_two_pc": 0.65
+  },
+  "phrase": {
+   "n_swapped": 8,
+   "cases": {
+    "gresford": {
+     "phrase": "Gresford disaster",
+     "C_phrase": 13,
+     "P_phrase": 1,
+     "C_main": 98,
+     "term": "Gresford",
+     "kind": "plain"
+    },
+    "aberfan": {
+     "phrase": "Aberfan disaster",
+     "C_phrase": 52,
+     "P_phrase": 15,
+     "C_main": 203,
+     "term": "Aberfan",
+     "kind": "plain"
+    },
+    "moorgate": {
+     "phrase": "Moorgate disaster",
+     "C_phrase": 2,
+     "P_phrase": 2,
+     "C_main": 20,
+     "term": "Moorgate",
+     "kind": "plain"
+    },
+    "kingscross": {
+     "phrase": "King's Cross fire",
+     "C_phrase": 77,
+     "P_phrase": 11,
+     "C_main": 1009,
+     "term": "King's Cross",
+     "kind": "plain"
+    },
+    "clapham": {
+     "phrase": "Clapham rail",
+     "C_phrase": 19,
+     "P_phrase": 1,
+     "C_main": 69,
+     "term": "Clapham Junction",
+     "kind": "plain"
+    },
+    "lockerbie": {
+     "phrase": "Lockerbie",
+     "C_phrase": 239,
+     "P_phrase": 68,
+     "C_main": 10,
+     "term": "Lockerbie",
+     "kind": "in"
+    },
+    "hillsborough": {
+     "phrase": "Hillsborough disaster",
+     "C_phrase": 70,
+     "P_phrase": 28,
+     "C_main": 400,
+     "term": "Hillsborough",
+     "kind": "plain"
+    },
+    "grenfell": {
+     "phrase": "Grenfell Tower",
+     "C_phrase": 814,
+     "P_phrase": 210,
+     "C_main": 1686,
+     "term": "Grenfell",
+     "kind": "plain"
+    }
+   }
+  },
+  "X_london": {
+   "main": {
+    "b": 248.43535670401815,
+    "lo": 22.23806940779309,
+    "hi": 893.2028408959496,
+    "p": 0.019507646243247773,
+    "n": 86
+   },
+   "drop King's Cross": {
+    "b": 218.11321950049506,
+    "lo": 8.149143533965276,
+    "hi": 835.7080150078913,
+    "p": 0.03552863915510187,
+    "n": 85
+   },
+   "drop Grenfell": {
+    "b": 184.08694111043295,
+    "lo": 9.874055244378454,
+    "hi": 634.5263622970879,
+    "p": 0.03122073419770905,
+    "n": 85
+   },
+   "drop Grenfell and King's Cross": {
+    "b": 28.780131670485453,
+    "lo": -32.778930915302894,
+    "hi": 146.71315911640258,
+    "p": 0.4457343039425594,
+    "n": 84
+   },
+   "swap terms": {
+    "b": 52.91221048551327,
+    "lo": -30.08107001028112,
+    "hi": 234.41793401306495,
+    "p": 0.2874588488159838,
+    "n": 86
+   },
+   "jackknife_min": {
+    "id": "grenfell",
+    "b": 184.08694111043295,
+    "lo": 9.874055244378454,
+    "hi": 634.5263622970879,
+    "p": 0.03122073419770905
+   },
+   "jackknife_max": {
+    "id": "denmarkplace",
+    "b": 283.27964124404474,
+    "lo": 42.08661606918529,
+    "hi": 933.8995146498038,
+    "p": 0.007960118634799871
+   },
+   "jackknife_sig": 19,
+   "jackknife_n": 19
+  },
+  "robust": [
+   {
+    "label": "Main model (M1)",
+    "group": "main",
+    "b": 0.5236147685024439,
+    "lo": 0.1231858120963899,
+    "hi": 0.924043724908498,
+    "p": 0.01037969271494172,
+    "n": 86
+   },
+   {
+    "label": "Peak: first three months",
+    "group": "main",
+    "b": 0.37457503967393463,
+    "lo": 0.04049847184618455,
+    "hi": 0.7086516075016847,
+    "p": 0.027980415518486575,
+    "n": 86
+   },
+   {
+    "label": "OLS of log(1 + excess)",
+    "group": "R1",
+    "b": 0.26625973536623493,
+    "lo": -0.07124276302655769,
+    "hi": 0.6037622337590276,
+    "p": 0.12204688203000368,
+    "n": 86
+   },
+   {
+    "label": "PPML without type and era",
+    "group": "R1",
+    "b": 0.11179766565938425,
+    "lo": -0.2799697273043946,
+    "hi": 0.5035650586231631,
+    "p": 0.5759502106480143,
+    "n": 86
+   },
+   {
+    "label": "Negative binomial",
+    "group": "R1",
+    "b": 0.3972121435275223,
+    "lo": 0.07852485192405884,
+    "hi": 0.7158994351309858,
+    "p": 0.014569734395071948,
+    "n": 86
+   },
+   {
+    "label": "Drop seat-name terms",
+    "group": "R2",
+    "b": 0.5239850383060876,
+    "lo": 0.10081830358969329,
+    "hi": 0.9471517730224819,
+    "p": 0.015227614081181432,
+    "n": 84
+   },
+   {
+    "label": "Add ambiguous terms",
+    "group": "R2",
+    "b": 0.5112743714903496,
+    "lo": 0.1097861609068565,
+    "hi": 0.9127625820738428,
+    "p": 0.012563366604391175,
+    "n": 92
+   },
+   {
+    "label": "Wikipedia list and Wikidata events only",
+    "group": "R2",
+    "b": 0.9845477620262759,
+    "lo": 0.4066530969981452,
+    "hi": 1.5624424270544066,
+    "p": 0.0008403455402561143,
+    "n": 62
+   },
+   {
+    "label": "Drop wartime events",
+    "group": "R2",
+    "b": 0.4705587905688932,
+    "lo": 0.07782168576002008,
+    "hi": 0.8632958953777663,
+    "p": 0.018857553096707336,
+    "n": 75
+   },
+   {
+    "label": "Drop Northern Ireland bombings and shootings",
+    "group": "R2",
+    "b": 0.5093806392365097,
+    "lo": 0.08630155709532789,
+    "hi": 0.9324597213776915,
+    "p": 0.01828645706004889,
+    "n": 78
+   },
+   {
+    "label": "Wikipedia list events only (40 or more deaths)",
+    "group": "X",
+    "b": 1.9627454533337998,
+    "lo": 1.1455327525134922,
+    "hi": 2.7799581541541074,
+    "p": 2.5095150400834465e-06,
+    "n": 44
+   },
+   {
+    "label": "Leave out London and South East",
+    "group": "R3 region",
+    "b": 0.47600794990238643,
+    "lo": -0.009973393204394387,
+    "hi": 0.9619892930091672,
+    "p": 0.05489058920903819,
+    "n": 67
+   },
+   {
+    "label": "Leave out Northern Ireland",
+    "group": "R3 region",
+    "b": 0.5093806392365097,
+    "lo": 0.08630155709532789,
+    "hi": 0.9324597213776915,
+    "p": 0.01828645706004889,
+    "n": 78
+   },
+   {
+    "label": "Leave out Rest of England",
+    "group": "R3 region",
+    "b": 0.6840826567798572,
+    "lo": 0.31954650130849993,
+    "hi": 1.0486188122512146,
+    "p": 0.0002350361184565233,
+    "n": 48
+   },
+   {
+    "label": "Leave out Scotland",
+    "group": "R3 region",
+    "b": 0.6016765694030314,
+    "lo": -0.16325022933592004,
+    "hi": 1.3666033681419827,
+    "p": 0.1231538982759638,
+    "n": 74
+   },
+   {
+    "label": "Leave out Wales",
+    "group": "R3 region",
+    "b": 0.30893913297194864,
+    "lo": -0.07813224515526845,
+    "hi": 0.6960105110991657,
+    "p": 0.11773875315423855,
+    "n": 77
+   },
+   {
+    "label": "Leave out bombing or shooting",
+    "group": "R3 type",
+    "b": 0.5332515004734699,
+    "lo": -0.04097459082746702,
+    "hi": 1.1074775917744069,
+    "p": 0.06874249776906892,
+    "n": 71
+   },
+   {
+    "label": "Leave out crowd crush",
+    "group": "R3 type",
+    "b": 0.5138446888137279,
+    "lo": 0.1087696390813146,
+    "hi": 0.9189197385461412,
+    "p": 0.012909791890920346,
+    "n": 83
+   },
+   {
+    "label": "Leave out fire or explosion",
+    "group": "R3 type",
+    "b": 0.4985838277038622,
+    "lo": 0.054664850871945,
+    "hi": 0.9425028045357795,
+    "p": 0.02771359734368794,
+    "n": 75
+   },
+   {
+    "label": "Leave out mining",
+    "group": "R3 type",
+    "b": 0.30536281218552475,
+    "lo": -0.10719946633370792,
+    "hi": 0.7179250907047574,
+    "p": 0.14686610520398674,
+    "n": 62
+   },
+   {
+    "label": "Leave out other",
+    "group": "R3 type",
+    "b": 0.5473856758688096,
+    "lo": 0.1359307041386137,
+    "hi": 0.9588406475990054,
+    "p": 0.009121424740026446,
+    "n": 82
+   },
+   {
+    "label": "Leave out transport",
+    "group": "R3 type",
+    "b": 0.5825533557772091,
+    "lo": 0.04380873934889262,
+    "hi": 1.1212979722055256,
+    "p": 0.0340616524335669,
+    "n": 57
+   },
+   {
+    "label": "Drop the three largest death tolls",
+    "group": "R3",
+    "b": 0.6834191267079145,
+    "lo": 0.11206972661916381,
+    "hi": 1.2547685267966653,
+    "p": 0.01905724257690691,
+    "n": 83
+   },
+   {
+    "label": "Drop the event with most attention",
+    "group": "R3",
+    "b": 0.3652533140435433,
+    "lo": -0.10573531553897036,
+    "hi": 0.8362419436260569,
+    "p": 0.12852131550550028,
+    "n": 85
+   },
+   {
+    "label": "Window 36 months",
+    "group": "R4",
+    "b": 0.5650827795295358,
+    "lo": 0.19961143658678926,
+    "hi": 0.9305541224722823,
+    "p": 0.002441912409696314,
+    "n": 86
+   },
+   {
+    "label": "Baseline 12 months",
+    "group": "R4",
+    "b": 0.6689377800203439,
+    "lo": 0.25219640319709474,
+    "hi": 1.085679156843593,
+    "p": 0.0016548526435623415,
+    "n": 86
+   },
+   {
+    "label": "No volume adjustment",
+    "group": "R4",
+    "b": 0.4995561142936607,
+    "lo": 0.10079401274280086,
+    "hi": 0.8983182158445205,
+    "p": 0.014073621902937816,
+    "n": 86
+   },
+   {
+    "label": "Plain-phrase terms only",
+    "group": "R4",
+    "b": 0.5784498796925039,
+    "lo": -0.04093792829481768,
+    "hi": 1.1978376876798256,
+    "p": 0.06718689405807653,
+    "n": 63
+   },
+   {
+    "label": "\"in\" terms only",
+    "group": "R4",
+    "b": 0.13510270091118973,
+    "lo": -0.21725786736048705,
+    "hi": 0.48746326918286653,
+    "p": 0.4523561358020777,
+    "n": 23
+   },
+   {
+    "label": "Swap to the other term where one exists",
+    "group": "R4",
+    "b": 0.4158524738947644,
+    "lo": 0.15750509851518746,
+    "hi": 0.6741998492743413,
+    "p": 0.001605622054728312,
+    "n": 86
+   },
+   {
+    "label": "Wikidata death toll where both",
+    "group": "R4",
+    "b": 0.529645049552684,
+    "lo": 0.12353326710305623,
+    "hi": 0.9357568320023117,
+    "p": 0.01058355450040097,
+    "n": 86
+   },
+   {
+    "label": "Placebo: fake date 36 months earlier",
+    "group": "R5",
+    "b": -0.013099857081483732,
+    "lo": -0.300325615096644,
+    "hi": 0.2741259009336765,
+    "p": 0.9287715898592779,
+    "n": 83
+   },
+   {
+    "label": "Disaster-specific phrase where one exists (adds Hillsborough)",
+    "group": "S",
+    "b": 0.6003988402278909,
+    "lo": 0.35430731664062015,
+    "hi": 0.8464903638151617,
+    "p": 1.7373369421494448e-06,
+    "n": 87
+   },
+   {
+    "label": "Drop King's Cross (railway bill debates in the window)",
+    "group": "X",
+    "b": 0.7125879998711606,
+    "lo": 0.29363962529571735,
+    "hi": 1.1315363744466038,
+    "p": 0.0008570005063539338,
+    "n": 85
+   }
+  ],
+  "loro": [
+   {
+    "label": "Leave out London and South East",
+    "group": "R3 region",
+    "b": 0.47600794990238643,
+    "lo": -0.009973393204394387,
+    "hi": 0.9619892930091672,
+    "p": 0.05489058920903819,
+    "n": 67
+   },
+   {
+    "label": "Leave out Northern Ireland",
+    "group": "R3 region",
+    "b": 0.5093806392365097,
+    "lo": 0.08630155709532789,
+    "hi": 0.9324597213776915,
+    "p": 0.01828645706004889,
+    "n": 78
+   },
+   {
+    "label": "Leave out Rest of England",
+    "group": "R3 region",
+    "b": 0.6840826567798572,
+    "lo": 0.31954650130849993,
+    "hi": 1.0486188122512146,
+    "p": 0.0002350361184565233,
+    "n": 48
+   },
+   {
+    "label": "Leave out Scotland",
+    "group": "R3 region",
+    "b": 0.6016765694030314,
+    "lo": -0.16325022933592004,
+    "hi": 1.3666033681419827,
+    "p": 0.1231538982759638,
+    "n": 74
+   },
+   {
+    "label": "Leave out Wales",
+    "group": "R3 region",
+    "b": 0.30893913297194864,
+    "lo": -0.07813224515526845,
+    "hi": 0.6960105110991657,
+    "p": 0.11773875315423855,
+    "n": 77
+   },
+   {
+    "label": "Leave out bombing or shooting",
+    "group": "R3 type",
+    "b": 0.5332515004734699,
+    "lo": -0.04097459082746702,
+    "hi": 1.1074775917744069,
+    "p": 0.06874249776906892,
+    "n": 71
+   },
+   {
+    "label": "Leave out crowd crush",
+    "group": "R3 type",
+    "b": 0.5138446888137279,
+    "lo": 0.1087696390813146,
+    "hi": 0.9189197385461412,
+    "p": 0.012909791890920346,
+    "n": 83
+   },
+   {
+    "label": "Leave out fire or explosion",
+    "group": "R3 type",
+    "b": 0.4985838277038622,
+    "lo": 0.054664850871945,
+    "hi": 0.9425028045357795,
+    "p": 0.02771359734368794,
+    "n": 75
+   },
+   {
+    "label": "Leave out mining",
+    "group": "R3 type",
+    "b": 0.30536281218552475,
+    "lo": -0.10719946633370792,
+    "hi": 0.7179250907047574,
+    "p": 0.14686610520398674,
+    "n": 62
+   },
+   {
+    "label": "Leave out other",
+    "group": "R3 type",
+    "b": 0.5473856758688096,
+    "lo": 0.1359307041386137,
+    "hi": 0.9588406475990054,
+    "p": 0.009121424740026446,
+    "n": 82
+   },
+   {
+    "label": "Leave out transport",
+    "group": "R3 type",
+    "b": 0.5825533557772091,
+    "lo": 0.04380873934889262,
+    "hi": 1.1212979722055256,
+    "p": 0.0340616524335669,
+    "n": 57
+   }
+  ],
+  "M2": {
+   "n_events": 75,
+   "n_obs": 6291,
+   "bins": [
+    {
+     "bin": "-12 to -7",
+     "mid": -9.5,
+     "b": 0.016785916303815745,
+     "ratio": 1.0169275914022329,
+     "lo": 0.7414789538892764,
+     "hi": 1.3947013879905388,
+     "p": 0.9170503314126383
+    },
+    {
+     "bin": "-6 to -4",
+     "mid": -5.0,
+     "b": -0.13497114098996577,
+     "ratio": 0.8737411266281343,
+     "lo": 0.6334555381218161,
+     "hi": 1.2051730712228643,
+     "p": 0.4107355969457891
+    },
+    {
+     "bin": "-3 to -1",
+     "mid": -2.0,
+     "b": -0.34254651732188407,
+     "ratio": 0.7099600931752327,
+     "lo": 0.349144318757042,
+     "hi": 1.4436532597631415,
+     "p": 0.34415373641930935
+    },
+    {
+     "bin": "0",
+     "mid": 0.0,
+     "b": 2.404116092867564,
+     "ratio": 11.068642305112451,
+     "lo": 2.6411085307012474,
+     "hi": 46.38765921747103,
+     "p": 0.0010074306682350005
+    },
+    {
+     "bin": "1",
+     "mid": 1.0,
+     "b": 2.139565868697491,
+     "ratio": 8.495748557786262,
+     "lo": 2.6702248609719854,
+     "hi": 27.03058630457586,
+     "p": 0.0002909360304340407
+    },
+    {
+     "bin": "2",
+     "mid": 2.0,
+     "b": 1.577464176551497,
+     "ratio": 4.842660096919057,
+     "lo": 1.3331540727428122,
+     "hi": 17.59088262472439,
+     "p": 0.016533428524178877
+    },
+    {
+     "bin": "3",
+     "mid": 3.0,
+     "b": 1.1930517076272855,
+     "ratio": 3.297127739918301,
+     "lo": 1.0029149033591598,
+     "hi": 10.839455368473736,
+     "p": 0.04943814682524376
+    },
+    {
+     "bin": "4",
+     "mid": 4.0,
+     "b": 1.198200900745451,
+     "ratio": 3.3141490728426914,
+     "lo": 1.2278683210480288,
+     "hi": 8.94524591012267,
+     "p": 0.018019538114526033
+    },
+    {
+     "bin": "5",
+     "mid": 5.0,
+     "b": 0.9556461720721507,
+     "ratio": 2.600350313914107,
+     "lo": 0.7703337860967013,
+     "hi": 8.777781628059568,
+     "p": 0.1236531312506433
+    },
+    {
+     "bin": "6",
+     "mid": 6.0,
+     "b": 1.106556814247335,
+     "ratio": 3.0239285011777315,
+     "lo": 1.3032171485564554,
+     "hi": 7.016592430788501,
+     "p": 0.009975219335255192
+    },
+    {
+     "bin": "7",
+     "mid": 7.0,
+     "b": 0.8564039461114751,
+     "ratio": 2.354677901933494,
+     "lo": 0.9407049797626343,
+     "hi": 5.893992421782386,
+     "p": 0.06733595714132241
+    },
+    {
+     "bin": "8",
+     "mid": 8.0,
+     "b": 0.8828493050273715,
+     "ratio": 2.4177788908645312,
+     "lo": 0.8495516457607868,
+     "hi": 6.880870391199404,
+     "p": 0.09803567769849925
+    },
+    {
+     "bin": "9",
+     "mid": 9.0,
+     "b": 1.2813091000682042,
+     "ratio": 3.601351170082647,
+     "lo": 1.2929698658639763,
+     "hi": 10.030960962565926,
+     "p": 0.014221226602963878
+    },
+    {
+     "bin": "10",
+     "mid": 10.0,
+     "b": 1.2784925023732876,
+     "ratio": 3.591221884436197,
+     "lo": 1.0384900760037599,
+     "hi": 12.41887132218178,
+     "p": 0.04341839341311825
+    },
+    {
+     "bin": "11",
+     "mid": 11.0,
+     "b": 1.6721911712791564,
+     "ratio": 5.323820428481678,
+     "lo": 1.4241063832212604,
+     "hi": 19.902350195642114,
+     "p": 0.012937001780098508
+    },
+    {
+     "bin": "12",
+     "mid": 12.0,
+     "b": 0.963865918069745,
+     "ratio": 2.621812619509303,
+     "lo": 0.6866350616242545,
+     "hi": 10.010996810384002,
+     "p": 0.1585323079469677
+    },
+    {
+     "bin": "13 to 24",
+     "mid": 18.5,
+     "b": 0.765517793657036,
+     "ratio": 2.150107398444884,
+     "lo": 0.7277133683953333,
+     "hi": 6.352723511238267,
+     "p": 0.16606567529308036
+    },
+    {
+     "bin": "25 to 36",
+     "mid": 30.5,
+     "b": 0.7018070157492678,
+     "ratio": 2.0173948800685624,
+     "lo": 0.6128115415181539,
+     "hi": 6.641327433299139,
+     "p": 0.24831263610683407
+    },
+    {
+     "bin": "37 to 48",
+     "mid": 42.5,
+     "b": 0.6129856130382766,
+     "ratio": 1.8459344256284669,
+     "lo": 0.6704023482080731,
+     "hi": 5.082729666487862,
+     "p": 0.235545703862022
+    },
+    {
+     "bin": "49 to 59",
+     "mid": 54.0,
+     "b": 0.5714319834043287,
+     "ratio": 1.7708009943549112,
+     "lo": 0.5781547813753913,
+     "hi": 5.42369666847455,
+     "p": 0.3170247936328303
+    }
+   ],
+   "pretrend_chi2": 2.5900484142402043,
+   "pretrend_df": 3,
+   "pretrend_p": 0.4592368600546409,
+   "halflife": 23.971816768426276,
+   "halflife_lo": 5.468167028528325,
+   "halflife_hi": 50.762255045989036,
+   "boot_ok": 499,
+   "k0": {
+    "bin": "0",
+    "mid": 0.0,
+    "b": 2.404116092867564,
+    "ratio": 11.068642305112451,
+    "lo": 2.6411085307012474,
+    "hi": 46.38765921747103,
+    "p": 0.0010074306682350005
+   },
+   "k1": {
+    "bin": "1",
+    "mid": 1.0,
+    "b": 2.139565868697491,
+    "ratio": 8.495748557786262,
+    "lo": 2.6702248609719854,
+    "hi": 27.03058630457586,
+    "p": 0.0002909360304340407
+   },
+   "k0_2": [
+    {
+     "bin": "0",
+     "mid": 0.0,
+     "b": 2.404116092867564,
+     "ratio": 11.068642305112451,
+     "lo": 2.6411085307012474,
+     "hi": 46.38765921747103,
+     "p": 0.0010074306682350005
+    },
+    {
+     "bin": "1",
+     "mid": 1.0,
+     "b": 2.139565868697491,
+     "ratio": 8.495748557786262,
+     "lo": 2.6702248609719854,
+     "hi": 27.03058630457586,
+     "p": 0.0002909360304340407
+    },
+    {
+     "bin": "2",
+     "mid": 2.0,
+     "b": 1.577464176551497,
+     "ratio": 4.842660096919057,
+     "lo": 1.3331540727428122,
+     "hi": 17.59088262472439,
+     "p": 0.016533428524178877
+    }
+   ],
+   "late": {
+    "bin": "49 to 59",
+    "mid": 54.0,
+    "b": 0.5714319834043287,
+    "ratio": 1.7708009943549112,
+    "lo": 0.5781547813753913,
+    "hi": 5.42369666847455,
+    "p": 0.3170247936328303
+   },
+   "y2": {
+    "bin": "13 to 24",
+    "mid": 18.5,
+    "b": 0.765517793657036,
+    "ratio": 2.150107398444884,
+    "lo": 0.7277133683953333,
+    "hi": 6.352723511238267,
+    "p": 0.16606567529308036
+   }
+  },
+  "half": {
+   "n": 68,
+   "median": 5.5,
+   "q1": 1.0,
+   "q3": 14.0,
+   "within12": 45,
+   "within12_pc": 66.17647058823529,
+   "pooled_first12_pc": 40.57789768640312,
+   "median_first12_pc": 66.66666666666666
+  },
+  "per_death": {
+   "median": 0.1840074818798223
+  },
+  "prose": {
+   "el_double_pc": 43.75526232347986,
+   "el_double_lo": 8.913728188168758,
+   "el_double_hi": 89.74261362157098,
+   "el_10x_pc": 233.89873100335356,
+   "n_checks": 28,
+   "n_checks_pos": 18,
+   "n_checks_cross": 10,
+   "checks_b_min": 0.11179766565938425,
+   "checks_b_max": 0.9845477620262759,
+   "placebo_b": -0.013099857081483732,
+   "placebo_lo": -0.300325615096644,
+   "placebo_hi": 0.2741259009336765,
+   "m0": 11.068642305112451,
+   "m0_lo": 2.6411085307012474,
+   "m0_hi": 46.38765921747103,
+   "m1": 8.495748557786262,
+   "m2": 4.842660096919057,
+   "m3": 3.297127739918301,
+   "m3_12_min": 2.354677901933494,
+   "m3_12_max": 5.323820428481678,
+   "late_min": 1.7708009943549112,
+   "late_max": 2.150107398444884,
+   "late_all_cross": 1,
+   "pre_min": 0.7099600931752327,
+   "pre_max": 1.0169275914022329,
+   "first_sig_cross": 5,
+   "london_b": 248.43535670401815,
+   "london_x": 3.4843535670401815,
+   "london_drop2_b": 28.780131670485453,
+   "london_swap_b": 52.91221048551327,
+   "listonly": {
+    "label": "Wikipedia list events only (40 or more deaths)",
+    "group": "X",
+    "b": 1.9627454533337998,
+    "lo": 1.1455327525134922,
+    "hi": 2.7799581541541074,
+    "p": 2.5095150400834465e-06,
+    "n": 44
+   },
+   "dropkx": {
+    "label": "Drop King's Cross (railway bill debates in the window)",
+    "group": "X",
+    "b": 0.7125879998711606,
+    "lo": 0.29363962529571735,
+    "hi": 1.1315363744466038,
+    "p": 0.0008570005063539338,
+    "n": 85
+   },
+   "swap": {
+    "label": "Swap to the other term where one exists",
+    "group": "R4",
+    "b": 0.4158524738947644,
+    "lo": 0.15750509851518746,
+    "hi": 0.6741998492743413,
+    "p": 0.001605622054728312,
+    "n": 86
+   },
+   "half_med": 5.5,
+   "harvest_median_deaths": 11.0,
+   "list_median_deaths": 72.0,
+   "by_region": {
+    "London and South East": {
+     "n": 19,
+     "deaths": 1110,
+     "C": 4302,
+     "CX": 2275.4
+    },
+    "Northern Ireland": {
+     "n": 8,
+     "deaths": 108,
+     "C": 418,
+     "CX": 212.1
+    },
+    "Rest of England": {
+     "n": 38,
+     "deaths": 2297,
+     "C": 1230,
+     "CX": 660.8
+    },
+    "Scotland": {
+     "n": 12,
+     "deaths": 751,
+     "C": 357,
+     "CX": 339.7
+    },
+    "Wales": {
+     "n": 9,
+     "deaths": 1064,
+     "C": 332,
+     "CX": 320.9
+    }
+   },
+   "by_type": {
+    "Bombing or shooting": {
+     "n": 15,
+     "deaths": 471,
+     "C": 1235
+    },
+    "Crowd crush": {
+     "n": 3,
+     "deaths": 310,
+     "C": 232
+    },
+    "Fire or explosion": {
+     "n": 11,
+     "deaths": 796,
+     "C": 3068
+    },
+    "Mining": {
+     "n": 24,
+     "deaths": 2331,
+     "C": 420
+    },
+    "Other": {
+     "n": 4,
+     "deaths": 138,
+     "C": 164
+    },
+    "Transport": {
+     "n": 29,
+     "deaths": 1284,
+     "C": 1520
+    }
+   },
+   "rb": {
+    "ols": {
+     "label": "OLS of log(1 + excess)",
+     "group": "R1",
+     "b": 0.26625973536623493,
+     "lo": -0.07124276302655769,
+     "hi": 0.6037622337590276,
+     "p": 0.12204688203000368,
+     "n": 86
+    },
+    "noFE": {
+     "label": "PPML without type and era",
+     "group": "R1",
+     "b": 0.11179766565938425,
+     "lo": -0.2799697273043946,
+     "hi": 0.5035650586231631,
+     "p": 0.5759502106480143,
+     "n": 86
+    },
+    "nb": {
+     "label": "Negative binomial",
+     "group": "R1",
+     "b": 0.3972121435275223,
+     "lo": 0.07852485192405884,
+     "hi": 0.7158994351309858,
+     "p": 0.014569734395071948,
+     "n": 86
+    },
+    "dropseat": {
+     "label": "Drop seat-name terms",
+     "group": "R2",
+     "b": 0.5239850383060876,
+     "lo": 0.10081830358969329,
+     "hi": 0.9471517730224819,
+     "p": 0.015227614081181432,
+     "n": 84
+    },
+    "addamb": {
+     "label": "Add ambiguous terms",
+     "group": "R2",
+     "b": 0.5112743714903496,
+     "lo": 0.1097861609068565,
+     "hi": 0.9127625820738428,
+     "p": 0.012563366604391175,
+     "n": 92
+    },
+    "nohand": {
+     "label": "Wikipedia list and Wikidata events only",
+     "group": "R2",
+     "b": 0.9845477620262759,
+     "lo": 0.4066530969981452,
+     "hi": 1.5624424270544066,
+     "p": 0.0008403455402561143,
+     "n": 62
+    },
+    "nowar": {
+     "label": "Drop wartime events",
+     "group": "R2",
+     "b": 0.4705587905688932,
+     "lo": 0.07782168576002008,
+     "hi": 0.8632958953777663,
+     "p": 0.018857553096707336,
+     "n": 75
+    },
+    "noNI": {
+     "label": "Drop Northern Ireland bombings and shootings",
+     "group": "R2",
+     "b": 0.5093806392365097,
+     "lo": 0.08630155709532789,
+     "hi": 0.9324597213776915,
+     "p": 0.01828645706004889,
+     "n": 78
+    },
+    "top3": {
+     "label": "Drop the three largest death tolls",
+     "group": "R3",
+     "b": 0.6834191267079145,
+     "lo": 0.11206972661916381,
+     "hi": 1.2547685267966653,
+     "p": 0.01905724257690691,
+     "n": 83
+    },
+    "topatt": {
+     "label": "Drop the event with most attention",
+     "group": "R3",
+     "b": 0.3652533140435433,
+     "lo": -0.10573531553897036,
+     "hi": 0.8362419436260569,
+     "p": 0.12852131550550028,
+     "n": 85
+    },
+    "w36": {
+     "label": "Window 36 months",
+     "group": "R4",
+     "b": 0.5650827795295358,
+     "lo": 0.19961143658678926,
+     "hi": 0.9305541224722823,
+     "p": 0.002441912409696314,
+     "n": 86
+    },
+    "b12": {
+     "label": "Baseline 12 months",
+     "group": "R4",
+     "b": 0.6689377800203439,
+     "lo": 0.25219640319709474,
+     "hi": 1.085679156843593,
+     "p": 0.0016548526435623415,
+     "n": 86
+    },
+    "novol": {
+     "label": "No volume adjustment",
+     "group": "R4",
+     "b": 0.4995561142936607,
+     "lo": 0.10079401274280086,
+     "hi": 0.8983182158445205,
+     "p": 0.014073621902937816,
+     "n": 86
+    },
+    "plain": {
+     "label": "Plain-phrase terms only",
+     "group": "R4",
+     "b": 0.5784498796925039,
+     "lo": -0.04093792829481768,
+     "hi": 1.1978376876798256,
+     "p": 0.06718689405807653,
+     "n": 63
+    },
+    "in": {
+     "label": "\"in\" terms only",
+     "group": "R4",
+     "b": 0.13510270091118973,
+     "lo": -0.21725786736048705,
+     "hi": 0.48746326918286653,
+     "p": 0.4523561358020777,
+     "n": 23
+    },
+    "swap": {
+     "label": "Swap to the other term where one exists",
+     "group": "R4",
+     "b": 0.4158524738947644,
+     "lo": 0.15750509851518746,
+     "hi": 0.6741998492743413,
+     "p": 0.001605622054728312,
+     "n": 86
+    },
+    "wd": {
+     "label": "Wikidata death toll where both",
+     "group": "R4",
+     "b": 0.529645049552684,
+     "lo": 0.12353326710305623,
+     "hi": 0.9357568320023117,
+     "p": 0.01058355450040097,
+     "n": 86
+    }
+   },
+   "n_flagged_places": 64
+  },
+  "events": {
+   "candidates": 105,
+   "included": 92,
+   "main": 86,
+   "excluded": 13,
+   "flag_ambiguous": 6,
+   "flag_city": 0,
+   "flag_seat": 2,
+   "src_list": 47,
+   "src_wikidata": 21,
+   "src_harvest": 24,
+   "kind_plain": 63,
+   "kind_in": 23,
+   "excl_no_term": 6,
+   "deaths_main_total": 5330,
+   "deaths_main_median": 40.5,
+   "year_min": 1910,
+   "year_max": 2020,
+   "wd_rows": 899,
+   "by_type": {
+    "Transport": 29,
+    "Mining": 24,
+    "Bombing or shooting": 15,
+    "Fire or explosion": 11,
+    "Other": 4,
+    "Crowd crush": 3
+   },
+   "by_regiongrp": {
+    "Rest of England": 38,
+    "London and South East": 19,
+    "Scotland": 12,
+    "Wales": 9,
+    "Northern Ireland": 8
+   },
+   "by_era": {
+    "1970 to 1989": 25,
+    "1909 to 1938": 20,
+    "1946 to 1969": 19,
+    "1990 to 2021": 16,
+    "1939 to 1945": 6
+   },
+   "deaths_disagree": [
+    {
+     "id": "aberfan",
+     "event": "Aberfan disaster",
+     "list": 146,
+     "wikidata": 144
+    },
+    {
+     "id": "lockerbie",
+     "event": "Lockerbie (Pan Am Flight 103)",
+     "list": 270,
+     "wikidata": 243
+    }
+   ],
+   "needed_terms": [
+    {
+     "id": "burnspit",
+     "event": "Burns Pit disaster (West Stanley)",
+     "year": 1909,
+     "deaths": 168,
+     "reason": "less than 12 months of data before the event"
+    },
+    {
+     "id": "silvertown",
+     "event": "Silvertown explosion",
+     "year": 1917,
+     "deaths": 73,
+     "reason": "\"Silvertown\" became a seat name in 1918, inside the window, and no event-specific phrase was found in use"
+    },
+    {
+     "id": "northsea",
+     "event": "North Sea flood",
+     "year": 1953,
+     "deaths": 531,
+     "reason": "many places at once (Canvey Island and others)"
+    },
+    {
+     "id": "windscale",
+     "event": "Windscale fire",
+     "year": 1957,
+     "deaths": null,
+     "reason": "no deaths at the time (later estimates only)"
+    },
+    {
+     "id": "summerland",
+     "event": "Summerland fire (Isle of Man)",
+     "year": 1973,
+     "deaths": 50,
+     "reason": "outside the UK (Isle of Man)"
+    },
+    {
+     "id": "lofthouse",
+     "event": "Lofthouse Colliery disaster",
+     "year": 1973,
+     "deaths": null,
+     "reason": "\"Lofthouse\" is the surname of an MP elected in 1978, inside the window; death toll not verified"
+    },
+    {
+     "id": "m62",
+     "event": "M62 coach bombing",
+     "year": 1974,
+     "deaths": 12,
+     "reason": "\"M62\" names the motorway (47 contributions in the 24 months before); no event-specific phrase harvested"
+    },
+    {
+     "id": "hydepark",
+     "event": "Hyde Park and Regent's Park bombings",
+     "year": 1982,
+     "deaths": 11,
+     "reason": "\"Hyde Park\" and \"Regent's Park\" are broad (1,337 and 456 contributions before the window); \"Hyde Park bomb\" and \"Regent's Park bomb\" find 0 and 1 in the five years after"
+    },
+    {
+     "id": "manchesterair",
+     "event": "Manchester air disaster (Ringway)",
+     "year": 1985,
+     "deaths": 55,
+     "reason": "\"Manchester Airport\" names the airport (91 contributions in the 24 months before)"
+    },
+    {
+     "id": "london77",
+     "event": "7 July 2005 London bombings",
+     "year": 2005,
+     "deaths": 56,
+     "reason": "\"7 July\" is a date and \"7/7\" matched 342 contributions before 2005; London-wide otherwise"
+    },
+    {
+     "id": "londonbridge",
+     "event": "June 2017 London Bridge attack",
+     "year": 2017,
+     "deaths": 11,
+     "reason": "\"London Bridge\" is broad (85 contributions in the 24 months before)"
+    },
+    {
+     "id": "clydach",
+     "event": "Cambrian Colliery explosion (Clydach Vale)",
+     "year": 1965,
+     "deaths": null,
+     "reason": "\"Clydach\" names two places (Clydach near Swansea is in the town list); death toll not verified"
+    },
+    {
+     "id": "sheffieldfloods",
+     "event": "2007 floods (Sheffield)",
+     "year": 2007,
+     "deaths": null,
+     "reason": "floods across many places; phrase never used in the Commons"
+    }
+   ],
+   "added_included": 26,
+   "added_main": 22,
+   "added_ambiguous": 4,
+   "added_deaths": 984,
+   "added_zero": 7,
+   "added_list": [
+    {
+     "id": "lowmoor",
+     "event": "Low Moor explosion",
+     "year": 1916,
+     "deaths": 40,
+     "term": "Low Moor",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "chilwell",
+     "event": "Chilwell shell filling factory explosion",
+     "year": 1918,
+     "deaths": 137,
+     "term": "Chilwell",
+     "flag": "",
+     "C": 7
+    },
+    {
+     "id": "r38",
+     "event": "R38 airship crash (Hull)",
+     "year": 1921,
+     "deaths": 44,
+     "term": "R.38",
+     "flag": "",
+     "C": 2
+    },
+    {
+     "id": "bentley",
+     "event": "Bentley Colliery disaster",
+     "year": 1931,
+     "deaths": 45,
+     "term": "Bentley Colliery",
+     "flag": "",
+     "C": 3
+    },
+    {
+     "id": "wharncliffe",
+     "event": "Wharncliffe Woodmoor colliery disaster",
+     "year": 1936,
+     "deaths": 58,
+     "term": "Wharncliffe Woodmoor",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "markham",
+     "event": "Markham Colliery disaster",
+     "year": 1938,
+     "deaths": 79,
+     "term": "Markham Colliery",
+     "flag": "",
+     "C": 7
+    },
+    {
+     "id": "valleyfield",
+     "event": "Valleyfield mining disaster",
+     "year": 1939,
+     "deaths": 35,
+     "term": "Valleyfield",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "sneyd",
+     "event": "Sneyd Colliery disaster",
+     "year": 1942,
+     "deaths": 57,
+     "term": "Sneyd",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "fauld",
+     "event": "RAF Fauld explosion",
+     "year": 1944,
+     "deaths": 70,
+     "term": "Fauld",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "bourneend",
+     "event": "Bourne End rail crash",
+     "year": 1945,
+     "deaths": 43,
+     "term": "Bourne End",
+     "flag": "ambiguous",
+     "C": 2
+    },
+    {
+     "id": "burngrange",
+     "event": "Burngrange mining disaster",
+     "year": 1947,
+     "deaths": 15,
+     "term": "Burngrange",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "llandow",
+     "event": "Llandow air disaster",
+     "year": 1950,
+     "deaths": 80,
+     "term": "Llandow",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "easington",
+     "event": "Easington Colliery disaster",
+     "year": 1951,
+     "deaths": 81,
+     "term": "Easington Colliery",
+     "flag": "",
+     "C": 3
+    },
+    {
+     "id": "aquila",
+     "event": "Aquila Airways flying boat crash (Isle of Wight)",
+     "year": 1957,
+     "deaths": 45,
+     "term": "Chessell",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "littlebaldon",
+     "event": "Little Baldon air crash",
+     "year": 1965,
+     "deaths": 41,
+     "term": "Little Baldon",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "penmaenpool",
+     "event": "Penmaenpool ferry disaster",
+     "year": 1966,
+     "deaths": 15,
+     "term": "Penmaenpool",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "hithergreen",
+     "event": "Hither Green rail crash",
+     "year": 1967,
+     "deaths": 49,
+     "term": "Hither Green",
+     "flag": "",
+     "C": 25
+    },
+    {
+     "id": "ariana",
+     "event": "Ariana Afghan Airlines crash near Gatwick",
+     "year": 1969,
+     "deaths": 50,
+     "term": "Fernhill",
+     "flag": "ambiguous",
+     "C": 6
+    },
+    {
+     "id": "mcgurks",
+     "event": "McGurk's Bar bombing",
+     "year": 1971,
+     "deaths": 15,
+     "term": "McGurk",
+     "flag": "ambiguous",
+     "C": 0
+    },
+    {
+     "id": "claudy",
+     "event": "Claudy bombing",
+     "year": 1972,
+     "deaths": 9,
+     "term": "Claudy",
+     "flag": "",
+     "C": 6
+    },
+    {
+     "id": "markham73",
+     "event": "Markham Colliery cage accident",
+     "year": 1973,
+     "deaths": 18,
+     "term": "Markham Colliery",
+     "flag": "",
+     "C": 5
+    },
+    {
+     "id": "kingsmill",
+     "event": "Kingsmill massacre",
+     "year": 1976,
+     "deaths": 10,
+     "term": "Kingsmill",
+     "flag": "ambiguous",
+     "C": 0
+    },
+    {
+     "id": "denmarkplace",
+     "event": "Denmark Place fire",
+     "year": 1980,
+     "deaths": 37,
+     "term": "Denmark Place",
+     "flag": "",
+     "C": 0
+    },
+    {
+     "id": "droppinwell",
+     "event": "Droppin Well bombing (Ballykelly)",
+     "year": 1982,
+     "deaths": 17,
+     "term": "Ballykelly",
+     "flag": "",
+     "C": 35
+    },
+    {
+     "id": "ballygawley",
+     "event": "Ballygawley bus bombing",
+     "year": 1988,
+     "deaths": 8,
+     "term": "Ballygawley",
+     "flag": "",
+     "C": 9
+    },
+    {
+     "id": "gleision",
+     "event": "Gleision Colliery accident",
+     "year": 2011,
+     "deaths": 4,
+     "term": "Gleision",
+     "flag": "",
+     "C": 15
+    }
+   ]
+  },
+  "d_M1": 0.10738807618947943,
+  "d_M1p": 0.1311355326888018,
+  "d_M1g": 0.09624018462058292,
+  "d_M1n": 0.11271909057448015,
+  "d_M1m": 0.039320724664959394
+ },
+ "cases": {
+  "grenfell": {
+   "event": "Grenfell Tower fire",
+   "year": 2017,
+   "deaths": 72,
+   "term": "Grenfell",
+   "kind": "plain",
+   "C": 1686,
+   "E": 4.7,
+   "P": 259,
+   "CX": 1681.3,
+   "peak": 132,
+   "half_k": 23,
+   "main": 1,
+   "flag": ""
+  },
+  "kingscross": {
+   "event": "King's Cross fire",
+   "year": 1987,
+   "deaths": 31,
+   "term": "King's Cross",
+   "kind": "plain",
+   "C": 1009,
+   "E": 32.7,
+   "P": 106,
+   "CX": 976.3,
+   "peak": 98,
+   "half_k": 24,
+   "main": 1,
+   "flag": ""
+  },
+  "aberfan": {
+   "event": "Aberfan disaster",
+   "year": 1966,
+   "deaths": 146,
+   "term": "Aberfan",
+   "kind": "plain",
+   "C": 203,
+   "E": 0.0,
+   "P": 48,
+   "CX": 203.0,
+   "peak": 34,
+   "half_k": 14,
+   "main": 1,
+   "flag": ""
+  },
+  "piperalpha": {
+   "event": "Piper Alpha",
+   "year": 1988,
+   "deaths": 167,
+   "term": "Piper Alpha",
+   "kind": "plain",
+   "C": 178,
+   "E": 0.0,
+   "P": 14,
+   "CX": 178.0,
+   "peak": 24,
+   "half_k": 28,
+   "main": 1,
+   "flag": ""
+  },
+  "gresford": {
+   "event": "Gresford disaster",
+   "year": 1934,
+   "deaths": 266,
+   "term": "Gresford",
+   "kind": "plain",
+   "C": 98,
+   "E": 0.0,
+   "P": 6,
+   "CX": 98.0,
+   "peak": 30,
+   "half_k": 29,
+   "main": 1,
+   "flag": ""
+  },
+  "senghenydd": {
+   "event": "Senghenydd colliery disaster",
+   "year": 1913,
+   "deaths": 439,
+   "term": "Senghenydd",
+   "kind": "plain",
+   "C": 1,
+   "E": 0.0,
+   "P": 0,
+   "CX": 1.0,
+   "peak": 1,
+   "half_k": 9,
+   "main": 1,
+   "flag": ""
+  },
+  "pretoria": {
+   "event": "Pretoria Pit disaster (Hulton Colliery)",
+   "year": 1910,
+   "deaths": 344,
+   "term": "Pretoria Pit",
+   "kind": "plain",
+   "C": 1,
+   "E": 0.0,
+   "P": 0,
+   "CX": 1.0,
+   "peak": 1,
+   "half_k": 3,
+   "main": 1,
+   "flag": ""
+  },
+  "quintinshill": {
+   "event": "Quintinshill rail crash",
+   "year": 1915,
+   "deaths": 226,
+   "term": "Quintinshill",
+   "kind": "plain",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "lockerbie": {
+   "event": "Lockerbie (Pan Am Flight 103)",
+   "year": 1988,
+   "deaths": 270,
+   "term": "Lockerbie",
+   "kind": "in",
+   "C": 10,
+   "E": 2.3,
+   "P": 7,
+   "CX": 7.7,
+   "peak": 4,
+   "half_k": 0,
+   "main": 1,
+   "flag": ""
+  },
+  "dunblane": {
+   "event": "Dunblane school shooting",
+   "year": 1996,
+   "deaths": 18,
+   "term": "Dunblane",
+   "kind": "in",
+   "C": 87,
+   "E": 2.7,
+   "P": 21,
+   "CX": 84.3,
+   "peak": 21,
+   "half_k": 8,
+   "main": 1,
+   "flag": ""
+  },
+  "hungerford": {
+   "event": "Hungerford shootings",
+   "year": 1987,
+   "deaths": 17,
+   "term": "Hungerford",
+   "kind": "in",
+   "C": 14,
+   "E": 0.0,
+   "P": 5,
+   "CX": 14.0,
+   "peak": 5,
+   "half_k": 4,
+   "main": 1,
+   "flag": ""
+  },
+  "staines": {
+   "event": "Staines air disaster (BEA Flight 548)",
+   "year": 1972,
+   "deaths": 118,
+   "term": "Staines",
+   "kind": "in",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "faversham": {
+   "event": "Faversham gunpowder mill explosion",
+   "year": 1916,
+   "deaths": 109,
+   "term": "Faversham",
+   "kind": "in",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "freckleton": {
+   "event": "Freckleton air disaster",
+   "year": 1944,
+   "deaths": 61,
+   "term": "Freckleton",
+   "kind": "in",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "grayrigg": {
+   "event": "Grayrigg derailment",
+   "year": 2007,
+   "deaths": 1,
+   "term": "Grayrigg",
+   "kind": "plain",
+   "C": 22,
+   "E": 0.0,
+   "P": 7,
+   "CX": 22.0,
+   "peak": 4,
+   "half_k": 23,
+   "main": 1,
+   "flag": ""
+  },
+  "hixon": {
+   "event": "Hixon rail crash",
+   "year": 1968,
+   "deaths": 11,
+   "term": "Hixon",
+   "kind": "plain",
+   "C": 27,
+   "E": 0.0,
+   "P": 6,
+   "CX": 27.0,
+   "peak": 5,
+   "half_k": 10,
+   "main": 1,
+   "flag": ""
+  },
+  "enniskillen": {
+   "event": "Enniskillen bombing",
+   "year": 1987,
+   "deaths": 11,
+   "term": "Enniskillen",
+   "kind": "plain",
+   "C": 107,
+   "E": 10.9,
+   "P": 40,
+   "CX": 96.1,
+   "peak": 31,
+   "half_k": 4,
+   "main": 1,
+   "flag": ""
+  },
+  "morecambe": {
+   "event": "Morecambe Bay cockling disaster",
+   "year": 2004,
+   "deaths": 22,
+   "term": "Morecambe Bay",
+   "kind": "plain",
+   "C": 104,
+   "E": 14.0,
+   "P": 40,
+   "CX": 90.0,
+   "peak": 31,
+   "half_k": 3,
+   "main": 1,
+   "flag": ""
+  },
+  "arena": {
+   "event": "Manchester Arena bombing",
+   "year": 2017,
+   "deaths": 23,
+   "term": "Manchester Arena",
+   "kind": "plain",
+   "C": 85,
+   "E": 0.0,
+   "P": 9,
+   "CX": 85.0,
+   "peak": 8,
+   "half_k": 14,
+   "main": 1,
+   "flag": ""
+  },
+  "lewisham": {
+   "event": "Lewisham rail crash",
+   "year": 1957,
+   "deaths": 90,
+   "term": "Lewisham",
+   "kind": "plain",
+   "C": 1130,
+   "E": 1639.9,
+   "P": 84,
+   "CX": -509.9,
+   "peak": 52,
+   "half_k": null,
+   "main": 1,
+   "flag": "seat"
+  },
+  "bethnalgreen": {
+   "event": "Bethnal Green tube station crush",
+   "year": 1943,
+   "deaths": 173,
+   "term": "Bethnal Green",
+   "kind": "plain",
+   "C": 189,
+   "E": 306.7,
+   "P": 10,
+   "CX": -117.7,
+   "peak": 27,
+   "half_k": null,
+   "main": 1,
+   "flag": "seat"
+  },
+  "flixborough": {
+   "event": "Flixborough disaster",
+   "year": 1974,
+   "deaths": 28,
+   "term": "Flixborough",
+   "kind": "plain",
+   "C": 112,
+   "E": 0.0,
+   "P": 54,
+   "CX": 112.0,
+   "peak": 43,
+   "half_k": 5,
+   "main": 1,
+   "flag": ""
+  },
+  "birmingham": {
+   "event": "Birmingham pub bombings",
+   "year": 1974,
+   "deaths": 21,
+   "term": "Birmingham",
+   "kind": "in",
+   "C": 597,
+   "E": 492.2,
+   "P": 84,
+   "CX": 104.8,
+   "peak": 51,
+   "half_k": 1,
+   "main": 1,
+   "flag": ""
+  },
+  "hillsborough": {
+   "event": "Hillsborough disaster",
+   "year": 1989,
+   "deaths": 97,
+   "term": "Hillsborough",
+   "kind": "plain",
+   "C": 400,
+   "E": 244.9,
+   "P": 109,
+   "CX": 155.1,
+   "peak": 51,
+   "half_k": 2,
+   "main": 0,
+   "flag": "ambiguous"
+  },
+  "bradford": {
+   "event": "Bradford City stadium fire",
+   "year": 1985,
+   "deaths": 56,
+   "term": "Bradford City",
+   "kind": "plain",
+   "C": 72,
+   "E": 23.0,
+   "P": 14,
+   "CX": 49.0,
+   "peak": 8,
+   "half_k": 41,
+   "main": 1,
+   "flag": ""
+  },
+  "ibrox": {
+   "event": "Ibrox disaster",
+   "year": 1971,
+   "deaths": 66,
+   "term": "Ibrox",
+   "kind": "plain",
+   "C": 35,
+   "E": 0.0,
+   "P": 2,
+   "CX": 35.0,
+   "peak": 11,
+   "half_k": 36,
+   "main": 1,
+   "flag": ""
+  },
+  "harrow": {
+   "event": "Harrow and Wealdstone rail crash",
+   "year": 1952,
+   "deaths": 112,
+   "term": "Harrow and Wealdstone",
+   "kind": "plain",
+   "C": 3,
+   "E": 0.0,
+   "P": 3,
+   "CX": 3.0,
+   "peak": 3,
+   "half_k": 0,
+   "main": 1,
+   "flag": ""
+  },
+  "moorgate": {
+   "event": "Moorgate tube crash",
+   "year": 1975,
+   "deaths": 43,
+   "term": "Moorgate",
+   "kind": "plain",
+   "C": 20,
+   "E": 5.5,
+   "P": 8,
+   "CX": 14.5,
+   "peak": 5,
+   "half_k": 2,
+   "main": 1,
+   "flag": ""
+  },
+  "omagh": {
+   "event": "Omagh bombing",
+   "year": 1998,
+   "deaths": 29,
+   "term": "Omagh",
+   "kind": "in",
+   "C": 44,
+   "E": 5.2,
+   "P": 24,
+   "CX": 38.8,
+   "peak": 24,
+   "half_k": 1,
+   "main": 1,
+   "flag": ""
+  },
+  "carmont": {
+   "event": "Carmont derailment",
+   "year": 2020,
+   "deaths": 3,
+   "term": "Carmont",
+   "kind": "plain",
+   "C": 2,
+   "E": 0.0,
+   "P": 0,
+   "CX": 2.0,
+   "peak": 1,
+   "half_k": 13,
+   "main": 1,
+   "flag": ""
+  },
+  "clapham": {
+   "event": "Clapham Junction rail crash",
+   "year": 1988,
+   "deaths": 35,
+   "term": "Clapham Junction",
+   "kind": "plain",
+   "C": 69,
+   "E": 2.3,
+   "P": 19,
+   "CX": 66.7,
+   "peak": 14,
+   "half_k": 12,
+   "main": 1,
+   "flag": ""
+  },
+  "ladbroke": {
+   "event": "Ladbroke Grove rail crash",
+   "year": 1999,
+   "deaths": 31,
+   "term": "Ladbroke Grove",
+   "kind": "plain",
+   "C": 66,
+   "E": 10.5,
+   "P": 22,
+   "CX": 55.5,
+   "peak": 14,
+   "half_k": 9,
+   "main": 1,
+   "flag": ""
+  },
+  "easington": {
+   "event": "Easington Colliery disaster",
+   "year": 1951,
+   "deaths": 81,
+   "term": "Easington Colliery",
+   "kind": "plain",
+   "C": 3,
+   "E": 0.0,
+   "P": 2,
+   "CX": 3.0,
+   "peak": 2,
+   "half_k": 0,
+   "main": 1,
+   "flag": ""
+  },
+  "droppinwell": {
+   "event": "Droppin Well bombing (Ballykelly)",
+   "year": 1982,
+   "deaths": 17,
+   "term": "Ballykelly",
+   "kind": "plain",
+   "C": 35,
+   "E": 2.7,
+   "P": 20,
+   "CX": 32.3,
+   "peak": 20,
+   "half_k": 0,
+   "main": 1,
+   "flag": ""
+  },
+  "hithergreen": {
+   "event": "Hither Green rail crash",
+   "year": 1967,
+   "deaths": 49,
+   "term": "Hither Green",
+   "kind": "plain",
+   "C": 25,
+   "E": 5.8,
+   "P": 7,
+   "CX": 19.2,
+   "peak": 7,
+   "half_k": 4,
+   "main": 1,
+   "flag": ""
+  },
+  "gleision": {
+   "event": "Gleision Colliery accident",
+   "year": 2011,
+   "deaths": 4,
+   "term": "Gleision",
+   "kind": "plain",
+   "C": 15,
+   "E": 0.0,
+   "P": 10,
+   "CX": 15.0,
+   "peak": 8,
+   "half_k": 1,
+   "main": 1,
+   "flag": ""
+  },
+  "fauld": {
+   "event": "RAF Fauld explosion",
+   "year": 1944,
+   "deaths": 70,
+   "term": "Fauld",
+   "kind": "plain",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "lowmoor": {
+   "event": "Low Moor explosion",
+   "year": 1916,
+   "deaths": 40,
+   "term": "Low Moor",
+   "kind": "plain",
+   "C": 0,
+   "E": 0.0,
+   "P": 0,
+   "CX": 0.0,
+   "peak": 0,
+   "half_k": null,
+   "main": 1,
+   "flag": ""
+  },
+  "chilwell": {
+   "event": "Chilwell shell filling factory explosion",
+   "year": 1918,
+   "deaths": 137,
+   "term": "Chilwell",
+   "kind": "plain",
+   "C": 7,
+   "E": 0.0,
+   "P": 1,
+   "CX": 7.0,
+   "peak": 3,
+   "half_k": 11,
+   "main": 1,
+   "flag": ""
+  }
+ },
+ "swapcases": {
+  "lockerbie": {
+   "term": "Lockerbie",
+   "kind": "plain",
+   "C": 239
+  },
+  "hungerford": {
+   "term": "Hungerford",
+   "kind": "plain",
+   "C": 96
+  },
+  "dunblane": {
+   "term": "Dunblane",
+   "kind": "plain",
+   "C": 405
+  }
+ }
+}

@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Does Parliament notice disasters? | Commons attention after 64 UK disasters, 1910 to 2020</title>
+<meta name="description" content="How much the House of Commons talked about the places of 64 UK disasters, how fast that attention faded, and whether it followed the death toll or the place.">
+<meta property="og:title" content="Does Parliament notice disasters, and whose?">
+<meta property="og:description" content="64 UK disasters, 1910 to 2020: Commons attention to the place jumps to 10 times its usual level in the month of the disaster and half the extra attention has come within 8 months.">
+<meta property="og:image" content="https://maps.tristanhotham.com/disaster-attention/header.png">
+<meta property="og:url" content="https://maps.tristanhotham.com/disaster-attention/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+:root{--bg:#F6EED8;--panel:#EFE3C4;--fg:#2B2119;--muted:#6E604E;--rule:#E2D3AE;--card:#FBF5E4;--border:#D3C29A;--hot:#8C3B2E;--cool:#2F6A9E;
+  --display:"Fraunces",Georgia,serif;--body:"Source Serif 4",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1A1612;--panel:#241E18;--fg:#EFE6D4;--muted:#ADA08B;--rule:#3A3128;--card:#211B15;--border:#4D4234;--hot:#E07A6C;--cool:#8FB4DA;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:720px;margin:0 auto;padding-block:28px 64px}
+a{color:inherit;text-decoration-color:var(--hot);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--hot);color:#fff;padding:5px 8px;font-weight:500}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:54px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--hot);display:block;letter-spacing:.1em;margin-bottom:10px}
+p{margin:0 0 16px}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+ul.plain{padding-left:20px} ul.plain li{margin:4px 0}
+details{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:18px 0;font-size:16px}
+summary{font:500 13px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;cursor:pointer;color:var(--muted)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--hot);border-color:var(--hot);color:#fff}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:4px 8px;cursor:pointer;min-height:28px}
+.figure{margin:22px 0}.figure img{width:100%;display:block;border:1px solid var(--border);background:#F6EED8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:22px 0}
+.stat b{display:block;font:900 40px/1 var(--display);color:var(--hot)}
+.stat span{font:400 13px/1.35 var(--mono);color:var(--muted)}
+table.t{width:100%;border-collapse:collapse;font:400 13.5px/1.4 var(--mono);margin:12px 0 4px}
+table.t th{text-align:left;font-weight:500;border-bottom:2px solid var(--fg);padding:5px 6px 5px 0}
+table.t td{border-bottom:1px solid var(--rule);padding:5px 6px 5px 0;vertical-align:top}
+table.t td.r,table.t th.r{text-align:right}
+.tscroll{overflow-x:auto}
+.topbar{height:40px;display:flex;align-items:center;gap:14px;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding:0 max(14px,env(safe-area-inset-left,0px));border-bottom:3px double var(--fg);background:var(--bg);overflow:hidden;white-space:nowrap}
+.tb-name{font:800 18px/1 var(--display);color:var(--hot);text-decoration:none}
+.tb-k{font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tb-links{margin-left:auto;display:flex;gap:16px;align-items:center;font:500 12px/1 var(--mono)}
+.tb-links a{text-decoration:none}
+.mapband{width:100vw;margin-left:calc(50% - 50vw)}
+.pane{position:relative;height:calc(100vh - 43px);height:calc(100svh - 43px);min-height:480px;border-bottom:1px solid #BCA676;background:#EEF1F2;overflow:hidden}
+#map{position:absolute;inset:0}
+.cartouche{position:absolute;left:14px;top:14px;z-index:5;max-width:min(340px,calc(100% - 28px));background:rgba(251,243,220,.96);color:#2B2119;border:2px solid #2B2119;padding:10px 14px;box-shadow:0 3px 14px rgba(60,40,10,.22)}
+.cartouche h1{font:900 clamp(22px,2.3vw,30px)/1 var(--display);letter-spacing:-.015em;margin:6px 0 0;color:#2B2119}
+.cartouche h1 .a{color:#8C3B2E}
+.cartouche .dek{font-size:13.5px;line-height:1.36;margin:6px 0 0}
+.cartouche .byline{font-size:11px;color:#6E604E;margin-top:6px}.cartouche .kicker{color:#6E604E}
+.ct-fold{position:absolute;right:6px;top:5px;width:26px;height:26px;border:0;background:none;color:#8C3B2E;font:700 16px/1 var(--mono);cursor:pointer;padding:0}
+.ct-toggle{display:none;font:800 16px/1 var(--display);color:#8C3B2E;background:none;border:0;padding:2px 0;cursor:pointer;min-height:30px}
+.cartouche.folded .ct-body,.cartouche.folded .ct-fold{display:none}.cartouche.folded .ct-toggle{display:block}.cartouche.folded{padding:4px 11px}
+.ov-top{position:absolute;z-index:6;right:54px;top:10px;max-width:calc(100% - 480px);display:flex;flex-direction:column;gap:6px;align-items:flex-end;pointer-events:none;font:400 13px/1.3 var(--mono);color:#2B2119}
+.ov-top>*{pointer-events:auto}
+.srch{position:relative;width:min(340px,100%)}
+.srch input{width:100%;font:400 15px/1 var(--mono);background:rgba(251,245,228,.97);color:#2B2119;border:1px solid #9C8656;border-radius:3px;padding:9px 10px;min-height:40px}
+.sug{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:0;list-style:none;background:#FBF5E4;border:1px solid #9C8656;max-height:300px;overflow:auto;display:none;z-index:12}
+.sug li{padding:8px 10px;cursor:pointer;border-bottom:1px solid #E7D9B6}.sug li span{color:#7A6A52;font-size:12px}
+.sug li[aria-selected="true"],.sug li:hover{background:#EFE1BC}
+.chips{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none;padding-bottom:2px}.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;font:500 12px/1 var(--mono);background:rgba(251,245,228,.95);color:#2B2119;border:1px solid #9C8656;border-radius:999px;padding:8px 11px;cursor:pointer;min-height:34px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:#8C3B2E;color:#fff;border-color:#2B2119}
+.chip.lyr{background:#2B2119;color:#F6EED8;border-color:#2B2119}
+.lp{position:absolute;right:54px;top:60px;z-index:9;background:rgba(251,245,228,.98);border:1px solid #9C8656;border-radius:4px;padding:10px 12px 8px;font:400 13px/1.3 var(--mono);color:#2B2119;box-shadow:0 3px 12px rgba(60,40,10,.25);display:none;min-width:250px}
+.lp.open{display:block}.lp h4{margin:0 0 6px;font:500 11px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#7A6A52}
+.lp label{display:flex;gap:8px;align-items:center;padding:5px 0;cursor:pointer;min-height:30px}.lp input{accent-color:#8C3B2E;width:16px;height:16px;flex:none}
+.keys{position:absolute;left:12px;bottom:12px;z-index:4;background:rgba(251,243,220,.96);border:1px solid #9C8656;border-radius:3px;padding:8px 10px;font:400 11.5px/1.25 var(--mono);color:#2B2119;max-width:270px}
+.keys b{display:block;font:800 14px/1.1 var(--display);margin-bottom:5px}
+.keys .bar{height:10px;border:1px solid rgba(43,33,25,.4)}
+.keys .ends{display:flex;justify-content:space-between;font-size:10.5px;color:#6E604E;margin-top:2px}
+.keys .row{display:flex;align-items:center;gap:6px;margin-top:5px}.keys .dot{width:10px;height:10px;border-radius:50%;background:#B9B4AA;border:1px solid #fff;box-shadow:0 0 0 1px #888}
+.maplibregl-popup-content{background:#FBF5E4;color:#2B2119;font:400 13px/1.45 var(--mono);border:1px solid #9C8656;border-radius:4px;padding:10px 12px;max-width:320px;max-height:44vh;overflow:auto}
+.maplibregl-popup-content b.t{display:block;font:800 19px/1.15 var(--display);color:#8C3B2E;margin-bottom:3px;padding-right:14px}
+.maplibregl-popup-content table{border-collapse:collapse;margin:5px 0}.maplibregl-popup-content td{padding:1px 8px 1px 0;vertical-align:top}
+.maplibregl-popup-content td:first-child{color:#7A6A52}.maplibregl-popup-content .nt{color:#7A6A52;font-size:11.5px;margin:5px 0 0}
+.maplibregl-popup-content a{color:#8C3B2E}
+.maplibregl-ctrl-attrib{font:400 11px/1.3 var(--mono)!important}
+.nojs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:400 14px var(--mono);color:#6E604E;padding:20px;text-align:center}
+@media (max-width:1000px){.ov-top{left:10px;right:54px;max-width:none;align-items:flex-start}.lp{left:10px;right:auto;top:100px}.cartouche{top:100px}}
+@media (max-width:600px){.tb-k,.tb-links a.x{display:none}.topbar{gap:10px}.tb-name{font-size:15px}.tb-links{gap:10px}
+  .lp{left:8px;right:8px;min-width:0}.ov-top{left:8px;top:8px}.cartouche{left:8px;top:100px;max-width:calc(100% - 16px)}.cartouche h1{font-size:23px}
+  .ct-toggle{display:block}.ct-fold{display:none}.keys{max-width:200px;font-size:10.5px;padding:6px 8px}.chip{padding:8px 8px;font-size:11.5px}.keys .kx{display:none}.chips{flex-wrap:wrap}.cartouche{top:150px}}
+.maplibregl-popup{z-index:7}
+.spk{display:block;margin:6px 0 2px;background:#F6F1E6;border:1px solid #E2D7BC}
+.lp select{font:400 13px var(--mono);background:#FBF5E4;border:1px solid #9C8656;border-radius:3px;padding:5px;width:100%;color:#2B2119}
+.lp hr{border:0;border-top:1px solid #E2D3AE;margin:6px 0}
+.keys .note{font-size:10.5px;color:#6E604E;margin-top:5px}
+</style></head>
+</head>
+<body>
+<div class="topbar">
+  <a class="tb-name" href="#mapWrap">Does Parliament notice disasters?</a>
+  <span class="tb-k">Data study · 2026</span>
+  <nav class="tb-links"><a href="#essay">About</a><button class="theme" id="theme" aria-label="Toggle dark mode">◐</button><a href="https://doi.org/10.5281/zenodo.24094466">Paper</a><a class="x" href="https://github.com/Tristan-Hotham/disaster-attention">Data and code</a></nav>
+</div>
+<div class="mapband">
+  <div class="pane" id="mapWrap" data-fullscreen-map role="application" aria-label="Map of UK disasters sized by deaths and coloured by the Commons attention that followed">
+    <div id="map"></div>
+    <div class="nojs" id="nojs">Loading the map. It needs JavaScript and WebGL.</div>
+    <div class="cartouche" id="cartouche">
+      <button class="ct-toggle" id="ctToggle" aria-expanded="true">Does Parliament notice disasters? ▾</button>
+      <button class="ct-fold" id="ctFold" title="Fold the title" aria-label="Fold the title">▴</button>
+      <div class="ct-body">
+        <div class="kicker"><b>Data study</b><span>2026</span></div>
+        <h1>Does Parliament notice <span class="a">disasters, and whose?</span></h1>
+        <p class="dek">86 disasters in the UK, 1910 to 2020 (22 added after the first results), sized by deaths and coloured by how much more the House of Commons named the place in the five years after. Tap a circle for the month-by-month record.</p>
+        <div class="byline">Dr Tristan Hotham · Independent researcher · 2026</div>
+      </div>
+    </div>
+    <div class="ov-top">
+      <div class="srch"><input type="search" id="q" placeholder="Find a disaster or place" aria-label="Find a disaster or place" autocomplete="off"><ul class="sug" id="sug" role="listbox"></ul></div>
+      <div class="chips"><button class="chip" data-m="xpd" aria-pressed="true">Attention per death</button><button class="chip" data-m="type" aria-pressed="false">Kind</button><button class="chip lyr" id="lyrBtn" aria-expanded="false" aria-controls="lp">Layers and filters</button></div>
+    </div>
+    <div class="lp" id="lp" role="dialog" aria-label="Map layers and filters">
+      <h4>Layers</h4>
+      <label><input type="checkbox" id="lyP" checked> Disasters in the analysis</label>
+      <label><input type="checkbox" id="lyN" checked> Disasters added later (dark outline)</label>
+      <label><input type="checkbox" id="lyF" checked> Ambiguous search word (pale)</label>
+      <label><input type="checkbox" id="lyX" checked> Left out: no usable search word (rings)</label>
+      <label><input type="checkbox" id="lyL" checked> Labels (close in)</label>
+      <label><input type="checkbox" id="lyB" checked> Base map labels</label>
+      <hr><h4>Kind of disaster</h4>
+      <label><input type="checkbox" data-t="Mining" checked> Mining</label><label><input type="checkbox" data-t="Transport" checked> Transport</label><label><input type="checkbox" data-t="Fire or explosion" checked> Fire or explosion</label><label><input type="checkbox" data-t="Crowd crush" checked> Crowd crush</label><label><input type="checkbox" data-t="Bombing or shooting" checked> Bombing or shooting</label><label><input type="checkbox" data-t="Other" checked> Other</label>
+      <hr><h4>Years</h4>
+      <select id="dec" aria-label="Years shown"><option value="1900-2030">All years</option><option value="1909-1938">1909 to 1938</option><option value="1939-1945">1939 to 1945</option><option value="1946-1969">1946 to 1969</option><option value="1970-1989">1970 to 1989</option><option value="1990-2030">1990 to 2020</option></select>
+    </div>
+    <div class="keys" id="keys"><b id="keyTitle">Extra Commons contributions per death, five years</b><div id="keyRows"></div>
+      <div class="note kx">Circle size: deaths. Showing <span id="nShown">86</span> disasters. Dark outline: added later, after the first results. UK only, 1910 to 2020.</div></div>
+  </div>
+</div>
+<div class="wrap" id="essay">
+<p style="margin-top:6px">When a disaster takes lives, the place where it happened often becomes a name the whole country knows. I wanted to know how much the House of Commons talks about such a place afterwards, how long that lasts, and whether it depends on how many people died or on where the disaster happened. I counted, month by month, the Commons speeches that named the place of 64 disasters in the UK between 1910 and 2020, in which 4,346 people died.</p>
+<div class="byline">Dr Tristan Hotham · Independent researcher · 2026 · Data: Hansard via the UK Parliament API (Open Parliament Licence), Wikipedia (CC BY-SA), Wikidata (CC0), ONS (OGL) · Base map: OpenFreeMap Positron</div>
+<div class="stats">
+<div class="stat"><b>10x</b><span>the usual level of Commons mentions in the month of the disaster</span></div>
+<div class="stat"><b>8.5</b><span>months, the median time to half of the extra attention over five years</span></div>
+<div class="stat"><b>+33%</b><span>more attention for twice the deaths in the planned model, a link that is not robust</span></div>
+<div class="stat"><b>4</b><span>disasters whose search word never came up in the five years after</span></div>
+</div>
+
+<h2><span class="n">01 · The rise and the fade</span>Noticed at once, then less and less</h2>
+<p>In the month of a disaster, Commons speeches naming the place rose to 10.4 times their usual level (95% interval 2.4 to 44.9), and to 8.3 times the month after. By the fourth month the rise was about 3.0 times. From the second year to the fifth it sat at about 1.8 to 2.2 times the usual level, and the intervals all include no change. In the two years before, the counts were flat, so the rise is not a trend that was already under way.</p>
+<p>For each disaster I also asked how long it took to reach half of all the extra attention over five years. The median was 8.5 months; for 31 of the 54 disasters with any extra attention it was within the first year. A few cases kept Parliament's attention much longer, usually because an inquiry, a trial or a campaign by families followed: <a data-go="grenfell">Grenfell Tower</a> reached half only after 23 months, <a data-go="piperalpha">Piper Alpha</a> after 28, and <a data-go="gresford">Gresford</a> after 29.</p>
+<div class="figure"><img src="img/event.jpg" alt="Chart of Commons mentions of the place relative to its usual level, flat for two years before the disaster, then 10 times the usual level in the month of the disaster, falling to about two to five times within the year and about two times in years two to five" loading="lazy"><p class="src">Ratios from a Poisson event study of 60 disasters, with 95% intervals.</p></div>
+<div class="figure"><img src="img/half.jpg" alt="Dot chart of the month by which each disaster reached half of its extra attention, most within the first year, median 8.5 months, a long tail to about four years" loading="lazy"><p class="src">Each dot is a disaster with any extra attention.</p></div>
+
+<h2><span class="n">02 · The death toll</span>More deaths, only a little more talk</h2>
+<p>Across all the disasters, the raw link between deaths and attention is close to nothing (rank correlation -0.06). Some disasters with many deaths left almost no trace in the searchable record: the 439 deaths at <a data-go="senghenydd">Senghenydd</a> in 1913 and the 226 at <a data-go="quintinshill">Quintinshill</a> in 1915 produce 1 and 0 matching contributions, partly because older volumes are harder to search and wartime reporting was restricted. Others with few deaths were discussed again and again: the derailment at <a data-go="grayrigg">Grayrigg</a> in 2007, in which one person died, came up in 22 contributions.</p>
+<p>The analysis plan, written before I looked at the results, compares disasters with the same usual level of mentions, the same kind and era, and the same type of search word. In that model, twice the deaths goes with about 33% more attention over five years (95% interval 3% to 72%): more, but much less than in proportion. This link is not robust. Its interval includes zero in 12 of the 28 checks I set out in advance, and shuffling the death tolls at random gives a link at least as strong in 7% of draws. A placebo test, which pretends each disaster happened three years earlier, finds nothing (0.01).</p>
+<p>Those are the first results, for 64 disasters. Afterwards I found usable search words for 22 more that I had left out, and added them under the same rules (the dark outlines on the map). With all 86, twice the deaths goes with about 44% more attention (95% interval 9% to 90%), and shuffling the tolls gives a link that strong in only 0.7% of draws. The link is a little clearer, but still not robust: its interval includes zero in 10 of the 28 checks. Because I added these disasters after seeing the first results, I show both versions.</p>
+<div class="figure"><img src="img/scatter.jpg" alt="Scatter chart of deaths against Commons contributions in the five years after, on log scales, with no clear pattern: Grenfell Tower and King's Cross with over a thousand contributions, Senghenydd and Quintinshill with almost none" loading="lazy"><p class="src">Each dot is a disaster, coloured by kind.</p></div>
+
+<h2><span class="n">03 · Whose disaster</span>London's lead rests on two disasters</h2>
+<p>With the same deaths, kind and era, disasters in London and the South East drew 3.5 times the attention of those elsewhere in England (95% interval 20% to 947% more). But that gap rests on two London disasters: leave out Grenfell Tower and the King's Cross fire together, or use the other search word where one exists, and the difference shrinks to about 39% with an interval that includes no difference. Disasters in Scotland, Wales and Northern Ireland were not clearly treated differently from those in England, and mining disasters were not clearly different from other kinds. The data are too thin to say more than that.</p>
+<div class="figure"><img src="img/groups.jpg" alt="Dot and whisker chart: London and the South East about plus 255 percent, but near zero without Grenfell and King's Cross; Scotland, Wales, Northern Ireland and mining all with intervals crossing zero" loading="lazy"><p class="src">Changes in five-year attention from the planned model, with two exploratory checks.</p></div>
+<div class="figure"><img src="img/map.jpg" alt="Map of the United Kingdom with circles for disasters, sized by deaths, coloured from grey to dark red by extra Commons contributions per death" loading="lazy"><p class="src">The map above, as a still.</p></div>
+
+<h2><span class="n">04 · What is remembered</span>A list is already a memory</h2>
+<p>Any list of disasters is a filter of what has been remembered. The Wikipedia list keeps disasters with 40 or more deaths; smaller ones are here only if Wikidata or the list of search words I started from included them, and those were chosen because people still talk about them. That shows: the 23 smaller disasters that came from the search list had a median of 11 deaths but were often much discussed, which flattens the link with the death toll. Among the 31 disasters on the Wikipedia list alone, the link is much steeper (elasticity 2.0), an exploratory result I did not plan.</p>
+<p>The search word matters too. People say "the Lockerbie bombing" more than "in Lockerbie": the phrase "in Lockerbie" appears 10 times in the five years after 1988, the word "Lockerbie" 239 times. Some words also mean other things. Hillsborough is a castle in County Down and the name of a 1985 agreement, so I left it out of the main analysis; "King's Cross" was also in debates about the Channel Tunnel railway in the same years, which I noticed only after the results were in.</p>
+<div class="figure"><img src="img/timeline.jpg" alt="Timeline from 1910 to 2020 with a stalk for each disaster showing Commons contributions in the five years after, mostly low before 1960 and highest for Lewisham, King's Cross and Grenfell" loading="lazy"><p class="src">Contributions in the five years after each disaster, by year.</p></div>
+
+<h2><span class="n">05 · How I did this</span>Counting speeches, month by month</h2>
+<p><b>The disasters.</b> I started from the Wikipedia list of disasters in Great Britain and Ireland by death toll, Wikidata's disasters in the UK, and a list of place words for well-known disasters. I kept single, local events on UK soil since 1909 with at least one death, and left out pandemics, heatwaves, smogs, losses at sea and events abroad. At first 39 candidates could not be used, most because no search word was available. After a second search for words, 13 remain, for example where the only word is too broad ("Gatwick", "London Bridge", "7 July"); they are rings on the map.</p>
+<p><b>The counts.</b> For each disaster I counted Commons speeches each month that contained "in" plus the town's name, or the name of the pit, station or village itself, from two years before to five years after, using the UK Parliament's Hansard search. The usual level is the average of the two years before, adjusted for how much Parliament was sitting and for the growth of Hansard.</p>
+<p><b>The models.</b> The plan was written down before any model was run: a Poisson regression of five-year attention on the death toll, the usual level, the kind of disaster, the era and the type of search word, then 28 planned checks and a placebo. Exploratory checks are labelled as such.</p>
+<p><b>What this cannot say.</b> It counts words, not care or action. A short list of speeches can matter more than a long one, and much of the response to a disaster happens outside the chamber, in inquiries, courts and communities. It is a comparison, not an experiment.</p>
+<details><summary>All 86 disasters in the analysis (* added later)</summary>
+<div class="tscroll"><table class="t"><thead><tr><th>Disaster</th><th class="r">Year</th><th class="r">Deaths</th><th>Search word</th><th class="r">Usual a month</th><th class="r">Five years</th></tr></thead><tbody>
+<tr><td><a href="#mapWrap" data-go="wellington">Wellington Pit disaster</a></td><td class="r">1910</td><td class="r">136</td><td>Wellington Pit</td><td class="r">0.00</td><td class="r">3</td></tr>
+<tr><td><a href="#mapWrap" data-go="pretoria">Pretoria Pit disaster (Hulton Colliery)</a></td><td class="r">1910</td><td class="r">344</td><td>Pretoria Pit</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="cadeby">Cadeby Main pit disaster</a></td><td class="r">1912</td><td class="r">91</td><td>Cadeby</td><td class="r">0.00</td><td class="r">18</td></tr>
+<tr><td><a href="#mapWrap" data-go="senghenydd">Senghenydd colliery disaster</a></td><td class="r">1913</td><td class="r">439</td><td>Senghenydd</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="quintinshill">Quintinshill rail crash</a></td><td class="r">1915</td><td class="r">226</td><td>Quintinshill</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="faversham">Faversham gunpowder mill explosion</a></td><td class="r">1916</td><td class="r">109</td><td>in Faversham</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="lowmoor">Low Moor explosion</a> *</td><td class="r">1916</td><td class="r">40</td><td>Low Moor</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="minnie">Minnie Pit disaster</a></td><td class="r">1918</td><td class="r">155</td><td>Minnie Pit</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="chilwell">Chilwell shell filling factory explosion</a> *</td><td class="r">1918</td><td class="r">137</td><td>Chilwell</td><td class="r">0.00</td><td class="r">7</td></tr>
+<tr><td><a href="#mapWrap" data-go="abermule">Abermule train collision</a></td><td class="r">1921</td><td class="r">17</td><td>Abermule</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="r38">R38 airship crash (Hull)</a> *</td><td class="r">1921</td><td class="r">44</td><td>R.38</td><td class="r">0.08</td><td class="r">2</td></tr>
+<tr><td><a href="#mapWrap" data-go="marine">Marine Colliery disaster (Cwm)</a></td><td class="r">1927</td><td class="r">52</td><td>in Ebbw Vale</td><td class="r">0.00</td><td class="r">4</td></tr>
+<tr><td><a href="#mapWrap" data-go="glencinema">Glen Cinema disaster</a></td><td class="r">1929</td><td class="r">71</td><td>in Paisley</td><td class="r">0.17</td><td class="r">8</td></tr>
+<tr><td><a href="#mapWrap" data-go="bentley">Bentley Colliery disaster</a> *</td><td class="r">1931</td><td class="r">45</td><td>Bentley Colliery</td><td class="r">0.00</td><td class="r">3</td></tr>
+<tr><td><a href="#mapWrap" data-go="cardowan">Cardowan Colliery explosion</a></td><td class="r">1932</td><td class="r">11</td><td>Cardowan</td><td class="r">0.00</td><td class="r">6</td></tr>
+<tr><td><a href="#mapWrap" data-go="gresford">Gresford disaster</a></td><td class="r">1934</td><td class="r">266</td><td>Gresford</td><td class="r">0.00</td><td class="r">98</td></tr>
+<tr><td><a href="#mapWrap" data-go="wharncliffe">Wharncliffe Woodmoor colliery disaster</a> *</td><td class="r">1936</td><td class="r">58</td><td>Wharncliffe Woodmoor</td><td class="r">0.00</td><td class="r">6</td></tr>
+<tr><td><a href="#mapWrap" data-go="croydon">Croydon typhoid outbreak</a></td><td class="r">1937</td><td class="r">43</td><td>in Croydon</td><td class="r">0.38</td><td class="r">29</td></tr>
+<tr><td><a href="#mapWrap" data-go="castlecary">Castlecary rail disaster</a></td><td class="r">1937</td><td class="r">35</td><td>Castlecary</td><td class="r">0.00</td><td class="r">7</td></tr>
+<tr><td><a href="#mapWrap" data-go="markham">Markham Colliery disaster</a> *</td><td class="r">1938</td><td class="r">79</td><td>Markham Colliery</td><td class="r">0.08</td><td class="r">7</td></tr>
+<tr><td><a href="#mapWrap" data-go="valleyfield">Valleyfield mining disaster</a> *</td><td class="r">1939</td><td class="r">35</td><td>Valleyfield</td><td class="r">0.00</td><td class="r">5</td></tr>
+<tr><td><a href="#mapWrap" data-go="huddersfield">Booth's clothing factory fire</a></td><td class="r">1941</td><td class="r">49</td><td>in Huddersfield</td><td class="r">0.00</td><td class="r">4</td></tr>
+<tr><td><a href="#mapWrap" data-go="sneyd">Sneyd Colliery disaster</a> *</td><td class="r">1942</td><td class="r">57</td><td>Sneyd</td><td class="r">0.00</td><td class="r">6</td></tr>
+<tr><td><a href="#mapWrap" data-go="bethnalgreen">Bethnal Green tube station crush</a></td><td class="r">1943</td><td class="r">173</td><td>Bethnal Green</td><td class="r">3.54</td><td class="r">189</td></tr>
+<tr><td><a href="#mapWrap" data-go="freckleton">Freckleton air disaster</a></td><td class="r">1944</td><td class="r">61</td><td>in Freckleton</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="fauld">RAF Fauld explosion</a> *</td><td class="r">1944</td><td class="r">70</td><td>Fauld</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="burngrange">Burngrange mining disaster</a> *</td><td class="r">1947</td><td class="r">15</td><td>Burngrange</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="williampit">William Pit disaster</a></td><td class="r">1947</td><td class="r">104</td><td>in Whitehaven</td><td class="r">0.04</td><td class="r">2</td></tr>
+<tr><td><a href="#mapWrap" data-go="llandow">Llandow air disaster</a> *</td><td class="r">1950</td><td class="r">80</td><td>Llandow</td><td class="r">0.00</td><td class="r">5</td></tr>
+<tr><td><a href="#mapWrap" data-go="knockshinnoch">Knockshinnoch disaster</a></td><td class="r">1950</td><td class="r">13</td><td>Knockshinnoch</td><td class="r">0.00</td><td class="r">11</td></tr>
+<tr><td><a href="#mapWrap" data-go="creswell">Creswell Colliery disaster</a></td><td class="r">1950</td><td class="r">80</td><td>Creswell</td><td class="r">0.00</td><td class="r">8</td></tr>
+<tr><td><a href="#mapWrap" data-go="easington">Easington Colliery disaster</a> *</td><td class="r">1951</td><td class="r">81</td><td>Easington Colliery</td><td class="r">0.00</td><td class="r">3</td></tr>
+<tr><td><a href="#mapWrap" data-go="lynmouth">Lynmouth flood</a></td><td class="r">1952</td><td class="r">34</td><td>Lynmouth</td><td class="r">0.00</td><td class="r">23</td></tr>
+<tr><td><a href="#mapWrap" data-go="harrow">Harrow and Wealdstone rail crash</a></td><td class="r">1952</td><td class="r">112</td><td>Harrow and Wealdstone</td><td class="r">0.00</td><td class="r">3</td></tr>
+<tr><td><a href="#mapWrap" data-go="aquila">Aquila Airways flying boat crash (Isle of Wight)</a> *</td><td class="r">1957</td><td class="r">45</td><td>Chessell</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="lewisham">Lewisham rail crash</a></td><td class="r">1957</td><td class="r">90</td><td>Lewisham</td><td class="r">24.21</td><td class="r">1,130</td></tr>
+<tr><td><a href="#mapWrap" data-go="auchengeich">Auchengeich mining disaster</a></td><td class="r">1959</td><td class="r">47</td><td>Auchengeich</td><td class="r">0.00</td><td class="r">8</td></tr>
+<tr><td><a href="#mapWrap" data-go="sixbells">Six Bells colliery disaster</a></td><td class="r">1960</td><td class="r">45</td><td>Six Bells</td><td class="r">0.17</td><td class="r">5</td></tr>
+<tr><td><a href="#mapWrap" data-go="littlebaldon">Little Baldon air crash</a> *</td><td class="r">1965</td><td class="r">41</td><td>Little Baldon</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="penmaenpool">Penmaenpool ferry disaster</a> *</td><td class="r">1966</td><td class="r">15</td><td>Penmaenpool</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="aberfan">Aberfan disaster</a></td><td class="r">1966</td><td class="r">146</td><td>Aberfan</td><td class="r">0.00</td><td class="r">203</td></tr>
+<tr><td><a href="#mapWrap" data-go="stockport">Stockport air disaster</a></td><td class="r">1967</td><td class="r">72</td><td>in Stockport</td><td class="r">0.17</td><td class="r">17</td></tr>
+<tr><td><a href="#mapWrap" data-go="thirsk">Thirsk rail crash</a></td><td class="r">1967</td><td class="r">7</td><td>in Thirsk</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="hithergreen">Hither Green rail crash</a> *</td><td class="r">1967</td><td class="r">49</td><td>Hither Green</td><td class="r">0.08</td><td class="r">25</td></tr>
+<tr><td><a href="#mapWrap" data-go="hixon">Hixon rail crash</a></td><td class="r">1968</td><td class="r">11</td><td>Hixon</td><td class="r">0.00</td><td class="r">27</td></tr>
+<tr><td><a href="#mapWrap" data-go="ibrox">Ibrox disaster</a></td><td class="r">1971</td><td class="r">66</td><td>Ibrox</td><td class="r">0.00</td><td class="r">35</td></tr>
+<tr><td><a href="#mapWrap" data-go="ballymurphy">Ballymurphy killings</a></td><td class="r">1971</td><td class="r">11</td><td>Ballymurphy</td><td class="r">0.75</td><td class="r">22</td></tr>
+<tr><td><a href="#mapWrap" data-go="bloodysunday">Bloody Sunday (Derry)</a></td><td class="r">1972</td><td class="r">14</td><td>in Londonderry</td><td class="r">1.38</td><td class="r">163</td></tr>
+<tr><td><a href="#mapWrap" data-go="eltham">Eltham Well Hall rail crash</a></td><td class="r">1972</td><td class="r">6</td><td>Eltham Well Hall</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="staines">Staines air disaster (BEA Flight 548)</a></td><td class="r">1972</td><td class="r">118</td><td>in Staines</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="claudy">Claudy bombing</a> *</td><td class="r">1972</td><td class="r">9</td><td>Claudy</td><td class="r">0.00</td><td class="r">6</td></tr>
+<tr><td><a href="#mapWrap" data-go="markham73">Markham Colliery cage accident</a> *</td><td class="r">1973</td><td class="r">18</td><td>Markham Colliery</td><td class="r">0.00</td><td class="r">5</td></tr>
+<tr><td><a href="#mapWrap" data-go="flixborough">Flixborough disaster</a></td><td class="r">1974</td><td class="r">28</td><td>Flixborough</td><td class="r">0.00</td><td class="r">112</td></tr>
+<tr><td><a href="#mapWrap" data-go="birmingham">Birmingham pub bombings</a></td><td class="r">1974</td><td class="r">21</td><td>in Birmingham</td><td class="r">7.71</td><td class="r">597</td></tr>
+<tr><td><a href="#mapWrap" data-go="moorgate">Moorgate tube crash</a></td><td class="r">1975</td><td class="r">43</td><td>Moorgate</td><td class="r">0.08</td><td class="r">20</td></tr>
+<tr><td><a href="#mapWrap" data-go="golborne">Golborne Colliery explosion</a></td><td class="r">1979</td><td class="r">10</td><td>in Golborne</td><td class="r">0.00</td><td class="r">1</td></tr>
+<tr><td><a href="#mapWrap" data-go="denmarkplace">Denmark Place fire</a> *</td><td class="r">1980</td><td class="r">37</td><td>Denmark Place</td><td class="r">0.00</td><td class="r">0</td></tr>
+<tr><td><a href="#mapWrap" data-go="penlee">Penlee lifeboat disaster</a></td><td class="r">1981</td><td class="r">16</td><td>Penlee</td><td class="r">0.00</td><td class="r">15</td></tr>
+<tr><td><a href="#mapWrap" data-go="droppinwell">Droppin Well bombing (Ballykelly)</a> *</td><td class="r">1982</td><td class="r">17</td><td>Ballykelly</td><td class="r">0.04</td><td class="r">35</td></tr>
+<tr><td><a href="#mapWrap" data-go="newry">Newry mortar attack</a></td><td class="r">1985</td><td class="r">9</td><td>in Newry</td><td class="r">0.46</td><td class="r">32</td></tr>
+<tr><td><a href="#mapWrap" data-go="bradford">Bradford City stadium fire</a></td><td class="r">1985</td><td class="r">56</td><td>Bradford City</td><td class="r">0.33</td><td class="r">72</td></tr>
+<tr><td><a href="#mapWrap" data-go="hungerford">Hungerford shootings</a></td><td class="r">1987</td><td class="r">17</td><td>in Hungerford</td><td class="r">0.00</td><td class="r">14</td></tr>
+<tr><td><a href="#mapWrap" data-go="enniskillen">Enniskillen bombing</a></td><td class="r">1987</td><td class="r">11</td><td>Enniskillen</td><td class="r">0.17</td><td class="r">107</td></tr>
+<tr><td><a href="#mapWrap" data-go="kingscross">King's Cross fire</a></td><td class="r">1987</td><td class="r">31</td><td>King's Cross</td><td class="r">0.50</td><td class="r">1,009</td></tr>
+<tr><td><a href="#mapWrap" data-go="piperalpha">Piper Alpha</a></td><td class="r">1988</td><td class="r">167</td><td>Piper Alpha</td><td class="r">0.00</td><td class="r">178</td></tr>
+<tr><td><a href="#mapWrap" data-go="ballygawley">Ballygawley bus bombing</a> *</td><td class="r">1988</td><td class="r">8</td><td>Ballygawley</td><td class="r">0.00</td><td class="r">9</td></tr>
+<tr><td><a href="#mapWrap" data-go="clapham">Clapham Junction rail crash</a></td><td class="r">1988</td><td class="r">35</td><td>Clapham Junction</td><td class="r">0.04</td><td class="r">69</td></tr>
+<tr><td><a href="#mapWrap" data-go="lockerbie">Lockerbie (Pan Am Flight 103)</a></td><td class="r">1988</td><td class="r">270</td><td>in Lockerbie</td><td class="r">0.04</td><td class="r">10</td></tr>
+<tr><td><a href="#mapWrap" data-go="kegworth">Kegworth air disaster</a></td><td class="r">1989</td><td class="r">47</td><td>Kegworth</td><td class="r">0.04</td><td class="r">20</td></tr>
+<tr><td><a href="#mapWrap" data-go="marchioness">Marchioness disaster</a></td><td class="r">1989</td><td class="r">51</td><td>Marchioness</td><td class="r">0.00</td><td class="r">51</td></tr>
+<tr><td><a href="#mapWrap" data-go="dunblane">Dunblane school shooting</a></td><td class="r">1996</td><td class="r">18</td><td>in Dunblane</td><td class="r">0.04</td><td class="r">87</td></tr>
+<tr><td><a href="#mapWrap" data-go="omagh">Omagh bombing</a></td><td class="r">1998</td><td class="r">29</td><td>in Omagh</td><td class="r">0.08</td><td class="r">44</td></tr>
+<tr><td><a href="#mapWrap" data-go="ladbroke">Ladbroke Grove rail crash</a></td><td class="r">1999</td><td class="r">31</td><td>Ladbroke Grove</td><td class="r">0.17</td><td class="r">66</td></tr>
+<tr><td><a href="#mapWrap" data-go="hatfield">Hatfield rail crash</a></td><td class="r">2000</td><td class="r">4</td><td>in Hatfield</td><td class="r">0.00</td><td class="r">9</td></tr>
+<tr><td><a href="#mapWrap" data-go="greatheck">Great Heck rail crash</a></td><td class="r">2001</td><td class="r">10</td><td>Great Heck</td><td class="r">0.00</td><td class="r">8</td></tr>
+<tr><td><a href="#mapWrap" data-go="pottersbar">Potters Bar rail crash</a></td><td class="r">2002</td><td class="r">7</td><td>in Potters Bar</td><td class="r">0.00</td><td class="r">9</td></tr>
+<tr><td><a href="#mapWrap" data-go="morecambe">Morecambe Bay cockling disaster</a></td><td class="r">2004</td><td class="r">22</td><td>Morecambe Bay</td><td class="r">0.21</td><td class="r">104</td></tr>
+<tr><td><a href="#mapWrap" data-go="ufton">Ufton Nervet rail crash</a></td><td class="r">2004</td><td class="r">7</td><td>Ufton Nervet</td><td class="r">0.00</td><td class="r">10</td></tr>
+<tr><td><a href="#mapWrap" data-go="grayrigg">Grayrigg derailment</a></td><td class="r">2007</td><td class="r">1</td><td>Grayrigg</td><td class="r">0.00</td><td class="r">22</td></tr>
+<tr><td><a href="#mapWrap" data-go="cumbria">Cumbria shootings</a></td><td class="r">2010</td><td class="r">13</td><td>in Whitehaven</td><td class="r">0.17</td><td class="r">14</td></tr>
+<tr><td><a href="#mapWrap" data-go="gleision">Gleision Colliery accident</a> *</td><td class="r">2011</td><td class="r">4</td><td>Gleision</td><td class="r">0.00</td><td class="r">15</td></tr>
+<tr><td><a href="#mapWrap" data-go="arena">Manchester Arena bombing</a></td><td class="r">2017</td><td class="r">23</td><td>Manchester Arena</td><td class="r">0.00</td><td class="r">85</td></tr>
+<tr><td><a href="#mapWrap" data-go="grenfell">Grenfell Tower fire</a></td><td class="r">2017</td><td class="r">72</td><td>Grenfell</td><td class="r">0.08</td><td class="r">1,686</td></tr>
+<tr><td><a href="#mapWrap" data-go="amesbury">Amesbury Novichok poisoning</a></td><td class="r">2018</td><td class="r">1</td><td>in Amesbury</td><td class="r">0.00</td><td class="r">10</td></tr>
+<tr><td><a href="#mapWrap" data-go="grays">Essex lorry deaths (Grays)</a></td><td class="r">2019</td><td class="r">39</td><td>in Grays</td><td class="r">0.00</td><td class="r">8</td></tr>
+<tr><td><a href="#mapWrap" data-go="carmont">Carmont derailment</a></td><td class="r">2020</td><td class="r">3</td><td>Carmont</td><td class="r">0.00</td><td class="r">2</td></tr>
+
+</tbody></table></div></details>
+<details><summary>Sources and licences</summary>
+<ul class="plain">
+<li>Hansard, House of Commons spoken contributions per month, via the UK Parliament Hansard API. Contains Parliamentary information licensed under the Open Parliament Licence v3.0.</li>
+<li>Wikipedia: "List of disasters in Great Britain and Ireland by death toll" (CC BY-SA 4.0), retrieved 2026; death tolls of smaller events from their Wikipedia articles, checked by hand.</li>
+<li>Wikidata disasters in the UK, dates, places and deaths (CC0).</li>
+<li>Town points from <i>Mentioned in the House</i> (Hotham 2026, doi:10.5281/zenodo.23761431); ONS countries and regions (Open Government Licence v3.0).</li>
+<li>Base map: OpenFreeMap Positron style (OpenStreetMap, ODbL). MapLibre GL JS 4.7.1 (BSD 3-Clause).</li>
+<li>Text and figures CC BY 4.0; code MIT; derived data CC BY 4.0 (Wikipedia-derived fields CC BY-SA 4.0).</li>
+</ul></details>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.24094466">Read the paper</a><a href="https://github.com/Tristan-Hotham/disaster-attention">Data and code</a><a href="https://blog.tristanhotham.com/2026/10/31/disaster-attention/">Blog post</a></div>
+<footer>
+<p>Dr Tristan Hotham, Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+<p>Cite as: Hotham, T. (2026) Does Parliament notice disasters, and whose? Commons attention to the places of UK disasters, 1910 to 2020. Zenodo. <a href="https://doi.org/10.5281/zenodo.24094466">10.5281/zenodo.24094466</a></p>
+<p>Code: <a href="https://github.com/Tristan-Hotham/disaster-attention">github.com/Tristan-Hotham/disaster-attention</a> (MIT). Text, figures and data CC BY 4.0.</p>
+<p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/page.js?v=20261109"></script>
+<!-- map-fullscreen v1 -->
+<style id="mfs-style">
+.mfs-btn{position:absolute;top:10px;right:10px;z-index:1001;width:34px;height:34px;border:2px solid rgba(0,0,0,.25);border-radius:4px;background:#fff;color:#222;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.mfs-btn:hover{background:#f2f2f2}
+.mfs-btn svg{width:18px;height:18px}
+.mfs-host.mfs-btn-left .mfs-btn{right:auto;left:54px}
+.mfs-fake{position:fixed!important;inset:0!important;width:100vw!important;height:100vh!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;z-index:100000!important;border-radius:0!important}
+html.mfs-lock,html.mfs-lock body{overflow:hidden!important}
+:fullscreen.mfs-host{width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important}
+</style>
+<script id="mfs-script">
+(function(){
+  var ICON_OPEN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>';
+  var ICON_CLOSE='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>';
+  function poke(){setTimeout(function(){window.dispatchEvent(new Event('resize'));},60);setTimeout(function(){window.dispatchEvent(new Event('resize'));},400);}
+  function realFS(){return document.fullscreenElement||document.webkitFullscreenElement;}
+  function add(el){
+    if(el.__mfs)return; el.__mfs=1;
+    var cs=getComputedStyle(el); if(cs.position==='static')el.style.position='relative';
+    el.classList.add('mfs-host');
+    // avoid clashing with a top-right Leaflet control (e.g. "Map layers")
+    var tr=el.querySelector('.leaflet-top.leaflet-right');
+    if(tr&&tr.children.length){ el.classList.add('mfs-btn-left'); }
+    var b=document.createElement('button'); b.type='button'; b.className='mfs-btn';
+    b.title='Full screen map'; b.setAttribute('aria-label','Full screen map'); b.innerHTML=ICON_OPEN;
+    ['click','dblclick','mousedown','touchstart','wheel'].forEach(function(t){b.addEventListener(t,function(e){e.stopPropagation();},{passive:t!=='click'});});
+    function setIcon(on){b.innerHTML=on?ICON_CLOSE:ICON_OPEN;b.title=on?'Exit full screen':'Full screen map';b.setAttribute('aria-label',b.title);}
+    function exitFake(){el.classList.remove('mfs-fake');document.documentElement.classList.remove('mfs-lock');setIcon(false);poke();}
+    b.addEventListener('click',function(e){
+      e.preventDefault();
+      if(el.classList.contains('mfs-fake')){exitFake();return;}
+      if(realFS()){(document.exitFullscreen||document.webkitExitFullscreen).call(document);return;}
+      var req=el.requestFullscreen||el.webkitRequestFullscreen;
+      if(req){ try{ var p=req.call(el); if(p&&p.catch)p.catch(function(){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();}); }catch(err){el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke();} }
+      else { el.classList.add('mfs-fake');document.documentElement.classList.add('mfs-lock');setIcon(true);poke(); }
+    });
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.classList.contains('mfs-fake'))exitFake();});
+    ['fullscreenchange','webkitfullscreenchange'].forEach(function(t){document.addEventListener(t,function(){setIcon(realFS()===el);poke();});});
+    el.appendChild(b);
+  }
+  function scan(){
+    var els=document.querySelectorAll('[data-fullscreen-map], .leaflet-container, .maplibregl-map, .mapboxgl-map');
+    els.forEach(function(el){
+      if(el.closest('.mfs-host')&&!el.classList.contains('mfs-host'))return;
+      var r=el.getBoundingClientRect(); if(r.width<200||r.height<150)return;
+      add(el);
+    });
+  }
+  function start(){scan(); var n=0; var t=setInterval(function(){scan(); if(++n>20)clearInterval(t);},500);}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start); else start();
+})();
+</script>
+<!-- /map-fullscreen -->
+
+<script src="https://maps.tristanhotham.com/assets/site-nav.js" defer></script>
+</body>
+</html>

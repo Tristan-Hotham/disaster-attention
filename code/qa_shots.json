@@ -1,0 +1,7 @@
+[{"out":"qa/desktop.jpg","w":1280,"h":800},
+ {"out":"qa/desktop_popup.jpg","w":1280,"h":800,"q":"event=aberfan"},
+ {"out":"qa/desktop_type.jpg","w":1280,"h":800,"eval":"document.querySelector('.chip[data-m=type]').click();document.getElementById('lyrBtn').click()"},
+ {"out":"qa/desktop_full.jpg","w":1280,"h":800,"full":true},
+ {"out":"qa/phone.jpg","w":390,"h":800,"dpr":2},
+ {"out":"qa/phone_popup.jpg","w":390,"h":800,"dpr":2,"q":"event=grenfell"},
+ {"out":"qa/phone_full.jpg","w":390,"h":800,"dpr":1,"full":true}]
